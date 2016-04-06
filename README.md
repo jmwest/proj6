@@ -18,9 +18,19 @@
   - Nick Cruz (ncruz) - Zerg
     - yolo swag
 
+### Installation
+Make sure you have all requirements installed (should only need to do this once). While in vagrant, in the root directory:
+```
+sudo pip install -r requirements.txt
+sudo pip install -r flask/requirements.txt
+sudo pip install requests
+```
 
 ### Custom makefile commands
-
+To run the C++ server, type this while in `index_server/`:
+```
+make run
+```
 
 ### Extra:
   - zerg4lyfe

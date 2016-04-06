@@ -1,21 +1,6 @@
-.vagrant/
-data/
-venv/
-hadoop/bin
-hadoop/etc
-hadoop/include
-hadoop/lib
-hadoop/libexec
-hadoop/sbin
-hadoop/share
-hadoop/mapreduce/input
-hadoop/mapreduce/output
-hadoop/mapreduce/tmp*
-
-# Stuff from proj4
 venv
-flask/static/images
-flask/static/images_backup
+static/images
+static/images_backup
 .vagrant
 *.pyc
 .DS_Store

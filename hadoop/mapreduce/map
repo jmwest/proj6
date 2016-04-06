@@ -1,0 +1,4 @@
+#!/bin/bash
+# Input: <text>
+# Output: <word><tab><1>
+cat | tr '[ \t]' '\n' | awk '{print $1"\t1"}'

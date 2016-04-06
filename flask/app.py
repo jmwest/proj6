@@ -14,9 +14,9 @@ app.config['UPLOAD_FOLDER'] = 'static/images/'
 app.config['ALLOWED_EXTENSIONS'] = set(['png', 'jpg', 'bmp', 'gif'])
 
 # Initialize MySQL database connector
-app.config['MYSQL_USER'] = 'group61'
-app.config['MYSQL_PASSWORD'] = 'group61'
-app.config['MYSQL_DB'] = 'group61pa1'
+app.config['MYSQL_USER'] = 'root'
+app.config['MYSQL_PASSWORD'] = 'root'
+app.config['MYSQL_DB'] = 'project1'
 mysql.init_app(app)
 
 # Register the controllers

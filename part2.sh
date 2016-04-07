@@ -9,7 +9,7 @@ else
 	echo "  Could not find pagerank.net."
 	echo "  Executing edges.py."
 	echo "  This might take a few minutes..."
-	python edges.py > pagerank_code/pagerank.net
+	python edges.py ../data/mining.edges.xml > pagerank_code/pagerank.net
 fi
 echo ""
 

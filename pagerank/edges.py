@@ -1,8 +1,7 @@
 import xml.etree.ElementTree as ET
 import sys
 
-# treeEdges = ET.parse('test.xml')
-treeEdges = ET.parse('../data/mining.edges.xml')
+treeEdges = ET.parse(sys.argv[1])
 
 edges = treeEdges.getroot()
 

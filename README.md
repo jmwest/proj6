@@ -46,6 +46,9 @@ To create `output.txt`, type:
 make run_pagerank
 ```
 
+##### Index Server
+There is a test folder in `index_server/p6test/` which has a small self-contained "wikipedia" site with test links and documents.
+
 ### Part 3: The New Search Interface
 
 ### Custom makefile commands

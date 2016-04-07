@@ -1,0 +1,3 @@
+../index_server/p6test/2_pagerank.net
+1
+0.85 k 50 ../index_server/p6test/4_scores.txt

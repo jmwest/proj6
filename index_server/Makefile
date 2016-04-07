@@ -97,3 +97,9 @@ john: TFIDF_test.cpp TFIDF_CALC.cpp
 stest: $(SERVER_TEST_FILES)
 	./indexer diego.txt diego_output.txt
 	./server_test diego.txt diego_output.txt
+
+p6:
+	make clean
+	make
+	./$(INDEXER) p6test/5_captions.txt p6test/6_inverted_index.txt
+	./$(SERVER)  $(PORT_NUMBER)   p6test/6_inverted_index.txt &

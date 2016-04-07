@@ -45,6 +45,11 @@ run_pagerank:
 	@echo "\nRunning pagerank..."
 	./pagerank config.pagerank
 
+p6:
+	make build
+	@echo "\nRunning pagerank..."
+	./pagerank ../index_server/p6test/3_config.pagerank
+
 test_pagerank:
 	make build
 	@echo "\nRunning pagerank on test cases..."

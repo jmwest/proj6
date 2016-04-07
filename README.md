@@ -29,12 +29,21 @@ sudo pip install requests
 ### Part 1: MapReduce Indexing
 
 ### Part 2: Integrated Ranking
+Make sure you are in the root directory. **All you have to do is run**:
+```
+sh part2.sh
+```
 
 ##### Python script for mining.edges.xml
 The python script that converts `mining.edges.xml` to `pagerank.net` (Pajek format) is `pagerank/edges.py`.
 To run, make sure you are in `pagerank/` and type:
 ```
 python edges.py > pagerank_code/pagerank.net
+```
+
+To create `output.txt`, type:
+```
+make run_pagerank
 ```
 
 ### Part 3: The New Search Interface

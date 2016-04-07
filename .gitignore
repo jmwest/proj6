@@ -11,6 +11,7 @@ hadoop/share
 hadoop/mapreduce/input
 hadoop/mapreduce/output
 hadoop/mapreduce/tmp*
+*.zip
 
 # Stuff from proj4
 venv

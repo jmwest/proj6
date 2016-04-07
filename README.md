@@ -26,6 +26,19 @@ sudo pip install -r flask/requirements.txt
 sudo pip install requests
 ```
 
+### Part 1: MapReduce Indexing
+
+### Part 2: Integrated Ranking
+
+##### Python script for mining.edges.xml
+The python script that converts `mining.edges.xml` to `pagerank.net` (Pajek format) is `pagerank/edges.py`.
+To run, make sure you are in `pagerank/` and type:
+```
+python edges.py > pagerank_code/pagerank.net
+```
+
+### Part 3: The New Search Interface
+
 ### Custom makefile commands
 To run the C++ server, type this while in `index_server/`:
 ```

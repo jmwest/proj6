@@ -15,7 +15,7 @@ hadoop/mapreduce/tmp*
 starter/
 *.zip
 
-# Stuff from proj4
+# Project 4 gitignore
 venv
 flask/static/images
 flask/static/images_backup
@@ -61,4 +61,18 @@ indexer
 *.exe
 *.out
 *.app
+
+# Project 5 gitignore
+pagerank/hits
+pagerank/pagerank
+hits_code/*.o
+pagerank_code/*.o
+
+hits_code/hits.net
+hits_code/inverted_index.txt
+inverted*
+pagerank_code/pagerank.net
+
+pa5.xcworkspace
+*out*
 

@@ -1,6 +1,7 @@
 .vagrant/
 data/
 venv/
+hadoop-2.7.2
 hadoop/bin
 hadoop/etc
 hadoop/include

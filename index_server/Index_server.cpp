@@ -139,6 +139,11 @@ unsigned int numDocs = 0;
 // value = row
 std::unordered_map<string, InvertedIndexRow> invertedIndexFile;
 
+// Hash table of pageranks
+// key = docId
+// value = pagerank
+std::unordered_map<int, double> pageranks;
+
 void transformToLowerCase_server(string& input) {
     transform(input.begin(), input.end(), input.begin(), ::tolower);
 }
@@ -323,18 +328,17 @@ bool compareDocsBySimScore_server(const Query_hit& first, const Query_hit& secon
 //END TFIDF_CALC.h
 
 // Load index data from the file of the given name.
-void Index_server::init(ifstream& infile)
+void Index_server::init(ifstream& infile1, ifstream& infile2)
 {
     // Fill in this method to load the inverted index from disk.
 	// Check filestream open
-	if (!infile.is_open()) {
-		cerr << "Error. Filestream not open" << endl;
+	if (!infile1.is_open()) {
+		cerr << "Error. Filestream infile1 not open" << endl;
 		return;
 	}
 	
 	string file_input;
-	
-	while(getline(infile, file_input)) {
+	while(getline(infile1, file_input)) {
 		InvertedIndexRow row;
 		
 		std::istringstream iss(file_input);
@@ -369,9 +373,33 @@ void Index_server::init(ifstream& infile)
 		// Put InvertedIndexRow into TFIDF_CALC map
 		addInvertedIndexRowToFile_server(row, row.word);
 	}
-    // cout << "TEST PURPOSES ONLY" << endl << "about to call process_query" << endl;
-    // std::vector<Query_hit> v;
-    // process_query("roll sushi", v);
+
+    if (!infile2.is_open()) {
+        cerr << "Error. Filestream infile2 not open" << endl;
+        return;
+    }
+
+    string pagerank_input;
+    while(getline(infile2, pagerank_input)) {
+        std::istringstream iss(pagerank_input);
+        string token;
+
+        int docId;
+        double pagerank;
+
+        int i = 0;
+        while(std::getline(iss, token, ',')) {
+            if (i == 0) {
+                docId = stoi(token);
+            }
+            else {
+                pagerank = stod(token);
+            }
+            ++i;
+        }
+
+        pageranks[docId] = pagerank;
+    }
 }
 
 // Search the index for documents matching the query. The results are to be
@@ -379,6 +407,7 @@ void Index_server::init(ifstream& infile)
 // this method is called.
 void Index_server::process_query(const string& query, const std::string& weight, vector<Query_hit>& hits)
 {
+    cout << endl;
     cout << "| ========== PROCESSING QUERY ========== |" << endl;
     cout << "  q: " << query << endl;
     cout << "  w: " << weight << endl;
@@ -406,7 +435,7 @@ void Index_server::process_query(const string& query, const std::string& weight,
 
     //for each doc, calculate sim(doc, query)
     for (unsigned int doc : docVector ) {
-        cout << endl << "Calculating sim(doc, query) for docId " << doc << "." << endl;
+        cout << endl << "Calculating score for docId " << doc << "." << endl;
         double numerator = 0;
         double leftDenominator = 0;
         double rightDenominator = 0;
@@ -424,17 +453,25 @@ void Index_server::process_query(const string& query, const std::string& weight,
         double sqrtRightDenominator = sqrt(rightDenominator);
         double finalDenominator = sqrtLeftDenominator + sqrtRightDenominator;
 
-        double simScore = numerator / finalDenominator;
+        double weightNum = stod(weight);
+
+        double pagerankScore = weightNum * pageranks[doc];
+        double tfidfScore = (1.0 - weightNum) * numerator / finalDenominator;
+        double totalScore = pagerankScore + tfidfScore;
 
         //push into vector
         string docID_as_string = std::to_string(doc);
         char * docID_as_cstr = new char[docID_as_string.length() + 1];
         strcpy(docID_as_cstr, docID_as_string.c_str());
 
-        Query_hit queryHit(docID_as_cstr, simScore);
+        Query_hit queryHit(docID_as_cstr, totalScore);
         cout << "  Finished calculating query hit for docId " << doc << "." << endl;
         cout << "  Query_hit id:    " << queryHit.id << endl;
-        cout << "  Query_hit score: " << queryHit.score << endl;
+        cout << "  Pagerank score:  " << pageranks[doc] << endl;
+        cout << "  Weighted PR:     " << pagerankScore << endl;
+        cout << "  TFIDF score:     " << numerator / finalDenominator << endl;
+        cout << "  Weighted TFIDF:  " << tfidfScore << endl;
+        cout << "  Total score:     " << queryHit.score << endl;
         cout << endl;
         hits.push_back(queryHit);
     }

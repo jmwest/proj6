@@ -102,4 +102,4 @@ p6:
 	make clean
 	make
 	./$(INDEXER) p6test/5_captions.txt p6test/6_inverted_index.txt
-	./$(SERVER)  $(PORT_NUMBER)   p6test/6_inverted_index.txt &
+	./$(SERVER)  $(PORT_NUMBER) p6test/6_inverted_index.txt p6test/4_scores.txt &

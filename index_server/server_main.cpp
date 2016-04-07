@@ -14,8 +14,8 @@ Index_server server;
 
 int main(int argc, char *argv[])
 {
-    if (argc < 3) {
-        cerr << "Usage: indexServer <portnum> <inverted-index-filename>" << endl;
+    if (argc < 4) {
+        cerr << "Usage: indexServer <portnum> <inverted-index-filename> <pagerank-scores-filename>" << endl;
         return -1;
     }
 
@@ -25,15 +25,23 @@ int main(int argc, char *argv[])
         return -1;
     }
 
-    const char *fname = argv[2];
-    ifstream infile(fname);
-    if (!infile.is_open()) {
-        cerr << "Error opening file: " << fname << endl;
+    const char *fname1 = argv[2];
+    ifstream infile1(fname1);
+    if (!infile1.is_open()) {
+        cerr << "Error opening file: " << fname1 << endl;
         return -1;
     }
 
-    cout << "Init server with fname " << fname << endl;
-    server.init(infile);
+    const char *fname2 = argv[3];
+    ifstream infile2(fname2);
+    if (!infile2.is_open()) {
+        cerr << "Error opening file: " << fname2 << endl;
+        return -1;
+    }
+
+    cout << "Init server with fname1 " << fname1 << endl;
+    cout << "Init server with fname2 " << fname2 << endl;
+    server.init(infile1, infile2);
     server.run(port);
 
     return 0;

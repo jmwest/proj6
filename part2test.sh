@@ -16,8 +16,14 @@ INVERTED_INDEX=p6test/6_inverted_index.txt
 # Actual hits
 SEARCH_RESULTS=p6test/7_results.json
 
+# Query to search
+query="pizza"
+
+# 0 <= w <= 1. score = w*PR(d) + (1-w)*SIM(query, d)
+weight="0.4"
+
 # URL to request for query
-URL="http://localhost:3002/search?q=Pizza&w=0.5"
+URL="http://localhost:3002/search?q=$query&w=$weight"
 
 # Navigate to index_server.
 cd index_server

@@ -20,7 +20,7 @@ public:
     void run(int port);
 
     // Methods that students must implement.
-    void init(std::ifstream& infile);
+    void init(std::ifstream& infile1, std::ifstream& infile2);
     void process_query(const std::string& query, const std::string& weight, std::vector<Query_hit>& hits);
 };
 

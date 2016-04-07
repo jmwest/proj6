@@ -21,7 +21,7 @@ public:
 
     // Methods that students must implement.
     void init(std::ifstream& infile);
-    void process_query(const std::string& query, std::vector<Query_hit>& hits);
+    void process_query(const std::string& query, const std::string& weight, std::vector<Query_hit>& hits);
 };
 
 #endif

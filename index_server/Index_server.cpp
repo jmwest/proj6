@@ -377,9 +377,12 @@ void Index_server::init(ifstream& infile)
 // Search the index for documents matching the query. The results are to be
 // placed in the supplied "hits" vector, which is guaranteed to be empty when
 // this method is called.
-void Index_server::process_query(const string& query, vector<Query_hit>& hits)
+void Index_server::process_query(const string& query, const std::string& weight, vector<Query_hit>& hits)
 {
-    cout << "| ========== PROCESSING QUERY: " << query << " ========== |" << endl;
+    cout << "| ========== PROCESSING QUERY ========== |" << endl;
+    cout << "  q: " << query << endl;
+    cout << "  w: " << weight << endl;
+
     //put query into a vector of words
     vector<string> vectorOfWords = splitUpWords_server(query);
 
@@ -501,12 +504,18 @@ namespace {
                 // query, so ignore it.
                 return 1;
             }
+            string weight;
+            if (get_param(request_info, "w", weight) == -1) {
+                // If the request doesn't have the "q" field, this is not an index
+                // weight, so ignore it.
+                return 1;
+            }
 
             vector<Query_hit> hits;
             Index_server *server = static_cast<Index_server *>(request_info->user_data);
 
             pthread_mutex_lock(&mutex);
-            server->process_query(query, hits);
+            server->process_query(query, weight, hits);
             pthread_mutex_unlock(&mutex);
 
             string response_data = to_json(hits);

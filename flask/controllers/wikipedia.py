@@ -5,10 +5,10 @@ from extensions import mysql
 from globals import *
 
 
-search = Blueprint('search', __name__, template_folder='templates')
+wikipedia = Blueprint('wikipedia', __name__, template_folder='templates')
 
-@search.route(route_prefix + '/search', methods=['GET'])
-def search_route():
+@wikipedia.route(route_prefix + '/wikipedia', methods=['GET'])
+def wikipedia_route():
 
 	numberOfHits = 0
 	listOfHits = []
@@ -19,12 +19,12 @@ def search_route():
 		"hits": listOfHits
 	}
 
-	if request.args.get('query'):
-		query = str(request.args.get('query'))
-		print "Found query request. query: " + query
+	if request.args.get('q'):
+		q = str(request.args.get('q'))
+		print "Found q request. q: " + q
 
 		print ""
-		result = requests.get('http://localhost:3002/search?q=' + query)
+		result = requests.get('http://localhost:3002/search?q=' + q)
 		result_text = result.text 
 		print "  " + result_text
 		print ""
@@ -51,4 +51,4 @@ def search_route():
 			hit["filename"] = cur_result[2]
 
 
-	return render_template("search.html", **options)
+	return render_template("wikipedia.html", **options)

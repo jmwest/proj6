@@ -28,7 +28,7 @@ app.register_blueprint(controllers.main)
 app.register_blueprint(controllers.user)
 app.register_blueprint(controllers.login)
 app.register_blueprint(controllers.logout)
-app.register_blueprint(controllers.search)
+app.register_blueprint(controllers.wikipedia)
 app.register_blueprint(controllers.ember_api)
 
 

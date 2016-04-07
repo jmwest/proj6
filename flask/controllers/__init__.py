@@ -5,5 +5,5 @@ from main import *
 from user import *
 from login import *
 from logout import *
-from search import *
+from wikipedia import *
 from ember_api import *

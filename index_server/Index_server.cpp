@@ -447,6 +447,12 @@ void Index_server::process_query(const string& query, const std::string& weight,
         cout << hits[i].id << " ";
     }
     cout << endl;
+
+    cout << endl << "Finished processing query for: " << endl;
+    cout << "  q: " << query << endl;
+    cout << "  w: " << weight << endl;
+
+    cout << "| ========== END PROCESSING QUERY ========== |" << endl;
     
 }
 

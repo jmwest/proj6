@@ -29,7 +29,7 @@ sudo pip install requests
 ### Custom makefile commands
 To run the C++ server, type this while in `index_server/`:
 ```
-make run
+make rebuild
 ```
 
 ### Extra:

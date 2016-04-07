@@ -1,3 +1,13 @@
+CREATE TABLE Documents
+(
+docid int,
+title varchar(100),
+categories varchar(5000),
+image varchar(200),
+summary varchar(5000),
+PRIMARY KEY (docid)
+);
+
 CREATE TABLE User
 (
 username varchar(20),

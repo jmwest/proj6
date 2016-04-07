@@ -506,7 +506,7 @@ namespace {
             }
             string weight;
             if (get_param(request_info, "w", weight) == -1) {
-                // If the request doesn't have the "q" field, this is not an index
+                // If the request doesn't have the "w" field, this is not an index
                 // weight, so ignore it.
                 return 1;
             }

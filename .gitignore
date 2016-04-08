@@ -22,7 +22,7 @@ flask/static/images_backup
 .vagrant
 *.pyc
 .DS_Store
-pa4.xcworkspace
+pa6.xcworkspace
 source.tar.gz
 pysha3*
 curl.txt
@@ -73,6 +73,5 @@ hits_code/inverted_index.txt
 inverted*
 pagerank_code/pagerank.net
 
-pa5.xcworkspace
 *out*
 

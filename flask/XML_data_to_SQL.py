@@ -7,7 +7,8 @@ import sys
 
 data_dir = './data/'
 
-articles_array = []
+#articles_array = []
+articles_dict = {}
 
 # Parse the mining.articles.xml file
 articles_tree = ET.parse(data_dir + 'mining.articles.xml')
@@ -16,15 +17,17 @@ articles_root = articles_tree.getroot()
 
 for article in articles_root:
 	
+	docid_text = article.find('eecs485_article_id').text
 	dict = {
-		'docid': article.find('eecs485_article_id').text,
+		'docid': docid_text,
 		'title': article.find('eecs485_article_title').text,
 		'categories': '',
 		'image': '',
 		'summary': ''
 	}
 	
-	articles_array.append(dict)
+#	articles_array.append(dict)
+	articles_dict[docid_text] = dict
 
 print 'mining.articles.xml complete'
 
@@ -36,16 +39,24 @@ categories_root = categories_tree.getroot()
 for category in categories_root:
 	
 	category_string = ''
-	for article_category in category.findall('eecs485_article_category'):
-		category_string += (article_category.text + ', ')
+	if category.find('eecs485_article_category') is not None:
+		category_string = category.find('eecs485_article_category').text
 	
-	if category_string != '':
-		category_string = category_string[:-2]
+#	if category_string != '':
+#		category_string = category_string[:-2]
 
-	for article in articles_array:
+	docid_text = category.find('eecs485_article_id').text
+	
+	if articles_dict[docid_text]['categories'] != '':
+		articles_dict[docid_text]['categories'] = articles_dict[docid_text]['categories'] + ', ' + category_string
+	else:
+		articles_dict[docid_text]['categories'] = category_string
 
-		if article['docid'] == category.find('eecs485_article_id').text:
-			article['categories'] = category_string
+#	for article in articles_array:
+#
+#		if article['docid'] == category.find('eecs485_article_id').text:
+#			article['categories'] = category_string
+#			break
 
 print 'mining.category.xml complete'
 
@@ -59,12 +70,16 @@ for image in images_root:
 	url_string = ''
 	image_url = image.find('eecs485_pngs')
 	if image_url is not None:
-		url_string = image_url.find('eecs485_png_url').text
+		if image_url.find('eecs485_png_url') is not None:
+			url_string = image_url.find('eecs485_png_url').text
 
-	for article in articles_array:
-		
-		if article['docid'] == image.find('eecs485_article_id').text:
-			article['image'] = url_string
+	docid_text = image.find('eecs485_article_id').text
+	articles_dict[docid_text]['image'] = url_string
+#	for article in articles_array:
+#		
+#		if article['docid'] == image.find('eecs485_article_id').text:
+#			article['image'] = url_string
+#			break
 
 print 'mining.imageUrls.xml complete'
 
@@ -79,34 +94,62 @@ for box in infobox_root:
 	summary = box.find('eecs485_article_summary')
 	if summary is not None:
 		summary_string = summary.text
-	
-	for article in articles_array:
-		
-		if article['docid'] == summary.find('eecs485_article_id').text:
-			article['summary'] = summary_string
+
+	docid_text = box.find('eecs485_article_id').text
+	articles_dict[docid_text]['summary'] = summary_string
+#	for article in articles_array:
+#		
+#		if article['docid'] == box.find('eecs485_article_id').text:
+#			article['summary'] = summary_string
+#			break
 
 print 'mining.infobox.xml complete'
 
 # Output SQL commands to wikipedia.sql
 output_string = 'CREATE TABLE Documents\n'
-output_string += '(\n\tdocid int,\n'
-output_string += '\n\ttitle varchar(100),\n'
-output_string += '\n\tcategories varchar(5000),\n'
-output_string += '\n\timage varchar(200),\n'
-output_string += '\n\tsummary varchar(5000),\n'
+output_string += '(\n\tdocid int,'
+output_string += '\n\ttitle varchar(100),'
+output_string += '\n\tcategories varchar(5000),'
+output_string += '\n\timage varchar(200),'
+output_string += '\n\tsummary varchar(5000),'
 output_string += '\n\tPRIMARY KEY (docid)\n);\n\n'
 
 insert_string = ''
-for article in articles_array:
-	insert_string += 'INSERT INTO Documents\nVALUES ('
-	insert_string += ('\'' + article['docid'] + '\', ')
-	insert_string += ('\'' + article['title'] + '\', ')
-	insert_string += ('\'' + article['categories'] + '\', ')
-	insert_string += ('\'' + article['image'] + '\', ')
-	insert_string += ('\'' + article['summary'] + '\'')
+#for article in articles_array:
+#	insert_string += 'INSERT INTO Documents\nVALUES ('
+#	insert_string += ('\'' + article['docid'] + '\', ')
+#	insert_string += ('\'' + article['title'] + '\', ')
+#	insert_string += ('\'' + article['categories'] + '\', ')
+#	insert_string += ('\'' + article['image'] + '\', ')
+#	insert_string += ('\'' + article['summary'] + '\'')
 
-with open("sql/wikipedia.sql", "r") as myfile:
+for key, value in articles_dict.iteritems():
+	insert_string += 'INSERT INTO Documents\nVALUES ('
+	insert_string += ('\'' + value['docid'] + '\', ')
+	
+	if value['title'] is None:
+		insert_string += ('\'\', ')
+	else:
+		insert_string += ('\'' + value['title'] + '\', ')
+
+	if value['categories'] is None:
+		insert_string += ('\'\', ')
+	else:
+		insert_string += ('\'' + value['categories'] + '\', ')
+
+	if value['image'] is None:
+		insert_string += ('\'\', ')
+	else:
+		insert_string += ('\'' + value['image'] + '\', ')
+	
+	if value['summary'] is None:
+		insert_string += ('\'\');\n\n')
+	else:
+		insert_string += ('\'' + value['summary'] + '\');\n\n')
+
+
+with open("./flask/sql/wikipedia.sql", 'w') as myfile:
 	myfile.write(output_string)
 	myfile.write(insert_string)
 
-print 'write to sql/wikipedia.sql complete'
+print 'write to flask/sql/wikipedia.sql complete'

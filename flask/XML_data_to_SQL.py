@@ -106,13 +106,13 @@ for box in infobox_root:
 print 'mining.infobox.xml complete'
 
 # Output SQL commands to wikipedia.sql
-output_string = 'CREATE TABLE Documents\n'
-output_string += '(\n\tdocid int,'
-output_string += '\n\ttitle varchar(100),'
-output_string += '\n\tcategories varchar(5000),'
-output_string += '\n\timage varchar(200),'
-output_string += '\n\tsummary varchar(5000),'
-output_string += '\n\tPRIMARY KEY (docid)\n);\n\n'
+#output_string = 'CREATE TABLE Documents\n'
+#output_string += '(\n\tdocid int,'
+#output_string += '\n\ttitle varchar(100),'
+#output_string += '\n\tcategories varchar(5000),'
+#output_string += '\n\timage varchar(200),'
+#output_string += '\n\tsummary varchar(5000),'
+#output_string += '\n\tPRIMARY KEY (docid)\n);\n\n'
 
 insert_string = ''
 #for article in articles_array:

@@ -36,10 +36,6 @@
 			<p id="no_search_results">Hilary evaded surveilance</p>
 		{% endif %}
 
-	{% elif deep_copy %}
-
-
-
 	{% else %}
 		<form method="get" action="{{ url_for('wikipedia.wikipedia_route') }}">
 		<br>Query:
@@ -53,5 +49,35 @@
 		</form>
 
     {% endif %}
+
+	{% if deep_copy %}
+
+		{% if document.doc_id %}
+			<p id="doc_id">{{ document.doc_id }}</p>
+		{% endif %}
+
+		{% if document.title %}
+			<p id="doc_title">{{ document.title }}</p>
+		{% endif %}
+
+		{% if document.categories %}
+			<p id="doc_categories">{{ document.categories }}</p>
+		{% endif %}
+
+		{% if document.image %}
+			<img id="doc_image" src="{{ document.image }}">
+		{% endif %}
+		
+		{% if document.summary %}
+			<p id="doc_summary">{{ document.summary }}</p>
+		{% endif %}
+		
+		{% for hit in hits %}
+		
+			<br>
+			<a id="similar_{{ hit["id"] }}_link" href="{{ url_for('wikipedia.wikipedia_deep_summary_route', doc_id=hit["id"]) }}">{{ hit["title"] }}</a>
+		
+		{% endfor %}
+	{% endif %}
 {% endblock %}
 

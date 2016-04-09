@@ -224,8 +224,10 @@ void loadInputFile_Pagerank(map<int, Node_Pagerank>& graph, string inputFilename
 	}
 
 	// Sink Nodes
-	// Create "virtual" outgoing links to every other node in graph
-	// if a node does not have any outgoing links
+	//   Create "virtual" outgoing links to every other node in graph
+	//   if a node does not have any outgoing links
+	// Self-link-only Nodes
+	//   Set it as a self-link-only node and don't count it's pagerank (p6)
 	for (auto it = graph.begin(); it != graph.end(); ++it) {
 		if (it->second.numOutgoingLinks > 0)
 			continue;
@@ -331,6 +333,7 @@ void writeToOutput(map<int, Node_Pagerank>& graph, const CONFIG_PAGERANK& config
 
 	// Add all pageranks to a vector
 	for (auto it = graph.begin(); it != graph.end(); ++it) {
+
 		Pagerank_Output currentDoc;
 
 		currentDoc.id = it->second.id;
@@ -424,6 +427,25 @@ int main(int argc, char* argv[]) {
 
 	processClockedTime(startTime, "Total");
 
+
+	// TEST
+	// int numSelfOnlyNodes = 0;
+
+	// for (auto it : graph) {
+	// 	bool containsSelfLinksOnly = false;
+	// 	// for (auto it2 : it.second.outgoingLinks) {
+	// 	for (auto it2 = it.second.outgoingLinks.begin(); it2 != it.second.outgoingLinks.end(); ++it2) {
+	// 		if (it.second.id == *it2)
+	// 			containsSelfLinksOnly = true;
+	// 		else
+	// 			containsSelfLinksOnly = false;
+	// 	}
+
+	// 	if (containsSelfLinksOnly)
+	// 		numSelfOnlyNodes++;
+	// }
+
+	// cout << endl << "Number of self-link-only nodes: " << numSelfOnlyNodes << endl;
 
 
 	// Assert statements (these work with pagerank_code/pagerank.net)

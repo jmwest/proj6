@@ -20,7 +20,7 @@ for edge in edges:
 		else:
 			vertex_to = vertex.text
 
-	arcs.append(vertex_from + " " + vertex_to)
+	arcs.append(vertex_from + " " + vertex_to)	
 
 ##### Start output #####
 

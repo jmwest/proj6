@@ -13,8 +13,10 @@ else
 fi
 echo ""
 
+# rm pagerank/pagerank_code/p6_output.txt
+
 # Run pagerank if necessary
-echo "Looking for pagerank/pagerank_code/output.txt ..."
+echo "Looking for pagerank/pagerank_code/p6_output.txt ..."
 if [ -e "pagerank_code/p6_output.txt" ]; then
 	echo "  Found p6_output.txt."
 else
@@ -32,6 +34,7 @@ if [ "$NUM_LINES" = "$CORRECT_NUM_LINES" ]; then
 	echo "  Success! p6_output.txt has $NUM_LINES lines."
 else
 	echo "  Incorrect amount of lines: $NUM_LINES"
+	echo "  Should be:                 $CORRECT_NUM_LINES"
 fi
 
 # Navigate back to root

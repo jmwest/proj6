@@ -27,8 +27,8 @@ import os
 mapForAllWords = {}
 totalDocCount = 0
 
-for fileName in os.listdir('splitArticles'):
-	file = open('splitArticles/'+fileName, 'r')
+for fileName in os.listdir('input'):
+	file = open('input/'+fileName, 'r')
 	ticker = 0
 	docID = -1
 	for line in file:

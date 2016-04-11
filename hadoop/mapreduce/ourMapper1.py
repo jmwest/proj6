@@ -51,9 +51,13 @@ for line in sys.stdin:
 		line = line.lower()
 		fullBody = line.split()
 		for word in fullBody:
+			# if word == 'sciences':
+				# print "Found sciences"
 			if word in mapForAllWords:
 				if docID in mapForAllWords[word]:
 					mapForAllWords[word][docID] = mapForAllWords[word][docID] + 1
+				else:
+					mapForAllWords[word][docID] = 1
 			else:
 				mapForAllWords[word] = {}
 				mapForAllWords[word][docID] = 1
@@ -64,6 +68,8 @@ for line in sys.stdin:
 #print everything to output
 print totalDocCount
 for word in mapForAllWords:
+	# if word == 'sciences':
+		# print mapForAllWords[word]
 	for docID in mapForAllWords[word]:
 		print word + "    " + str(docID) + "    " + str(mapForAllWords[word][docID])
 

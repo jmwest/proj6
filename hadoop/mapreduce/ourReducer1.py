@@ -41,16 +41,16 @@ for key in sortedDict:
 	idf = math.log10( float(total_num_docs) / float(sortedDict[key]['num_docs']) )
 	sortedDict[key]['idf'] = idf
 
-with open("./hadoop/mapreduce/reducer_test/reducer_out.txt", 'w') as myfile:
+# with open("./hadoop/mapreduce/reducer_test/reducer_out.txt", 'w') as myfile:
 	
-	for key in sortedDict:
-		output_string = key
-		output_string += ('\t' + str(sortedDict[key]['idf']) )
-		output_string += ('\t' + str(sortedDict[key]['total']) )
-		
-		for tuple in sortedDict[key]['array']:
-			output_string += ('\t' + tuple[0] + '\t' + str(tuple[1]) )
-		
-		output_string += '\n'
-		
-		myfile.write(output_string)
+for key in sortedDict:
+	output_string = key
+	output_string += ('\t' + str(sortedDict[key]['idf']) )
+	output_string += ('\t' + str(sortedDict[key]['total']) )
+	
+	for tuple in sortedDict[key]['array']:
+		output_string += ('\t' + tuple[0] + '\t' + str(tuple[1]) )
+	
+	output_string += '\n'
+	
+	sys.stdout.write(output_string)

@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 #reads in from a text file with this format:
 # word | idf | total occurences in our entire database | docID | occurences in doc | docID | occrences in doc| doc ID....
 
@@ -18,6 +20,9 @@ dictionaryOfDoc_tf2idf2_Sums = {}
 
 #go through every line in the file
 for line in sys.stdin:
+	if (len(line) <= 3):
+		continue
+		
 	lineAsListOfWords = line.split()
 
 	#save each word into a separate data structure

@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 # This reducer is useless
 import sys
 

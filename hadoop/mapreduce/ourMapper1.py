@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 #this script takes in xml files with documents, in this format:
 #<eecs485_article>
 	# <eecs485_article_id>123456789</eecs485_article_id>
@@ -21,7 +23,6 @@
 # afghanistan		939					399	
 
 
-import xml.etree.ElementTree as ET
 import os 
 import sys
 

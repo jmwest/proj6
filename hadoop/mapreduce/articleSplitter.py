@@ -11,18 +11,23 @@ articlesPerFile = int(sys.argv[1])
 file = open('splitArticles/articleFile'+str(ticker), 'w')
 
 for article in articles:
-	file.write("<"+article.tag+">\n")
 	for articleAttribute in article:
-		file.write("\t<"+articleAttribute.tag+">")
-		if articleAttribute.text:
-			file.write(articleAttribute.text)
-		file.write("</"+articleAttribute.tag+">\n")
+		if articleAttribute.tag == 'eecs485_article_id' or articleAttribute.tag == 'eecs485_article_title':
+			if articleAttribute.text:
+				file.write(articleAttribute.text + '\n')
+		elif articleAttribute.tag == 'eecs485_article_body':
+			bodyString = articleAttribute.text.replace('\n', ' ')
+			file.write(bodyString)
+			file.write('\n')
 	spotWithinFile += 1
-	file.write("\n</"+article.tag+">\n")
 	if spotWithinFile == articlesPerFile:
 		ticker += 1
-		print ticker
 		spotWithinFile = 0
 		file = open('splitArticles/articleFile'+str(ticker), 'w')
+
+
 	
 
+# <eecs485_article_id>303</eecs485_article_id>
+# <eecs485_article_title>Alabama</eecs485_article_title>
+# <eecs485_article_body>

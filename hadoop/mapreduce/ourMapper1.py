@@ -23,43 +23,42 @@
 
 import xml.etree.ElementTree as ET
 import os 
+import sys
 
 mapForAllWords = {}
 totalDocCount = 0
+ticker = 0
+docID = -1
 
-for fileName in os.listdir('input'):
-	file = open('input/'+fileName, 'r')
-	ticker = 0
-	docID = -1
-	for line in file:
-		if ticker == 0:
-			try:
-				docID = int(line)
-				ticker += 1	
-			except:
-				pass			
-		elif ticker == 1:
-			titleForThisDoc = line
-			ticker += 1
-		elif ticker == 2:
-			#we're in body
-			#remove non-alphanumeric chars
-			for char in line:
-				if not char.isalnum() and char != ' ':
-					line = line.replace(char, '')
-			
-			#lowercase everything
-			line = line.lower()
-			fullBody = line.split()
-			for word in fullBody:
-				if word in mapForAllWords:
-					if docID in mapForAllWords[word]:
-						mapForAllWords[word][docID] = mapForAllWords[word][docID] + 1
-				else:
-					mapForAllWords[word] = {}
-					mapForAllWords[word][docID] = 1
-			ticker = 0
-			totalDocCount += 1
+for line in sys.stdin:
+	if ticker == 0:
+		try:
+			docID = int(line)
+			ticker += 1	
+		except:
+			pass			
+	elif ticker == 1:
+		titleForThisDoc = line
+		ticker += 1
+	elif ticker == 2:
+		#we're in body
+		#remove non-alphanumeric chars
+		for char in line:
+			if not char.isalnum() and char != ' ':
+				line = line.replace(char, '')
+		
+		#lowercase everything
+		line = line.lower()
+		fullBody = line.split()
+		for word in fullBody:
+			if word in mapForAllWords:
+				if docID in mapForAllWords[word]:
+					mapForAllWords[word][docID] = mapForAllWords[word][docID] + 1
+			else:
+				mapForAllWords[word] = {}
+				mapForAllWords[word][docID] = 1
+		ticker = 0
+		totalDocCount += 1
 
 
 #print everything to output

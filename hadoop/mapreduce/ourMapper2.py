@@ -16,9 +16,8 @@ finalOutput = {}
 #key: docID  	value: SUM(tf2idf2)
 dictionaryOfDoc_tf2idf2_Sums = {}
 
-file = open('input2/testInputForMapper2', 'r')
 #go through every line in the file
-for line in file:
+for line in sys.stdin:
 	lineAsListOfWords = line.split()
 
 	#save each word into a separate data structure

@@ -4,11 +4,10 @@ cd mapreduce
 
 # Job 1
 # cat test_input/* | python ourMapper1.py
-cat test_input/* | python ourMapper1.py | python ourReducer1.py > test_intermediate/file01
-
-# cat input2/* | python test_input.py > output.txt
+# cat test_input/* | python ourMapper1.py | python ourReducer1.py > test_intermediate/file01
 
 # Job 2
-# cat test_input/* | python 2_map.py | python 2_reduce.py
+cat test_intermediate/* | python ourMapper2.py > ourMapper2_output.txt
+cat ourMapper2_output.txt | python ourReducer2.py > test_output/file01
 
 cd ..

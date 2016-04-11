@@ -1,0 +1,8 @@
+3
+hello		5		1
+hello		6		2
+alabama		5		3
+alabama		7		4
+nick		6		1
+nick		7		3
+diego		5		1

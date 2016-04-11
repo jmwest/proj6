@@ -1,23 +1,57 @@
+<script type="text/javascript">
+	function updateTextInput(val) {
+		document.getElementById('textInput').innerHTML=val;
+	}
+</script>
+
 {% extends "base.html" %}
 {% block content %}
     <h1>Search Clinton's Hidden Email Database and Obama's Birth Certificate Records</h1>
-    <form method="get" action="{{ url_for('wikipedia.wikipedia_route') }}">
-	  <br>Query:
-      <br><input id="wikipedia_search_input" type="text" name="q">
-      <br>Weight:
-      <br><input id="wikipedia_search_w" type="number" name="w">
-      <br><input id="wikipedia_search_button" type="submit" value="search">
-    </form>
-    {% if searched %}
-    <p>Number of Scandalous Emails:</p>
-    <p id="numResults">{{ numHits }}</p>
-    	{% for hit in hits %}
-        <hr>
-    	<br>
-    	<p>hit id: {{ hit["id"] }}</p>
-    	<p>hit score: {{ hit["score"] }}</p>
-        <h2 class="caption">{{ hit["caption"] }}</h2>
-        <a id="pic_{{ hit['filename'] }}_id" class="queryHit" href="{{ url_for('wikipedia.wikipedia_route', query=hit['caption']) }}"><img src="/static/images/{{ hit['url'] }}"></a>
-    	{% endfor %}
+
+	{% if searched %}
+
+		<form method="get" action="{{ url_for('wikipedia.wikipedia_route') }}">
+		<br>Query:
+		<br><input id="wikipedia_search_input" type="text" name="q" value="{{ q }}">
+		<br>Weight:
+		<table>
+		<td><input id="wikipedia_search_w" type="range" min="0" max="1" step="0.01" value="{{ w }}" name="w" onchange="updateTextInput(this.value);"></td>
+		<td id="textInput">{{ w }}</td>
+		</table>
+		<br><input id="wikipedia_search_button" type="submit" value="search">
+		</form>
+
+		{% if hits %}
+			<p>Number of Scandalous Emails:</p>
+			<p id="numResults">{{ numHits }}</p>
+
+			{% for hit in hits %}
+				<hr>
+				<br>
+				<a id="result_{{ hit["id"] }}_link" href="{{ url_for('wikipedia.wikipedia_deep_summary_route', doc_id=hit["id"]) }}">{{ hit["title"] }}</a>
+				<p>{{ hit["summary"] }}</p>
+			{% endfor %}
+
+		{% else %}
+			<p id="no_search_results">Hilary evaded surveilance</p>
+		{% endif %}
+
+	{% elif deep_copy %}
+
+
+
+	{% else %}
+		<form method="get" action="{{ url_for('wikipedia.wikipedia_route') }}">
+		<br>Query:
+		<br><input id="wikipedia_search_input" type="text" name="q">
+		<br>Weight:
+		<table>
+		<td><input id="wikipedia_search_w" type="range" min="0" max="1" step="0.01" value="0.15" name="w" onchange="updateTextInput(this.value);"></td>
+		<td id="textInput">0.15</td>
+		</table>
+		<br><input id="wikipedia_search_button" type="submit" value="search">
+		</form>
+
     {% endif %}
 {% endblock %}
+

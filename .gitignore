@@ -19,6 +19,15 @@ starter/
 submit/
 *.zip
 mapreduce.tar.gz
+*bin*
+*etc*
+*include*
+*input*
+*lib*
+*libexec*
+*sbin*
+*share*
+*part-*
 
 # Project 4 gitignore
 venv

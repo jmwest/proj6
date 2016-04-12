@@ -115,14 +115,16 @@ def wikipedia_deep_summary_route(doc_id):
 
 	options["numHits"] = len(result_json["hits"])
 	options["hits"] = result_json["hits"]
-	
+
+	# NEED TO MAKE SURE THAT THE CURRENT DOCUMENT DOESN'T
+	# GET INCLUDED IN THE 10 DOCS
 	for hit in options["hits"]:
 		# hit["caption"] = captions[ int(hit["id"]) - 1 ].decode("utf8")
 		cur = mysql.connection.cursor()
 		
 		select_stmt = "SELECT title "
 		select_stmt += "FROM Documents "
-		select_stmt += "WHERE sequencenum = %(hitId)s"
+		select_stmt += "WHERE sequencenum = %(hitId)s "
 		cur.execute(select_stmt, { 'hitId': hit["id"] })
 		
 		cur_result = cur.fetchall()[0]

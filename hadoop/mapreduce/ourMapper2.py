@@ -20,7 +20,7 @@ dictionaryOfDoc_tf2idf2_Sums = {}
 
 #go through every line in the file
 for line in sys.stdin:
-	if (len(line) <= 3):
+	if (len(line.split()) <= 3):
 		continue
 		
 	lineAsListOfWords = line.split()

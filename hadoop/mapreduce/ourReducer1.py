@@ -7,7 +7,7 @@ import os
 
 wordDict = {}
 
-docSumOutputFile = open('totalDocCount.txt', 'r')
+docSumOutputFile = open('mapreduce/totalDocCount.txt', 'r')
 total_num_docs = int(docSumOutputFile.readline())
 
 for line in sys.stdin:

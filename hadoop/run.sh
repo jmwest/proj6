@@ -27,8 +27,6 @@ rm -rf mapreduce/output
   -mapper ./mapreduce/ourMapper1.py \
   -reducer ./mapreduce/ourReducer1.py
 
-cat mapreduce/intermediate/part* | sort > mapreduce/intermediate.txt
-
 # Job 2
 ./bin/hadoop \
   jar ./share/hadoop/tools/lib/hadoop-streaming-2.7.2.jar \
@@ -38,5 +36,3 @@ cat mapreduce/intermediate/part* | sort > mapreduce/intermediate.txt
   -output ./mapreduce/output \
   -mapper ./mapreduce/ourMapper2.py \
   -reducer ./mapreduce/ourReducer2.py
-
-cat mapreduce/output/part* | sort > mapreduce/output.txt

@@ -14,3 +14,6 @@ cp run.sh submit/
 
 # Compress it
 tar -zcvf mapreduce.tar.gz submit
+
+# pagerank.out
+cp ../pagerank/pagerank_code/pagerank.net pagerank.out

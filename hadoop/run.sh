@@ -35,3 +35,6 @@ rm -rf mapreduce/output
   -output ./mapreduce/output \
   -mapper ./mapreduce/ourMapper2.py \
   -reducer ./mapreduce/ourReducer2.py
+
+cd mapreduce/output
+cat part* | sort > output.txt

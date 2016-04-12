@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 #sums up all the counts from ourMapper0.py
 #outputs that sum
 
@@ -9,4 +11,4 @@ for line in sys.stdin:
 	docSum += int(line)
 
 outputFile = open('totalDocCount.txt', 'w')
-outputFile.write(str(docSum) + 'n')
+outputFile.write(str(docSum) + '\n')

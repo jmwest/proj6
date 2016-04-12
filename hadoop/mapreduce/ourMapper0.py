@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 #goes through the data and outputs the number of docs it found
 import sys
 
@@ -5,10 +7,9 @@ docCount = 0
 
 for line in sys.stdin:
 	try:
-		docID = int(line)
-		ticker += 1	
+		docId = int(line)
+		docCount += 1
 	except:
-		pass	
+		pass
 
 print docCount
-print

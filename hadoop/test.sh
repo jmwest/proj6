@@ -2,6 +2,10 @@
 
 cd mapreduce
 
+# Job 0
+cat test_input/* | python ourMapper0.py > ourMapper0_output.txt
+cat ourMapper0_output.txt | python ourReducer0.py
+
 # Job 1
 cat test_input/* | python ourMapper1.py > ourMapper1_output.txt
 cat ourMapper1_output.txt | python ourReducer1.py > test_intermediate/file01

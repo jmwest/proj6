@@ -11,6 +11,7 @@ hadoop/sbin
 hadoop/share
 hadoop/mapreduce/input
 hadoop/mapreduce/output
+hadoop/mapreduce/intermediate
 hadoop/mapreduce/splitArticles
 hadoop/mapreduce/tmp*
 starter/

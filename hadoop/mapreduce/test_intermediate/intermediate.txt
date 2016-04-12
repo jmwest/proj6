@@ -1,3 +1,4 @@
+<<<<<<< HEAD:hadoop/mapreduce/test_intermediate/intermediate.txt
 0	0.47712125472	3	1164	3
 021figures	0.47712125472	1	717	1
 022	0.47712125472	1	717	1
@@ -4765,3 +4766,4162 @@ yukon	0.47712125472	1	717	1
 zero	0.47712125472	1	717	1
 zoology	0.47712125472	4	1548	4
 zoos	0.47712125472	1	717	1
+=======
+0	93	3	1164	3
+021figures	93	1	717	1
+022	93	1	717	1
+024	93	1	717	1
+028	93	1	717	1
+02ajpgthumb220pxleftof	93	1	717	1
+02ajpgthumb230pxrightst	93	1	717	1
+03	93	1	717	1
+033	93	1	717	1
+035	93	1	717	1
+04	93	2	717	2
+041	93	1	717	1
+05	93	1	717	1
+053	93	1	717	1
+060	93	1	717	1
+062	93	1	717	1
+064	93	1	717	1
+068	93	1	717	1
+08	93	2	717	2
+090	93	1	717	1
+091	93	1	717	1
+092	93	1	717	1
+1	93	10	1164	5	717	5
+10	93	3	717	3
+100	93	1	717	1
+10000	93	1	717	1
+100list	93	1	717	1
+102	93	1	717	1
+10845	93	1	717	1
+11	93	2	1164	1	717	1
+1120architecture	93	1	1164	1
+11275	93	1	717	1
+113	93	1	717	1
+119	93	1	717	1
+12	93	3	717	3
+1200	93	1	1548	1
+1300	93	1	717	1
+13000	93	1	717	1
+13095	93	1	717	1
+131	93	1	1164	1
+132	93	1	717	1
+135	93	1	717	1
+137600	93	1	717	1
+139	93	1	717	1
+144585	93	1	717	1
+14th	93	1	717	1
+15	93	4	717	4
+16	93	2	717	2
+16161	93	1	717	1
+16495	93	1	717	1
+166	93	1	717	1
+1670	93	1	717	1
+169355	93	1	717	1
+17	93	3	1548	1	717	2
+17092005jpgthumb250pxrightlake	93	2	717	2
+170935	93	1	717	1
+17215	93	1	717	1
+1726	93	1	717	1
+172910	93	1	717	1
+1731	93	1	717	1
+1752the	93	1	717	1
+1778	93	1	717	1
+1779	93	1	717	1
+1788	93	1	717	1
+18	93	1	717	1
+1803	93	1	717	1
+1818	93	1	717	1
+1821	93	1	717	1
+1835	93	1	1548	1
+18481939	93	1	717	1
+1849	93	1	1548	1
+1855	93	1	1548	1
+1857	93	1	1548	1
+1859	93	1	1548	1
+1862	93	1	1548	1
+1863	93	1	1164	1
+1865	93	1	1548	1
+1866	93	2	1548	2
+1867	93	2	1548	2
+1868	93	1	1548	1
+1870	93	2	717	2
+1871	93	3	1548	3
+1872	93	1	1548	1
+18721874	93	1	1548	1
+1874	93	1	1548	1
+1875	93	1	1548	1
+1877	93	1	1548	1
+1878	93	1	717	1
+1880	93	1	1548	1
+1880s	93	1	717	1
+1882	93	1	717	1
+1883	93	1	717	1
+1885	93	1	1548	1
+1888	93	1	1548	1
+1896	93	1	1548	1
+1898of	93	1	1548	1
+19	93	1	717	1
+1900	93	1	717	1
+1901	93	2	717	2
+1905	93	4	717	4
+1905alberta	93	1	717	1
+1908	93	1	717	1
+190other	93	1	717	1
+1910	93	2	1548	2
+1913	93	1	1548	1
+1921	93	2	717	2
+1935	93	3	717	3
+19350	93	1	717	1
+1940s	93	1	1164	1
+1950	93	3	1164	2	717	1
+1950s	93	3	1164	2	717	1
+1956	93	5	1164	5
+19561973	93	1	1164	1
+1957	93	1	1164	1
+196	93	1	717	1
+1960	93	1	1164	1
+1960s	93	4	1164	4
+1966	93	2	1164	1	717	1
+1969	93	2	1164	2
+1970	93	2	1164	2
+1971	93	3	717	3
+1973	93	1	1164	1
+1974	93	1	1164	1
+1976	93	1	1164	1
+1980complete	93	1	1164	1
+1980s	93	7	1164	6	717	1
+1982	93	1	1164	1
+1985	93	1	1164	1
+1987	93	2	1164	2
+1990s	93	3	1164	3
+1990sarchitectures	93	1	1164	1
+1991	93	1	1164	1
+1993	93	1	717	1
+1994	93	4	1164	1	717	3
+1997	93	1	1164	1
+19980	93	1	717	1
+1998mccorduck	93	1	1164	1
+19th	93	1	1164	1
+2	93	14	1164	3	1548	1	717	10
+20	93	1	1164	1
+2001	93	6	717	6
+2003	93	3	717	3
+2004	93	1	717	1
+2005	93	3	1164	1	717	2
+2006	93	8	1164	1	717	7
+2006alberta	93	1	717	1
+2006fileedmonton	93	1	717	1
+2007	93	1	717	1
+2008	93	4	1164	1	717	3
+20082009	93	1	717	1
+2009	93	5	1164	2	717	3
+2009artificial	93	1	1164	1
+2010	93	2	1164	1	717	1
+2011	93	4	1164	1	717	3
+2011the	93	1	717	1
+2029	93	1	1164	1
+203	93	1	717	1
+2045	93	1	1164	1
+20495	93	1	717	1
+205	93	1	717	1
+209	93	1	717	1
+20th	93	1	1164	1
+21	93	1	717	1
+215	93	1	717	1
+2161	93	1	717	1
+21990	93	1	717	1
+21st	93	1	1164	1
+22	93	1	717	1
+223	93	1	717	1
+225239	93	1	1164	1
+231	93	1	717	1
+24	93	1	1548	1
+2500	93	1	717	1
+254	93	1	717	1
+257	93	1	717	1
+2576670	93	1	717	1
+25the	93	1	717	1
+262	93	1	717	1
+27	93	1	1548	1
+272	93	1	717	1
+279297	93	1	717	1
+29125	93	1	717	1
+29455	93	1	717	1
+29740	93	1	717	1
+2974807	93	1	717	1
+2jpgthumbright200pxthe	93	1	717	1
+2jpgthumbright220pxheritage	93	1	717	1
+2jpgwinter	93	1	717	1
+2nd	93	1	717	1
+3	93	4	1164	1	717	3
+30	93	1	717	1
+302	93	1	717	1
+304	93	2	717	2
+30jpg350pxthumbtopio	93	1	1164	1
+315	93	1	717	1
+3290350	93	1	717	1
+332180	93	1	717	1
+3325	93	1	717	1
+34jpgthumb220pxrightchildrens	93	1	717	1
+35	93	1	717	1
+36	93	1	717	1
+360	93	1	1164	1
+36320	93	1	717	1
+3693	93	1	1164	1
+37	93	1	717	1
+38	93	1	717	1
+388210	93	1	717	1
+3d	93	1	1164	1
+4	93	3	1164	1	717	2
+40	93	1	717	1
+400	93	2	717	2
+4000	93	2	1548	1	717	1
+42	93	1	717	1
+43	93	2	717	2
+44	93	1	717	1
+48	93	1	717	1
+49nthe	93	1	717	1
+4drcs	93	1	1164	1
+4th	93	1	717	1
+5	93	1	717	1
+50	93	2	1164	1	717	1
+5000am	93	1	717	1
+50s	93	1	1164	1
+52	93	2	717	2
+53	93	1	717	1
+539160	93	1	717	1
+5448263	93	1	717	1
+5662learning	93	1	1164	1
+58	93	1	717	1
+59	93	2	717	2
+6	93	1	717	1
+60270	93	1	717	1
+60n	93	1	717	1
+61	93	1	717	1
+61225	93	1	717	1
+63	93	1	717	1
+650000	93	1	717	1
+661265	93	1	717	1
+667405	93	1	717	1
+6770	93	1	717	1
+679705	93	1	717	1
+7	93	1	717	1
+70	93	1	717	1
+700	93	1	717	1
+700000	93	1	717	1
+70986	93	1	717	1
+70s	93	1	1164	1
+72	93	2	717	2
+7205	93	1	717	1
+73022	93	1	717	1
+75	93	1	717	1
+7500	93	1	717	1
+7700	93	1	717	1
+7999	93	1	717	1
+80s	93	1	1164	1
+81	93	1	717	1
+83	93	1	717	1
+84505	93	1	717	1
+885825	93	1	717	1
+8985	93	1	717	1
+909	93	1	717	1
+90s	93	1	1164	1
+97275	93	1	717	1
+98	93	1	717	1
+a	93	289	1164	175	1548	22	717	92
+abandoned	93	2	1164	2
+abandonment	93	1	1164	1
+abduction	93	2	1164	2
+abilities	93	2	1164	2
+ability	93	7	1164	7
+able	93	15	1164	12	1548	2	717	1
+aboard	93	2	717	2
+aboriginal	93	3	717	3
+about	93	21	1164	15	717	6
+above	93	6	1164	2	717	4
+absence	93	1	1164	1
+abstract	93	4	1164	4
+abundances	93	1	717	1
+academic	93	3	1164	3
+academy	93	2	1548	2
+accelerating	93	1	1164	1
+accepted	93	2	1164	2
+access	93	1	1164	1
+accessdate20070830	93	1	1164	1
+accommodations	93	1	717	1
+accomplioshed	93	1	1164	1
+according	93	9	1164	3	717	6
+account	93	1	1548	1
+achievable	93	1	1164	1
+achieve	93	2	1164	2
+achieved	93	2	1164	2
+achievement	93	1	717	1
+acquire	93	1	1164	1
+across	93	5	717	5
+act	93	6	1164	5	717	1
+acting	93	2	1164	2
+action	93	1	1164	1
+actions	93	9	1164	8	717	1
+active	93	2	717	2
+acts	93	2	1164	1	717	1
+actual	93	1	1164	1
+actually	93	1	1164	1
+acyclic	93	1	1164	1
+adams	93	1	1548	1
+add	93	1	1164	1
+added	93	1	717	1
+addition	93	3	717	3
+additional	93	2	1164	1	717	1
+address	93	2	1164	2
+addressed	93	1	1164	1
+addresses	93	1	1164	1
+adequate	93	1	717	1
+adhoc	93	1	1164	1
+adjoining	93	1	717	1
+administer	93	1	717	1
+administered	93	1	717	1
+adopt	93	1	717	1
+adopted	93	1	1164	1
+adriatic	93	1	1548	1
+advancement	93	2	1164	2
+advancing	93	1	717	1
+advantages	93	1	1164	1
+adventists	93	1	717	1
+aerosense	93	1	1164	1
+afalbertaangalbertaararcastalbertaazalbertazhminnanalbertabexoldbsalbertabralbertabgcaalbertacsalbertacoalbertacyalbertadaalbertadealbertaetalbertaelesalbertaeoalbertoeualbertafafralbertafyalbertagaalbertagvalbertagdalbertaglalbertahyhihralbertaioalbertaidalbertaosfylkiitalbertahejvalbertaklalbertaknpamalbertakakwalbertaswalbertalaalbertalvalbertaltalbertalijalbertatartomnymkmrmnnahalbertanlalbertajafrralbertanoalbertannalbertaocalbrtapnbpmsalbertaplalbertaptalbertaroalbertarusahsqalbertasimplealbertaskalbertaprovincasrshalbertafialbertasvalbertatlalbertatathtralbertaukurugalbrtavialbertavoalbertafiuvroalbertawaralbertayibatsmgalbertazh	93	1	717	1
+affects	93	1	1164	1
+affiliated	93	1	717	1
+affiliations	93	1	717	1
+africa	93	1	717	1
+after	93	14	1164	1	1548	1	717	12
+afterwards	93	1	1548	1
+again	93	1	1164	1
+agassiz	93	12	1548	12
+agassizagassiz	93	1	1548	1
+agassizagassizagassizemanuel	93	1	1548	1
+agassizalexander	93	1	1548	1
+agassizemanuel	93	2	1548	2
+agassizjaagassizemanuel	93	1	1548	1
+agassizs	93	2	1548	2
+age	93	1	717	1
+aged	93	1	717	1
+agent	93	18	1164	17	1548	1
+agents	93	10	1164	10
+agglomerations	93	1	717	1
+ago	93	2	1164	1	717	1
+agreed	93	1	1164	1
+agreeing	93	1	1164	1
+agricultural	93	1	717	1
+agriculture	93	5	717	5
+ai	93	124	1164	124
+ai50	93	1	1164	1
+aibased	93	1	1164	1
+aicomplete	93	2	1164	2
+aidreyfus	93	1	1164	1
+aienhanced	93	1	1164	1
+aimed	93	2	1164	2
+aims	93	1	1164	1
+air	93	5	717	5
+airdrie	93	1	717	1
+airlines	93	1	717	1
+airport	93	6	717	6
+airports	93	5	717	5
+airportsthere	93	1	717	1
+ais	93	3	1164	3
+aitopics	93	1	1164	1
+akin	93	1	1164	1
+al	93	2	1164	2
+alan	93	1	1164	1
+alaska	93	1	717	1
+albeit	93	2	1164	2
+albert	93	3	717	3
+alberta	93	144	717	144
+albertaalberta	93	3	717	3
+albertaalbertas	93	1	717	1
+albertaanother	93	1	717	1
+albertaas	93	2	717	2
+albertans	93	6	717	6
+albertapaleontologyfilepachyrhinosaurus	93	1	717	1
+albertas	93	17	717	17
+albertasaskatchewan	93	1	717	1
+albertathe	93	1	717	1
+albus	93	1	1164	1
+alcohol	93	1	717	1
+aleksander	93	1	1164	1
+alexander	93	2	1548	1	717	1
+alexandra	93	1	717	1
+alexandria	93	2	1164	2
+algebra	93	1	1164	1
+algorithm	93	6	1164	6
+algorithmic	93	1	1164	1
+algorithmmixture	93	1	1164	1
+algorithms	93	19	1164	19
+algorithmthe	93	1	1164	1
+aljazari	93	2	1164	2
+all	93	32	1164	19	717	13
+allcanadian	93	1	717	1
+allow	93	5	1164	4	717	1
+allowed	93	3	1164	1	717	2
+allowing	93	1	717	1
+allows	93	4	1164	4
+allure	93	1	1164	1
+almost	93	4	1164	2	717	2
+along	93	8	1164	2	1548	1	717	5
+alpac	93	1	1164	1
+alpine	93	1	717	1
+alreadysolved	93	1	1164	1
+also	93	50	1164	25	1548	1	717	24
+alsofamilyreferences	93	1	1548	1
+alternatively	93	1	717	1
+although	93	5	1164	3	717	2
+alvey	93	1	1164	1
+amalgamated	93	1	717	1
+amass	93	1	717	1
+ambulance	93	1	717	1
+amendment	93	1	1164	1
+america	93	4	717	4
+americaalberta	93	1	717	1
+american	93	4	1548	1	717	3
+americas	93	1	717	1
+among	93	11	1164	8	717	3
+amongst	93	1	717	1
+amount	93	1	1164	1
+amounts	93	2	1164	2
+amphibians	93	1	717	1
+amplify	93	1	1164	1
+amun	93	1	1164	1
+an	93	47	1164	36	1548	3	717	8
+anabaptist	93	1	717	1
+analogy	93	1	1164	1
+analysis	93	4	1164	4
+analytical	93	1	1164	1
+analyze	93	3	1164	3
+analyzed	93	1	1164	1
+ancient	93	2	1164	2
+and	93	635	1164	292	1548	35	717	308
+andor	93	1	717	1
+anemone	93	1	717	1
+anglican	93	1	717	1
+animal	93	2	1164	2
+animals	93	5	1548	1	717	4
+animalthe	93	1	717	1
+animated	93	1	1164	1
+annealing	93	1	1164	1
+annual	93	5	717	5
+annually	93	1	717	1
+annuallyin	93	1	717	1
+another	93	1	1164	1
+answering	93	1	1164	1
+answers	93	1	1164	1
+ant	93	1	1164	1
+anthropomorphic	93	1	1164	1
+antilogic	93	2	1164	2
+antiquities	93	1	1548	1
+antiquity	93	2	1164	2
+any	93	14	1164	7	717	7
+anything	93	3	1164	3
+apeks	93	1	1164	1
+apotheosis	93	1	1164	1
+appear	93	2	1164	2
+appeared	93	1	1164	1
+appears	93	1	1164	1
+applicability	93	1	1164	1
+applicableamongst	93	1	717	1
+application	93	3	1164	3
+applications	93	14	1164	14
+applied	93	2	1164	2
+apply	93	2	1164	2
+approach	93	5	1164	5
+approaches	93	12	1164	12
+appropriately	93	2	1164	2
+approved	93	2	717	2
+approximately	93	7	717	7
+arabic	93	1	717	1
+arc	93	2	717	2
+architecture	93	4	1164	4
+architectures	93	3	1164	3
+archive	93	1	1164	1
+archives	93	1	717	1
+archivesalberta	93	1	717	1
+archiveselecting	93	1	717	1
+archivesstriking	93	1	717	1
+arctic	93	2	717	2
+are	93	128	1164	57	1548	1	717	70
+area	93	6	1164	1	717	5
+areas	93	11	1164	2	717	9
+arereasoning	93	1	1164	1
+argentina	93	1	717	1
+argue	93	4	1164	4
+argued	93	6	1164	6
+argues	93	3	1164	3
+argument	93	6	1164	6
+arguments	93	1	1164	1
+aromatic	93	1	717	1
+around	93	9	1164	5	717	4
+arranged	93	1	1164	1
+arrival	93	3	717	3
+arrive	93	1	717	1
+arrived	93	1	717	1
+arriving	93	1	717	1
+art	93	3	1164	2	717	1
+article	93	3	1164	3
+artificial	93	49	1164	48	717	1
+artisans	93	1	717	1
+arts	93	2	1548	1	717	1
+as	93	171	1164	101	1548	6	717	64
+asian	93	1	717	1
+asks	93	1	1164	1
+aspect	93	1	1164	1
+aspects	93	4	1164	4
+aspen	93	3	717	3
+assassin	93	1	1164	1
+assembly	93	2	717	2
+assemblyconsists	93	1	717	1
+assemblythe	93	1	717	1
+assertion	93	3	1164	3
+assess	93	1	1164	1
+assistance	93	1	1548	1
+assistant	93	3	1164	1	1548	2
+assistantpngthumban	93	1	1164	1
+assisted	93	2	1548	1	717	1
+associates	93	1	1164	1
+assume	93	1	1164	1
+assumption	93	2	1164	2
+assumptions	93	2	1164	2
+astonishing	93	1	1164	1
+astonishingrussell	93	1	1164	1
+astronomical	93	3	1164	3
+at	93	67	1164	36	1548	7	717	24
+athabasca	93	11	717	11
+athletic	93	1	717	1
+atlantic	93	1	717	1
+atmel	93	1	1164	1
+atomic	93	1	1164	1
+attempt	93	1	1164	1
+attempted	93	2	1164	2
+attempting	93	1	1164	1
+attempts	93	2	1164	2
+attemptsnutty	93	1	1164	1
+attendees	93	2	1164	2
+attending	93	1	717	1
+attention	93	1	1548	1
+attentiondeduction	93	1	1164	1
+attraction	93	1	717	1
+attractions	93	4	717	4
+attractive	93	1	1164	1
+attractor	93	2	1164	2
+aug	93	1	717	1
+august	93	2	1548	1	717	1
+author	93	1	1164	1
+authoritiespublic	93	1	717	1
+authority	93	5	717	5
+authors	93	2	1164	2
+automatayan	93	1	1164	1
+automation	93	3	1164	3
+automatons	93	2	1164	2
+autonomously	93	1	1164	1
+autonomy	93	2	717	2
+available	93	5	1164	5
+avens	93	1	717	1
+avenuejpgthumb250pxrightavenue	93	1	717	1
+average	93	7	1164	1	717	6
+averaging	93	1	717	1
+aves	93	1	717	1
+avoid	93	1	1164	1
+avon	93	1	717	1
+awarded	93	1	1548	1
+back	93	4	1164	2	1548	1	717	1
+background	93	2	1164	2
+backgroundthe	93	1	1164	1
+backpropagation	93	2	1164	2
+bad	93	1	1164	1
+badlands	93	3	717	3
+baker	93	1	717	1
+banff	93	8	717	8
+bank	93	1	717	1
+baptists	93	1	717	1
+barns	93	2	717	2
+barrels	93	2	717	2
+barrier	93	1	1548	1
+base	93	1	1164	1
+based	93	13	1164	11	1548	1	717	1
+bases	93	1	1164	1
+basic	93	2	1164	2
+basin	93	1	717	1
+basis	93	3	1164	3
+battles	93	1	717	1
+battlestar	93	1	1164	1
+bay	93	4	717	4
+bayagassiz	93	1	1548	1
+bayes	93	1	1164	1
+bayesian	93	3	1164	3
+be	93	79	1164	70	717	9
+bean	93	1	717	1
+bearing	93	1	717	1
+bears	93	2	717	2
+beast	93	1	1164	1
+beat	93	1	1164	1
+beauty	93	1	717	1
+became	93	15	1164	5	1548	5	717	5
+because	93	6	1164	1	717	5
+become	93	2	1164	2
+becomes	93	3	1164	2	717	1
+becoming	93	2	717	2
+beds	93	1	717	1
+bee	93	1	717	1
+beef	93	2	717	2
+beekeepers	93	2	717	2
+beekeeping	93	1	717	1
+been	93	26	1164	15	717	11
+bees	93	1	717	1
+before	93	5	1164	2	1548	1	717	2
+began	93	6	1164	4	1548	1	717	1
+beganin	93	1	1164	1
+begin	93	5	1164	5
+beginning	93	1	1164	1
+beginningturing	93	1	1164	1
+begins	93	2	717	2
+behavior	93	7	1164	7
+behaviorbased	93	1	1164	1
+behind	93	2	1164	2
+being	93	9	1164	6	717	3
+beings	93	8	1164	8
+beingsibn	93	1	1164	1
+belief	93	3	1164	3
+believe	93	3	1164	3
+believed	93	5	1164	5
+belong	93	1	717	1
+belonged	93	1	717	1
+belonging	93	1	717	1
+belongs	93	2	1164	2
+below	93	3	1164	3
+belowturings	93	1	1164	1
+belts	93	1	717	1
+benefits	93	1	717	1
+benevolent	93	1	1164	1
+best	93	5	1164	4	717	1
+better	93	4	1164	4
+between	93	18	1164	9	717	9
+beyond	93	1	1164	1
+biases	93	1	1164	1
+bibtex	93	1	1164	1
+biche	93	2	717	2
+biggest	93	1	717	1
+billion	93	4	1164	1	717	3
+binomial	93	1	1164	1
+biological	93	2	1164	2
+biology	93	2	1164	2
+biome	93	1	717	1
+birch	93	1	717	1
+bird	93	2	1164	2
+birds	93	4	1164	1	717	3
+birth	93	3	1164	2	717	1
+birthdate	93	1	1164	1
+birthrates	93	1	717	1
+bison	93	3	717	3
+bits	93	1	1164	1
+bitumen	93	3	717	3
+black	93	2	717	2
+blake	93	1	1548	1
+blaze	93	1	717	1
+bleached	93	1	717	1
+blind	93	1	1164	1
+blink	93	1	1164	1
+bloody	93	1	717	1
+blowing	93	1	717	1
+blue	93	1	1164	1
+board	93	5	1548	2	717	3
+boards	93	7	717	7
+boasts	93	2	717	2
+bobcat	93	1	717	1
+bobrows	93	1	1164	1
+bodies	93	1	717	1
+body	93	3	1164	2	717	1
+bodymotion	93	1	1164	1
+bone	93	1	717	1
+bonnyville	93	1	717	1
+book	93	1	1164	1
+bookman	93	1	1164	1
+boom	93	1	1164	1
+border	93	7	717	7
+borders	93	1	717	1
+boreal	93	2	717	2
+born	93	1	1548	1
+borrowing	93	1	1164	1
+boston	93	2	1548	2
+both	93	25	1164	10	717	15
+bothered	93	1	1164	1
+bottomup	93	1	1164	1
+boulevard	93	1	717	1
+boundaries	93	1	717	1
+boundary	93	2	717	2
+bounded	93	1	717	1
+boyd	93	1	1164	1
+brain	93	10	1164	10
+brains	93	2	1164	2
+brainthe	93	2	1164	2
+branch	93	2	1164	2
+branches	93	1	1164	1
+breadth	93	2	1164	2
+break	93	1	717	1
+breakthrough	93	1	1164	1
+breeding	93	1	717	1
+bridge	93	2	1164	1	717	1
+bright	93	1	717	1
+bringing	93	1	717	1
+brings	93	2	717	2
+britainfur	93	1	717	1
+british	93	14	1164	2	717	12
+broad	93	2	1164	1	717	1
+broken	93	1	1164	1
+bronze	93	1	1164	1
+brooks	93	3	1164	2	717	1
+brooksbrooks	93	1	1164	1
+brotherinlaw	93	1	1548	1
+brought	93	1	717	1
+brown	93	1	717	1
+budget	93	1	717	1
+buffalo	93	12	717	12
+build	93	5	1164	5
+building	93	4	1164	1	717	3
+built	93	9	1164	5	1548	1	717	3
+bulletins	93	1	1548	1
+bumping	93	1	1164	1
+burgeoning	93	3	717	3
+buses	93	1	717	1
+busiest	93	2	717	2
+but	93	22	1164	9	1548	3	717	10
+butlers	93	1	1164	1
+by	93	97	1164	52	1548	1	717	44
+c	93	1	1164	1
+c46441	93	1	717	1
+c74825	93	1	717	1
+cabinet	93	1	717	1
+cabot	93	1	1548	1
+calculate	93	1	1164	1
+calculus	93	9	1164	9
+calgary	93	30	717	30
+calgaryalberta	93	1	717	1
+calgaryedmonton	93	3	717	3
+calgaryimagedinosaurprovincialparkhoodoojpghoodoos	93	1	717	1
+calgarys	93	3	717	3
+californias	93	1	1164	1
+call	93	1	1164	1
+called	93	11	1164	9	717	2
+calling	93	1	717	1
+calls	93	3	1164	3
+calumet	93	2	1548	2
+came	93	4	1164	2	717	2
+cameras	93	1	1164	1
+cameron	93	1	717	1
+campaign	93	1	717	1
+campaigns	93	1	717	1
+camping	93	1	717	1
+campus	93	1	1164	1
+camrose	93	1	717	1
+can	93	53	1164	45	717	8
+canada	93	32	717	32
+canadaas	93	1	717	1
+canadajpgsatellite	93	1	717	1
+canadas	93	16	717	16
+canadensis	93	1	717	1
+canadian	93	18	717	18
+canadians	93	1	717	1
+cancer	93	2	717	2
+canine	93	1	717	1
+canmore	93	3	717	3
+canola	93	2	717	2
+canyon	93	1	717	1
+canyons	93	1	717	1
+capabilities	93	3	1164	3
+capability	93	1	1164	1
+capable	93	2	1164	2
+capacity	93	2	717	2
+capita	93	2	717	2
+capital	93	4	717	4
+capture	93	1	1164	1
+captured	93	1	717	1
+cardiovascular	93	1	717	1
+cardston	93	1	717	1
+care	93	9	1164	2	717	7
+caribbean	93	2	717	2
+carnivores	93	2	717	2
+caroline	93	2	717	2
+carpenter	93	1	717	1
+carried	93	1	717	1
+cars	93	1	1164	1
+carway	93	1	717	1
+cary	93	1	1548	1
+case	93	1	1164	1
+casting	93	1	717	1
+categories	93	4	1164	4
+category	93	1	1164	1
+caters	93	1	717	1
+catholic	93	3	717	3
+cattle	93	1	717	1
+cattlealberta	93	1	717	1
+causal	93	2	1164	2
+cause	93	2	717	2
+caused	93	2	717	2
+causes	93	1	1164	1
+cbc	93	3	717	3
+ceded	93	1	717	1
+celebration	93	1	717	1
+celebrations	93	1	717	1
+census	93	6	717	6
+censusthe	93	1	717	1
+centered	93	2	1164	2
+central	93	19	1164	6	717	13
+centrality	93	1	1164	1
+centre	93	12	717	12
+centres	93	1	717	1
+centuries	93	1	1164	1
+century	93	3	1164	1	717	2
+certain	93	3	1164	3
+certificated	93	1	717	1
+certificates	93	1	717	1
+chaining	93	2	1164	2
+challenge	93	4	1164	4
+challenger	93	1	1548	1
+champion	93	1	1164	1
+champions	93	1	1164	1
+chances	93	2	1164	2
+change	93	3	1164	2	717	1
+changing	93	1	1164	1
+channel	93	1	1548	1
+character	93	2	1164	1	717	1
+characteristics	93	1	1164	1
+charter	93	2	717	2
+chatterbot	93	1	1164	1
+check	93	1	1164	1
+checker	93	2	1164	2
+chemistry	93	2	1164	1	1548	1
+chess	93	4	1164	4
+chesscomputers	93	1	1164	1
+chessplaying	93	3	1164	3
+children	93	1	1548	1
+childrens	93	3	717	3
+chile	93	1	1548	1
+china	93	1	717	1
+chinatowns	93	1	717	1
+chinese	93	4	717	4
+chinook	93	2	717	2
+chinooks	93	1	717	1
+chipewyan	93	2	717	2
+choices	93	3	1164	3
+choicesin	93	1	1164	1
+choose	93	2	717	2
+christian	93	1	717	1
+christmas	93	1	717	1
+church	93	2	717	2
+churches	93	1	717	1
+churchill	93	1	717	1
+circumscription	93	2	1164	2
+citation	93	5	1164	5
+cities	93	5	717	5
+citiesin	93	1	717	1
+citizens	93	1	717	1
+city	93	10	717	10
+citys	93	1	717	1
+civil	93	1	717	1
+civilization	93	2	1164	1	1548	1
+claim	93	3	1164	2	717	1
+claiming	93	1	1164	1
+claire	93	1	717	1
+class	93	4	1164	3	717	1
+classes	93	1	1164	1
+classic	93	1	1164	1
+classical	93	2	1164	2
+classification	93	4	1164	3	1548	1
+classified	93	2	1164	2
+classifier	93	6	1164	6
+classifierand	93	1	1164	1
+classifiers	93	6	1164	6
+classify	93	1	1164	1
+clauses	93	1	1164	1
+climate	93	8	717	8
+climatic	93	1	717	1
+climbing	93	1	1164	1
+clinic	93	2	717	2
+close	93	1	717	1
+closed	93	1	1548	1
+closely	93	2	1164	2
+closest	93	1	1164	1
+clover	93	2	717	2
+club	93	1	1164	1
+clumps	93	1	717	1
+cmu	93	3	1164	3
+cnet	93	1	1164	1
+coal	93	1	717	1
+coast	93	3	1548	2	717	1
+cognition	93	1	1164	1
+cognitive	93	4	1164	4
+coincide	93	1	717	1
+coincided	93	1	1164	1
+coincidence	93	1	1164	1
+coined	93	2	1164	2
+colby	93	1	1164	1
+cold	93	5	717	5
+collaboration	93	1	1164	1
+collapse	93	3	1164	2	1548	1
+collected	93	1	717	1
+collection	93	1	1548	1
+collections	93	1	1548	1
+collectively	93	2	1164	1	717	1
+collectors	93	1	717	1
+college	93	3	1164	1	717	2
+colleges	93	3	717	3
+colony	93	1	1164	1
+columbia	93	13	717	13
+combined	93	1	1164	1
+combining	93	1	1164	1
+come	93	1	1164	1
+comeback	93	1	717	1
+comes	93	4	1164	3	717	1
+comical	93	1	1164	1
+commander	93	1	1164	1
+commemorate	93	1	717	1
+commercial	93	1	1164	1
+commitment	93	1	1164	1
+common	93	13	1164	6	717	7
+commonly	93	3	1164	1	717	2
+commonsense	93	3	1164	3
+communal	93	1	717	1
+communicate	93	2	1164	2
+communication	93	1	1164	1
+communities	93	2	717	2
+community	93	1	717	1
+companies	93	4	717	4
+company	93	5	1548	2	717	3
+comparative	93	3	1548	3
+compared	93	3	1164	1	717	2
+compete	93	1	717	1
+competition	93	1	1164	1
+competitions	93	4	1164	2	717	2
+complete	93	3	1164	2	717	1
+completely	93	2	1164	2
+completes	93	1	1164	1
+complex	93	1	717	1
+complexa	93	1	717	1
+complexity	93	1	1164	1
+complicated	93	3	1164	3
+components	93	1	1164	1
+compression	93	1	1164	1
+comprise	93	1	717	1
+comprised	93	1	717	1
+computation	93	3	1164	3
+computational	93	7	1164	7
+computationalism	93	1	1164	1
+computer	93	13	1164	13
+computers	93	8	1164	8
+computing	93	4	1164	4
+computingscience	93	1	1164	1
+comrade	93	1	1164	1
+conceivable	93	2	1164	2
+concept	93	3	1164	3
+concepts	93	5	1164	5
+conceptsrepresentation	93	1	1164	1
+concerned	93	1	1164	1
+concerns	93	1	1164	1
+concerted	93	1	717	1
+conclusions	93	1	1164	1
+concurrent	93	1	1164	1
+condition	93	1	1164	1
+conditional	93	1	1164	1
+conditions	93	4	1164	1	717	3
+coneflower	93	1	717	1
+confederacy	93	1	717	1
+conference	93	7	1164	7
+confidencelogics	93	1	1164	1
+confusing	93	1	717	1
+confusion	93	1	717	1
+conglomerate	93	2	1548	2
+congress	93	1	1164	1
+conifer	93	1	717	1
+conifers	93	1	717	1
+conjecture	93	1	1164	1
+connected	93	1	717	1
+connecting	93	2	717	2
+connection	93	2	1164	2
+connectionism	93	3	1164	3
+connections	93	1	717	1
+connects	93	1	717	1
+conqueroroverlord	93	1	1164	1
+conscious	93	3	1164	3
+consciousness	93	5	1164	5
+consensus	93	1	1164	1
+consequences	93	1	1164	1
+conservative	93	4	717	4
+conservatives	93	4	717	4
+consider	93	2	1164	2
+considerable	93	1	717	1
+considerably	93	1	717	1
+considered	93	5	1164	5
+considers	93	1	1164	1
+consist	93	2	1164	1	717	1
+consisted	93	1	717	1
+consisting	93	1	717	1
+consists	93	1	1164	1
+consolidated	93	1	1548	1
+consort	93	1	717	1
+constituted	93	3	717	3
+constitutional	93	1	717	1
+constraints	93	1	1164	1
+construction	93	2	717	2
+consumer	93	3	1164	2	717	1
+consumers	93	1	1164	1
+contained	93	1	1548	1
+contains	93	3	717	3
+context	93	1	1164	1
+contextsensitive	93	1	1164	1
+continent	93	1	717	1
+continental	93	2	717	2
+continue	93	2	1548	1	717	1
+continued	93	4	1548	3	717	1
+continues	93	1	717	1
+continuous	93	3	1164	2	717	1
+contrary	93	1	1164	1
+control	93	7	1164	6	1548	1
+controllers	93	2	1164	2
+controlling	93	1	1548	1
+controversially	93	1	1164	1
+controversy	93	2	1164	1	717	1
+convention	93	3	1164	2	717	1
+conventional	93	3	717	3
+conversation	93	1	1164	1
+conversational	93	1	1164	1
+cooler	93	1	717	1
+cooperation	93	2	1164	1	717	1
+copper	93	4	1548	4
+copy	93	2	1164	2
+core	93	1	717	1
+corner	93	3	717	3
+corporate	93	1	717	1
+corporations	93	1	717	1
+corridor	93	11	717	11
+corridormost	93	1	717	1
+corridors	93	1	717	1
+cost	93	2	717	2
+costeffectively	93	1	1164	1
+costs	93	2	717	2
+cottonwood	93	1	717	1
+cougarherbivorous	93	1	717	1
+could	93	7	1164	6	717	1
+couldnt	93	1	1164	1
+counted	93	1	717	1
+counters	93	1	1164	1
+counties	93	1	717	1
+countriesalbertas	93	1	717	1
+country	93	5	717	5
+course	93	1	1164	1
+courtney	93	1	1164	1
+cousin	93	1	717	1
+coutts	93	1	717	1
+covered	93	3	1164	1	717	2
+covers	93	1	717	1
+cowboy	93	1	717	1
+coyotes	93	1	717	1
+craftsman	93	1	1164	1
+craftsthe	93	1	717	1
+create	93	4	1164	1	717	3
+created	93	3	1164	2	717	1
+creating	93	3	1164	3
+creation	93	1	1164	1
+creative	93	1	1164	1
+creativity	93	2	1164	2
+creatures	93	2	1164	2
+credit	93	2	717	2
+cree	93	3	717	3
+creek	93	1	717	1
+cretaceous	93	1	717	1
+crete	93	1	1164	1
+criteriaarchitectures	93	1	1164	1
+critic	93	2	1164	2
+criticism	93	1	1164	1
+criticized	93	1	1164	1
+critics	93	1	1164	1
+critique	93	5	1164	5
+critiques	93	1	1164	1
+crocus	93	1	717	1
+cropping	93	1	717	1
+crops	93	1	717	1
+cross	93	1	717	1
+crosses	93	2	717	2
+crossing	93	4	1164	1	717	3
+crows	93	1	717	1
+crude	93	4	717	4
+crystal	93	1	717	1
+ctrain	93	1	717	1
+culminate	93	1	1164	1
+cultivation	93	1	717	1
+cultural	93	5	1164	1	717	4
+culture	93	1	717	1
+culturean	93	1	1164	1
+curator	93	1	1548	1
+current	93	4	717	4
+currently	93	7	1164	2	717	5
+curriculum	93	1	717	1
+currie	93	1	717	1
+custom	93	1	717	1
+customer	93	1	1164	1
+cut	93	1	1164	1
+cyberneticist	93	1	1164	1
+cybernetics	93	7	1164	7
+cyborgs	93	1	1164	1
+cyc	93	3	1164	3
+cycle	93	1	717	1
+d	93	1	717	1
+daily	93	1	717	1
+daneel	93	1	1164	1
+dangerous	93	1	717	1
+darpa	93	1	1164	1
+dartmouth	93	6	1164	6
+data	93	4	1164	4
+datamining	93	1	1164	1
+daughter	93	1	717	1
+david	93	1	717	1
+daylight	93	1	717	1
+days	93	5	717	5
+daytime	93	1	717	1
+dealing	93	2	1164	1	717	1
+deathagassiz	93	1	1548	1
+debt	93	1	1548	1
+decade	93	1	1164	1
+decades	93	2	1164	1	717	1
+december	93	1	1548	1
+deciduous	93	3	717	3
+decimated	93	1	717	1
+decision	93	7	1164	7
+decrease	93	1	1164	1
+decreasing	93	2	717	2
+deduce	93	1	1164	1
+deduction	93	3	1164	3
+deductions	93	2	1164	1	717	1
+deductionthis	93	1	1164	1
+deep	93	2	1164	1	717	1
+deeply	93	2	1164	2
+deer	93	8	717	8
+deerfoot	93	1	717	1
+deerurban	93	1	717	1
+default	93	3	1164	3
+defeated	93	1	1164	1
+defense	93	2	1164	2
+define	93	1	1164	1
+defined	93	2	1164	2
+defines	93	2	1164	2
+definition	93	7	1164	7
+definitions	93	4	1164	4
+degree	93	1	1548	1
+demand	93	1	1164	1
+democracy	93	1	717	1
+democratic	93	2	717	2
+democrats	93	1	717	1
+demographics	93	1	717	1
+demonstration	93	1	1164	1
+densely	93	1	717	1
+densest	93	1	717	1
+department	93	3	1164	1	717	2
+depend	93	1	1164	1
+depends	93	2	1164	2
+deployment	93	1	1164	1
+deposited	93	1	717	1
+depth	93	1	1548	1
+describe	93	1	1164	1
+described	93	8	1164	8
+describes	93	3	1164	3
+description	93	2	1164	1	717	1
+desert	93	2	1164	1	717	1
+design	93	4	1164	3	717	1
+designed	93	4	1164	3	717	1
+designer	93	1	1164	1
+desire	93	2	1164	2
+despite	93	1	717	1
+destination	93	3	717	3
+destinations	93	3	717	3
+detect	93	1	1164	1
+determine	93	2	1164	2
+determined	93	1	717	1
+determinedly	93	1	1164	1
+determining	93	2	1164	1	717	1
+devalue	93	1	1164	1
+devalues	93	1	1164	1
+devastating	93	1	1164	1
+develop	93	3	1164	2	717	1
+developed	93	13	1164	12	717	1
+development	93	8	1164	5	717	3
+deviation	93	1	717	1
+device	93	1	1164	1
+devices	93	1	1164	1
+devised	93	1	1164	1
+devising	93	1	1164	1
+devoted	93	1	1548	1
+diabetes	93	1	717	1
+diagnosis	93	1	1164	1
+diamond	93	1	1164	1
+dictator	93	1	1164	1
+did	93	4	1164	2	1548	1	717	1
+died	93	1	1548	1
+difference	93	2	1164	1	717	1
+differences	93	1	1164	1
+different	93	7	1164	5	717	2
+differentiated	93	1	717	1
+differing	93	1	1164	1
+difficult	93	7	1164	7
+difficulty	93	2	1164	1	1548	1
+digital	93	7	1164	4	717	3
+dinosaur	93	7	717	7
+dinosaurs	93	5	717	5
+diocese	93	1	717	1
+diploma	93	1	717	1
+direct	93	1	717	1
+direction	93	2	1164	1	717	1
+directly	93	2	1164	2
+directors	93	1	1548	1
+directory	93	1	1164	1
+disabilities	93	1	717	1
+disagree	93	1	1164	1
+disagreement	93	1	1164	1
+disbelief	93	1	1164	1
+discipline	93	1	1164	1
+discover	93	1	1164	1
+discovered	93	2	1548	1	717	1
+discoveries	93	1	1164	1
+discuss	93	1	1164	1
+discussed	93	4	1164	4
+discusses	93	1	1164	1
+discussion	93	3	1164	3
+discussions	93	1	1164	1
+display	93	4	1164	2	717	2
+disrepute	93	1	1164	1
+disrupt	93	1	717	1
+distance	93	2	717	2
+distinguished	93	1	1164	1
+distributed	93	1	717	1
+distributes	93	1	717	1
+distribution	93	4	1164	1	717	3
+district	93	3	717	3
+ditches	93	1	717	1
+diverse	93	2	717	2
+diversities	93	1	717	1
+diversity	93	3	717	3
+divide	93	2	717	2
+divided	93	4	1164	2	717	2
+divides	93	1	717	1
+division	93	1	717	1
+do	93	9	1164	8	717	1
+doctor	93	1	1164	1
+documentary	93	2	1164	2
+documented	93	1	717	1
+does	93	3	1164	3
+doing	93	1	1164	1
+dollars	93	1	1164	1
+domain	93	2	1164	2
+domains	93	3	1164	3
+domesticated	93	1	717	1
+dominated	93	2	1164	1	717	1
+done	93	2	1164	2
+dont	93	1	1164	1
+dot	93	1	717	1
+douglasstyle	93	1	717	1
+down	93	3	1164	1	717	2
+downtown	93	1	717	1
+drainage	93	2	717	2
+drained	93	2	717	2
+dramatic	93	1	1164	1
+dramatically	93	1	1164	1
+draughts	93	1	1164	1
+draws	93	2	717	2
+dream	93	1	1164	1
+dredged	93	1	1548	1
+dredging	93	1	1548	1
+dreyfus	93	2	1164	2
+dries	93	1	717	1
+driven	93	1	1164	1
+driverless	93	1	1164	1
+drives	93	1	717	1
+driving	93	1	1164	1
+drop	93	1	717	1
+droughtlike	93	1	717	1
+droughts	93	1	717	1
+drumheller	93	4	717	4
+dry	93	4	717	4
+dryland	93	1	717	1
+dubbed	93	1	717	1
+ducks	93	1	717	1
+due	93	5	1164	2	1548	1	717	2
+dunefredkin	93	1	1164	1
+during	93	12	1164	3	1548	2	717	7
+dutch	93	2	717	2
+duties	93	1	717	1
+dynamic	93	2	1164	2
+dynasties	93	1	717	1
+dyson	93	1	1164	1
+each	93	9	1164	7	717	2
+eagles	93	1	717	1
+early	93	18	1164	12	1548	1	717	5
+earn	93	1	717	1
+earnest	93	1	1164	1
+earth	93	1	717	1
+east	93	10	717	10
+eastcentral	93	2	717	2
+eastern	93	3	717	3
+eastwest	93	1	717	1
+eberth	93	1	717	1
+echini	93	1	1548	1
+eclectic	93	1	717	1
+ecology	93	1	717	1
+economic	93	2	717	2
+economics	93	2	1164	2
+economicsfor	93	1	1164	1
+economicsnetworks	93	1	1164	1
+economicsthat	93	1	1164	1
+economist	93	1	1164	1
+economy	93	9	1164	1	717	8
+ed	93	2	1164	2
+edelman	93	1	1164	1
+edinburgh	93	2	1164	2
+edinburghs	93	1	717	1
+edited	93	1	717	1
+editor	93	1	1164	1
+editors	93	1	1164	1
+edmonton	93	37	717	37
+edmontoncentral	93	1	717	1
+edmontonmuslims	93	1	717	1
+edmontonnorth	93	1	717	1
+edmontons	93	6	717	6
+edmontonthe	93	2	717	2
+eds	93	1	1164	1
+educated	93	1	717	1
+education	93	15	717	15
+educational	93	1	717	1
+eerie	93	1	1164	1
+effect	93	1	1164	1
+effectively	93	1	717	1
+effects	93	1	1164	1
+efficiency	93	1	1164	1
+efficient	93	1	1164	1
+effort	93	1	717	1
+eg	93	3	1164	3
+egypt	93	1	1164	1
+eightythree	93	1	717	1
+either	93	3	1164	1	717	2
+elected	93	6	1548	1	717	5
+election	93	2	717	2
+elections	93	1	717	1
+electorate	93	2	717	2
+electronic	93	3	1164	3
+elegant	93	1	1164	1
+elementary	93	2	1164	1	717	1
+elements	93	2	1164	2
+elevator	93	4	717	4
+eliminate	93	1	1164	1
+eliminated	93	1	717	1
+eliza	93	2	1164	2
+elizabeth	93	2	717	2
+elsewhere	93	1	1164	1
+embodied	93	3	1164	3
+emerged	93	2	1164	2
+emergent	93	1	1164	1
+emerging	93	2	1164	2
+emigrated	93	1	1548	1
+emmanuel	93	1	1548	1
+emotional	93	1	1164	1
+emotions	93	5	1164	5
+empathy	93	1	1164	1
+emperors	93	1	1164	1
+emphasis	93	1	1164	1
+emphasize	93	1	1164	1
+employ	93	2	717	2
+employed	93	1	717	1
+employing	93	1	1164	1
+en	93	1	1548	1
+encoded	93	1	1164	1
+encyclopedia	93	1	717	1
+end	93	1	717	1
+endorsed	93	1	717	1
+ends	93	2	717	2
+enforcer	93	1	1164	1
+engaged	93	1	1164	1
+engine	93	1	1548	1
+engineerbiographyagassiz	93	1	1548	1
+engineering	93	7	1164	6	1548	1
+engineeringcan	93	1	1164	1
+england	93	4	1164	2	717	2
+english	93	3	1164	1	717	2
+enhancing	93	1	717	1
+enjoy	93	1	717	1
+enjoyed	93	1	717	1
+enjoys	93	1	717	1
+enlarged	93	1	717	1
+enormous	93	3	1164	3
+enormously	93	1	717	1
+enough	93	2	1164	1	717	1
+enterprise	93	3	1164	1	1548	2
+enters	93	2	717	2
+entertain	93	1	717	1
+entertaining	93	1	1164	1
+entire	93	2	1164	1	717	1
+entities	93	1	717	1
+entry	93	1	1164	1
+environment	93	4	1164	3	717	1
+eparchy	93	1	717	1
+equal	93	1	717	1
+equality	93	1	1164	1
+equivalent	93	1	717	1
+erlbaum	93	1	1164	1
+erosion	93	1	717	1
+especially	93	4	1164	2	717	2
+essence	93	1	1164	1
+essential	93	3	1164	3
+essentially	93	1	1164	1
+established	93	6	1164	3	717	3
+establishing	93	1	717	1
+estimated	93	3	717	3
+estimates	93	1	717	1
+et	93	2	1164	2
+etcperception	93	1	1164	1
+ethell	93	1	717	1
+ethical	93	3	1164	3
+ethics	93	1	1164	1
+ethnic	93	3	717	3
+ethnicities	93	1	717	1
+ettinger	93	1	1164	1
+europe	93	2	1164	1	717	1
+european	93	3	717	3
+evaluated	93	1	1164	1
+evaporates	93	1	717	1
+evaporation	93	1	717	1
+even	93	8	1164	2	1548	1	717	5
+events	93	9	1164	3	717	6
+eventually	93	3	1164	2	717	1
+evergreen	93	1	717	1
+everincreasing	93	1	1164	1
+every	93	6	1164	2	717	4
+everyday	93	1	1164	1
+evidence	93	1	1164	1
+evolution	93	2	1164	2
+ex	93	1	717	1
+exact	93	1	1548	1
+exactly	93	1	1164	1
+examination	93	1	1548	1
+examinations	93	1	717	1
+examined	93	1	1548	1
+example	93	12	1164	11	717	1
+examples	93	7	1164	7
+exceed	93	1	1164	1
+exceeded	93	1	717	1
+exceeding	93	1	1164	1
+exceeds	93	1	1164	1
+except	93	1	717	1
+exception	93	1	717	1
+exceptions	93	1	1164	1
+exclusive	93	3	1164	1	717	2
+excursions	93	2	717	2
+execution	93	1	1164	1
+exhausting	93	1	717	1
+exhaustive	93	1	1164	1
+exhibit	93	1	1164	1
+exhibition	93	2	1164	2
+existence	93	1	1164	1
+existing	93	1	1164	1
+exists	93	1	1164	1
+exotic	93	1	1164	1
+expanded	93	2	1164	1	717	1
+expected	93	1	1164	1
+expedition	93	1	1548	1
+expeditions	93	1	1548	1
+experience	93	3	1164	1	717	2
+experiencea	93	1	1164	1
+experienced	93	1	717	1
+experiences	93	2	717	2
+experiment	93	1	1164	1
+experiments	93	1	1164	1
+expert	93	4	1164	4
+expertise	93	1	1164	1
+experts	93	1	1164	1
+explained	93	1	1164	1
+explanations	93	1	1164	1
+explicit	93	2	1164	2
+exploitation	93	1	1548	1
+exploratory	93	1	1164	1
+explore	93	1	1164	1
+explored	93	2	1164	2
+explorer	93	1	717	1
+explosion	93	2	1164	2
+exponential	93	1	1164	1
+exporter	93	1	717	1
+exposed	93	3	1164	1	717	2
+express	93	2	1164	2
+expressed	93	1	1164	1
+expressions	93	1	1164	1
+expressly	93	1	1164	1
+expressways	93	1	717	1
+extending	93	1	717	1
+extends	93	3	717	3
+extension	93	1	1164	1
+extensions	93	1	1164	1
+extensive	93	2	1164	1	717	1
+extent	93	1	717	1
+external	93	3	1164	1	1548	1	717	1
+extract	93	2	717	2
+extracting	93	1	1548	1
+extraction	93	2	717	2
+extreme	93	4	1164	1	717	3
+extremely	93	1	717	1
+face	93	1	1164	1
+facedsee	93	1	1164	1
+facial	93	2	1164	2
+facies	93	1	717	1
+facilities	93	1	717	1
+fact	93	1	717	1
+facto	93	1	1164	1
+factor	93	2	1548	1	717	1
+factors	93	1	1164	1
+facts	93	3	1164	3
+fail	93	1	1164	1
+failartificial	93	1	1164	1
+failed	93	2	1164	2
+fairview	93	1	717	1
+faithfully	93	1	1164	1
+fake	93	1	1164	1
+fallow	93	2	717	2
+false	93	3	1164	3
+falter	93	1	1548	1
+fame	93	1	1548	1
+families	93	1	717	1
+family	93	2	717	2
+famous	93	2	1164	1	717	1
+far	93	5	1164	1	1548	1	717	3
+farm	93	1	717	1
+farmers	93	2	717	2
+farming	93	4	717	4
+farmland	93	1	717	1
+farms	93	1	717	1
+farther	93	1	717	1
+fashioned	93	1	1164	1
+fast	93	1	1164	1
+fastest	93	2	717	2
+fates	93	1	1164	1
+father	93	2	1548	2
+fauna	93	1	717	1
+fears	93	1	1164	1
+fearsin	93	1	1164	1
+feasible	93	2	1164	2
+feature	93	2	1164	2
+features	93	5	1164	3	717	2
+featuring	93	1	1164	1
+february	93	1	1164	1
+federal	93	2	717	2
+feedback	93	1	1164	1
+feedforward	93	1	1164	1
+feel	93	4	1164	4
+feelings	93	1	717	1
+feels	93	1	1164	1
+feigenbaum	93	1	1164	1
+feline	93	1	717	1
+fell	93	2	1164	1	717	1
+fellow	93	1	1548	1
+felt	93	1	1164	1
+fertile	93	1	717	1
+festival	93	6	717	6
+festivals	93	6	717	6
+few	93	13	1164	8	717	5
+fiction	93	10	1164	10
+field	93	14	1164	14
+fields	93	6	1164	4	717	2
+fieldssuch	93	1	1164	1
+fifth	93	2	1164	1	717	1
+figurehead	93	1	717	1
+figuring	93	1	1164	1
+fiji	93	1	1548	1
+filealberta	93	1	717	1
+filealexander	93	1	717	1
+fileartificial	93	1	1164	1
+fileautomated	93	1	1164	1
+filedavidthompsonhighwayjpgrightthumb220pxdavid	93	1	717	1
+fileedmonton	93	1	717	1
+filesaint	93	1	717	1
+filesait	93	1	717	1
+filestampederodeo2002jpg200pxrightthumbthe	93	1	717	1
+filestephen	93	1	717	1
+filesyncrude	93	1	717	1
+filetopio	93	1	1164	1
+filewarner	93	1	717	1
+fill	93	1	717	1
+film	93	2	1164	1	717	1
+films	93	1	1164	1
+filtering	93	1	1164	1
+filters	93	1	1164	1
+filtersa	93	1	1164	1
+finalized	93	1	717	1
+finally	93	1	717	1
+financial	93	3	1548	1	717	2
+find	93	6	1164	6
+finding	93	1	1164	1
+findings	93	1	717	1
+fireweed	93	1	717	1
+firms	93	1	1164	1
+first	93	20	1164	12	1548	1	717	7
+firstorder	93	1	1164	1
+fiscal	93	1	717	1
+fished	93	1	717	1
+fishermen	93	1	717	1
+fishing	93	1	717	1
+fist	93	1	1164	1
+fittest	93	1	1164	1
+five	93	1	717	1
+flat	93	1	717	1
+fleabane	93	1	717	1
+flies	93	2	1164	1	717	1
+flights	93	1	717	1
+flora	93	2	717	2
+flow	93	2	717	2
+flowered	93	1	717	1
+flowers	93	2	717	2
+flowing	93	1	717	1
+flows	93	1	717	1
+focus	93	2	1164	2
+focused	93	2	1164	2
+focuses	93	1	717	1
+focussed	93	1	1164	1
+folded	93	1	1164	1
+folk	93	1	717	1
+follow	93	3	1164	1	717	2
+followed	93	5	717	5
+follows	93	2	717	2
+foot	93	1	717	1
+football	93	1	717	1
+foothills	93	2	717	2
+for	93	122	1164	72	1548	5	717	45
+forbes	93	1	1164	1
+forbids	93	1	1164	1
+forced	93	1	717	1
+ford	93	2	1164	2
+foremost	93	1	717	1
+forest	93	5	717	5
+forested	93	1	717	1
+forestry	93	1	717	1
+forests	93	4	717	4
+forge	93	3	1164	3
+form	93	14	1164	12	1548	1	717	1
+formal	93	7	1164	7
+formalize	93	1	1164	1
+formally	93	1	717	1
+formation	93	11	717	11
+formationalberta	93	1	717	1
+formations	93	6	717	6
+formed	93	2	717	2
+formerly	93	1	717	1
+forms	93	7	1164	6	717	1
+formula	93	1	717	1
+formulation	93	1	1164	1
+fort	93	4	717	4
+forth	93	1	1164	1
+fortune	93	1	1548	1
+fortyninth	93	1	717	1
+fortytwo	93	1	717	1
+forward	93	1	1164	1
+fossil	93	3	717	3
+fossils	93	3	717	3
+found	93	13	1164	2	717	11
+foundations	93	2	1164	2
+founded	93	4	1164	3	1548	1
+founder	93	1	1164	1
+founders	93	1	1164	1
+four	93	5	717	5
+fourteen	93	1	717	1
+fourth	93	4	717	4
+fox	93	1	717	1
+frames	93	1	1164	1
+framework	93	1	1164	1
+frameworkdinosaurbearing	93	1	717	1
+frameworks	93	1	1164	1
+framing	93	1	1164	1
+france	93	1	1164	1
+francophone	93	1	717	1
+francophones	93	1	717	1
+frankenstein	93	3	1164	3
+fredkin	93	1	1164	1
+free	93	3	1164	2	717	1
+freedom	93	1	717	1
+freest	93	2	717	2
+freeways	93	1	717	1
+freeze	93	1	717	1
+freezing	93	1	717	1
+freight	93	1	717	1
+french	93	5	717	5
+frenchspeaking	93	1	717	1
+frequency	93	1	717	1
+frequent	93	2	717	2
+frequently	93	2	1164	1	717	1
+friend	93	1	1548	1
+friends	93	1	1548	1
+friendship	93	1	717	1
+frigid	93	1	717	1
+fringe	93	1	717	1
+frogs	93	1	717	1
+from	93	85	1164	21	1548	7	717	57
+fromrepresentation	93	1	1164	1
+fronts	93	1	717	1
+ft	93	1	1548	1
+fulfilling	93	1	1164	1
+full	93	2	1164	1	1548	1
+fulltime	93	1	1548	1
+function	93	1	1164	1
+functions	93	1	1164	1
+fund	93	1	1164	1
+funded	93	4	1164	1	717	3
+funding	93	4	1164	3	717	1
+funds	93	2	717	2
+fur	93	3	717	3
+furbearing	93	1	717	1
+further	93	2	1164	1	717	1
+future	93	6	1164	6
+futurists	93	1	1164	1
+fuzzylogic	93	1	1164	1
+g	93	1	1164	1
+gained	93	1	717	1
+galacticatransformersan	93	1	1164	1
+galatea	93	1	1164	1
+game	93	1	1164	1
+gameplaying	93	1	1164	1
+games	93	4	1164	2	717	2
+gangwondo	93	1	717	1
+gas	93	3	717	3
+gateway	93	3	717	3
+gathered	93	1	1164	1
+gave	93	1	1548	1
+gdels	93	2	1164	2
+gdp	93	2	717	2
+geese	93	1	717	1
+general	93	19	1164	15	1548	1	717	3
+generally	93	3	1164	1	717	2
+generate	93	2	1164	2
+generation	93	5	1164	4	717	1
+generationa	93	1	1164	1
+genetic	93	1	1164	1
+genuine	93	1	1164	1
+genus	93	1	717	1
+geographic	93	2	717	2
+geography	93	1	717	1
+geologic	93	1	717	1
+george	93	1	1164	1
+gerhart	93	1	1164	1
+german	93	2	717	2
+germans	93	1	717	1
+get	93	1	1164	1
+giant	93	1	1548	1
+give	93	3	1164	1	1548	1	717	1
+given	93	8	1164	6	717	2
+gives	93	3	1164	3
+glaciers	93	1	717	1
+gladwells	93	1	1164	1
+glen	93	1	717	1
+glymour	93	1	1164	1
+go	93	2	717	2
+goal	93	5	1164	5
+goals	93	5	1164	5
+goats	93	1	717	1
+gods	93	3	1164	3
+godssee	93	1	1164	1
+goes	93	1	1164	1
+gofai	93	2	1164	2
+gold	93	1	717	1
+golden	93	1	1164	1
+goldseekers	93	1	717	1
+golem	93	1	1164	1
+good	93	4	1164	4
+goods	93	1	717	1
+governance	93	1	717	1
+governed	93	2	717	2
+governing	93	3	1164	1	717	2
+government	93	21	717	21
+governmentalberta	93	1	717	1
+governments	93	4	1164	2	717	2
+governmentthe	93	1	717	1
+governor	93	2	717	2
+grace	93	1	717	1
+gradual	93	1	1548	1
+gradually	93	1	717	1
+graduated	93	1	1548	1
+graduation	93	1	717	1
+grain	93	2	717	2
+grains	93	1	717	1
+grammarlanguage	93	1	1164	1
+grand	93	2	1164	2
+grandchild	93	1	1164	1
+grande	93	1	717	1
+grant	93	1	717	1
+granted	93	1	717	1
+grants	93	2	717	2
+grasping	93	1	1164	1
+grass	93	2	717	2
+grasses	93	1	717	1
+graves	93	1	717	1
+gravity	93	1	717	1
+great	93	2	1164	1	717	1
+greater	93	4	1164	1	717	3
+greatest	93	4	1164	2	717	2
+greatly	93	1	1164	1
+greece	93	1	1164	1
+greedy	93	1	1164	1
+grey	93	1	1164	1
+grizzly	93	1	717	1
+ground	93	4	1164	2	717	2
+group	93	9	1164	2	1548	1	717	6
+groupaboriginal	93	1	717	1
+groupartificialintellekttlnginteligencijaartificialinteligenceintelligensintelligenzettehisintellektartificialinteligentecoartifizialartificielleartificilartificialgankointeligencijainteligentesobuatanartificialisgervigreindartificialeartificialisintelektsintelektasmenliintelligenciamlbuatan	93	1	1164	1
+groups	93	2	717	2
+grow	93	2	717	2
+growing	93	3	717	3
+grown	93	2	1164	1	717	1
+grows	93	1	1164	1
+growth	93	2	717	2
+guess	93	4	1164	4
+guesses	93	2	1164	2
+guides	93	1	1164	1
+gunderson	93	1	1164	1
+gyeongsangnamdo	93	1	717	1
+h	93	1	717	1
+habitat	93	1	717	1
+had	93	20	1164	8	1548	3	717	9
+hail	93	1	717	1
+hailimagebanff	93	1	717	1
+half	93	5	717	5
+hall	93	2	1548	1	717	1
+hamblin	93	1	717	1
+hand	93	2	1164	2
+handle	93	2	1164	2
+handsa	93	1	1164	1
+handwriting	93	1	1164	1
+hard	93	1	1164	1
+hardly	93	1	1164	1
+hardware	93	2	1164	2
+hardy	93	1	717	1
+harvard	93	2	1548	2
+harvardout	93	1	1548	1
+has	93	64	1164	22	1548	1	717	41
+hat	93	3	717	3
+haugeland	93	2	1164	2
+have	93	62	1164	35	717	27
+having	93	3	1164	1	717	2
+hawkins	93	1	1164	1
+hawks	93	1	717	1
+hayyn	93	1	1164	1
+hayyns	93	1	1164	1
+hbc	93	4	717	4
+he	93	31	1164	4	1548	19	717	8
+head	93	2	717	2
+headed	93	1	717	1
+health	93	20	717	20
+healthy	93	1	717	1
+heart	93	2	717	2
+heat	93	1	717	1
+heavily	93	2	1164	1	717	1
+heavy	93	2	1164	1	717	1
+hebbconference	93	1	1164	1
+hebbian	93	1	1164	1
+hecla	93	2	1548	2
+hegemony	93	1	1164	1
+heilongjiang	93	1	717	1
+held	93	2	1548	1	717	1
+hellenistic	93	1	1164	1
+help	93	1	1164	1
+helping	93	1	1164	1
+hephaestus	93	1	1164	1
+her	93	1	717	1
+heritage	93	3	717	3
+heuristic	93	1	1164	1
+heuristics	93	2	1164	2
+hierarchical	93	1	1164	1
+hierarchyintelligent	93	1	1164	1
+high	93	11	1164	3	717	8
+higher	93	4	1164	2	717	2
+highest	93	7	1164	1	717	6
+highlevel	93	2	1164	2
+highlight	93	1	717	1
+highly	93	3	1164	2	717	1
+hightech	93	1	717	1
+highway	93	30	717	30
+highways	93	3	717	3
+hike	93	1	717	1
+hiking	93	1	717	1
+hillsdale	93	1	1164	1
+hillsides	93	1	717	1
+himself	93	1	1548	1
+hindered	93	1	717	1
+hindi	93	1	717	1
+hindus	93	2	717	2
+his	93	18	1164	5	1548	10	717	3
+historic	93	1	717	1
+historical	93	2	1164	2
+history	93	13	1164	5	1548	3	717	5
+historythinking	93	1	1164	1
+hives	93	1	717	1
+hockey	93	1	717	1
+hokkaido	93	1	717	1
+hole	93	1	717	1
+home	93	12	1164	1	717	11
+homes	93	1	717	1
+homunculus	93	1	1164	1
+honey	93	1	717	1
+honeybees	93	1	717	1
+honour	93	1	717	1
+hope	93	3	1164	2	1548	1
+hoped	93	1	1164	1
+hopes	93	2	1164	2
+hopfield	93	1	1164	1
+hopkins	93	1	1164	1
+horseshoe	93	1	717	1
+hospital	93	9	717	9
+hospitalas	93	1	717	1
+host	93	2	717	2
+hostilities	93	1	717	1
+hosts	93	1	717	1
+hour	93	2	717	2
+hours	93	2	717	2
+house	93	1	717	1
+how	93	10	1164	10
+however	93	8	1164	5	1548	1	717	2
+hub	93	6	717	6
+hubris	93	1	1164	1
+hudson	93	1	717	1
+hudsons	93	1	717	1
+huge	93	2	1164	1	717	1
+hulbert	93	2	1548	2
+human	93	35	1164	35
+humanoid	93	3	1164	3
+humans	93	10	1164	10
+hundreds	93	2	717	2
+hungarian	93	1	717	1
+hunted	93	1	717	1
+hunters	93	1	717	1
+hunting	93	1	717	1
+hutterites	93	2	717	2
+huxley	93	1	1164	1
+hybrid	93	1	717	1
+hypothesis	93	6	1164	6
+hypothesissearles	93	1	1164	1
+i	93	3	1164	3
+ibms	93	1	1164	1
+ibn	93	1	1164	1
+ice	93	1	717	1
+icefield	93	1	717	1
+icefieldaccording	93	1	717	1
+ichthyology	93	1	1548	1
+idea	93	6	1164	6
+ideas	93	2	1164	2
+identical	93	1	1164	1
+identified	93	2	1164	1	717	1
+identifies	93	1	1164	1
+identify	93	1	1164	1
+identity	93	2	717	2
+ie	93	4	1164	4
+ieee	93	1	1164	1
+if	93	11	1164	11
+ignorance	93	1	1164	1
+ii	93	3	717	3
+illegal	93	1	717	1
+illustrated	93	1	1164	1
+image	93	1	717	1
+imageovis	93	1	717	1
+images	93	2	1164	2
+imaginationgeneral	93	1	1164	1
+imaginations	93	1	1164	1
+imitate	93	1	1164	1
+imitated	93	1	1164	1
+imitating	93	1	1164	1
+immediate	93	1	1164	1
+immigrants	93	2	717	2
+immigration	93	2	717	2
+implementations	93	1	1164	1
+implication	93	1	1164	1
+implications	93	1	1164	1
+importance	93	1	1164	1
+important	93	4	1164	3	717	1
+impressive	93	1	717	1
+improve	93	1	1164	1
+improvement	93	1	1164	1
+improves	93	1	1164	1
+in	93	409	1164	144	1548	33	717	232
+inaccessible	93	1	1548	1
+include	93	15	1164	7	717	8
+included	93	1	717	1
+includes	93	3	1164	2	717	1
+including	93	16	1164	9	717	7
+includinga	93	1	1164	1
+income	93	3	717	3
+incomethe	93	1	717	1
+incomplete	93	2	1164	2
+incompleteness	93	1	1164	1
+incorporated	93	1	1164	1
+increased	93	4	717	4
+increases	93	1	717	1
+increasing	93	2	1164	1	717	1
+increasingly	93	1	1164	1
+incrementally	93	1	1164	1
+independence	93	1	717	1
+independent	93	1	1164	1
+indian	93	2	717	2
+indiana	93	1	717	1
+indians	93	2	717	2
+indifference	93	1	1164	1
+individual	93	2	1164	1	717	1
+individuals	93	1	717	1
+indoors	93	1	717	1
+inductive	93	2	1164	2
+industrial	93	1	1164	1
+industries	93	2	717	2
+industry	93	5	1164	1	717	4
+industrythe	93	1	1164	1
+inexpensive	93	1	1164	1
+inference	93	4	1164	4
+inferring	93	1	1164	1
+influence	93	2	1164	1	717	1
+influenced	93	1	717	1
+influential	93	1	1164	1
+information	93	6	1164	6
+informed	93	1	1164	1
+informs	93	1	1164	1
+infrastructure	93	1	717	1
+inheritance	93	1	1164	1
+initiate	93	1	717	1
+inland	93	1	717	1
+innovated	93	1	1548	1
+input	93	3	1164	3
+inputoutput	93	1	1164	1
+inputs	93	2	1164	2
+insecteating	93	1	717	1
+inside	93	2	1164	2
+insight	93	1	1164	1
+inspected	93	1	1548	1
+inspectionsaugust	93	1	717	1
+inspiration	93	1	1164	1
+inspired	93	2	1164	2
+inspires	93	1	1164	1
+installing	93	1	1548	1
+instances	93	1	717	1
+instantly	93	1	1164	1
+instead	93	2	1164	1	717	1
+instinct	93	1	1164	1
+institute	93	7	717	7
+institutes	93	1	717	1
+institution	93	1	1548	1
+institutions	93	8	1164	2	717	6
+insufficient	93	1	1548	1
+integrating	93	2	1164	2
+integration	93	1	1164	1
+inteligencjaartificialintelligenceartificialartificialeintelligenceinteligenciainteligencainteligencijafitekolyintelligensartipisyalthzekakylartificialtu	93	1	1164	1
+intelihensyazhyueintelektszh	93	1	1164	1
+intellectual	93	1	1164	1
+intelligence	93	86	1164	86
+intelligenceartificial	93	1	1164	1
+intelligencelearninglearning	93	1	1164	1
+intelligencemechanical	93	1	1164	1
+intelligencemost	93	1	1164	1
+intelligencerobot	93	1	1164	1
+intelligences	93	3	1164	3
+intelligencestatisticalin	93	1	1164	1
+intelligencethe	93	1	1164	1
+intelligent	93	22	1164	22
+intelligently	93	5	1164	5
+intention	93	1	1164	1
+interacting	93	1	1164	1
+interaction	93	1	1164	1
+interactive	93	1	717	1
+interacts	93	1	1164	1
+interceptions	93	1	717	1
+interchange	93	1	717	1
+interconnected	93	1	1164	1
+interest	93	3	1164	1	1548	1	717	1
+interests	93	3	1548	3
+interface	93	1	1164	1
+interfacehacking	93	1	1164	1
+intermittent	93	1	717	1
+international	93	6	717	6
+internet	93	3	1164	3
+interprovincial	93	1	717	1
+interrupted	93	1	717	1
+interspersed	93	1	717	1
+interview	93	1	1164	1
+into	93	27	1164	14	717	13
+intractability	93	1	1164	1
+introduced	93	1	1164	1
+introduces	93	1	717	1
+introduction	93	2	1164	2
+introductionexpert	93	1	1164	1
+introductions	93	1	1164	1
+intuition	93	2	1164	2
+intuitions	93	1	1164	1
+intuitive	93	2	1164	2
+inuit	93	1	717	1
+invented	93	1	1164	1
+invention	93	1	1164	1
+inventor	93	1	1164	1
+investigation	93	1	1548	1
+involve	93	1	1164	1
+involves	93	1	1164	1
+ire	93	1	1164	1
+ireland	93	1	717	1
+irex	93	1	1164	1
+irish	93	1	717	1
+irrelevant	93	1	1164	1
+is	93	214	1164	111	717	103
+island	93	1	717	1
+isolated	93	4	1164	2	717	2
+isolation	93	2	717	2
+isolationa	93	1	1164	1
+issue	93	3	1164	3
+issues	93	5	1164	5
+issuesnils	93	1	1164	1
+it	93	67	1164	41	717	26
+italian	93	1	717	1
+items	93	1	1164	1
+its	93	34	1164	16	1548	1	717	17
+itself	93	3	1164	2	717	1
+itselfcreativitya	93	1	1164	1
+j	93	3	1164	1	1548	1	717	1
+jalisco	93	1	717	1
+james	93	1	1164	1
+january	93	1	717	1
+japan	93	1	717	1
+japans	93	1	1164	1
+jasper	93	3	717	3
+jasperalberta	93	1	717	1
+jennings	93	1	1164	1
+jeopardy	93	3	1164	2	717	1
+jewish	93	1	717	1
+jews	93	2	717	2
+job	93	1	1164	1
+jobs	93	3	1164	1	717	2
+jobswill	93	1	1164	1
+john	93	9	1164	8	1548	1
+johnston	93	1	1164	1
+joins	93	1	717	1
+jonquire	93	1	717	1
+joseph	93	1	1164	1
+josephs	93	2	717	2
+journal	93	1	1164	1
+journals	93	1	1164	1
+judge	93	1	1164	1
+judgments	93	1	1164	1
+judith	93	2	717	2
+july	93	2	717	2
+jumpfilelake	93	1	717	1
+jumps	93	1	1164	1
+june	93	1	1164	1
+jurisdictions	93	5	717	5
+just	93	2	1164	1	717	1
+k	93	2	1164	1	717	1
+k12	93	3	717	3
+kasparov	93	1	1164	1
+keep	93	2	1164	1	717	1
+kempelen	93	1	1164	1
+kept	93	1	717	1
+key	93	3	1164	3
+khantymansi	93	1	717	1
+killer	93	1	1164	1
+kilometres	93	2	717	2
+kind	93	4	1164	4
+kinds	93	1	1164	1
+kinect	93	1	1164	1
+kitt	93	1	1164	1
+klein	93	1	717	1
+klondike	93	1	717	1
+kluwer	93	1	1164	1
+km3	93	2	717	2
+knight	93	1	1164	1
+know	93	6	1164	6
+knowing	93	1	1164	1
+knowledge	93	34	1164	34
+knowledgebased	93	2	1164	2
+knowledgedefault	93	1	1164	1
+knowledgeplanningimagehierarchicalcontrolsystemsvgthumb	93	1	1164	1
+known	93	19	1164	9	1548	3	717	7
+knows	93	1	1164	1
+kolata	93	1	1164	1
+korea	93	2	717	2
+korean	93	1	717	1
+kurzweil	93	4	1164	4
+kurzweilmartin	93	1	1164	1
+l	93	2	1164	1	1548	1
+la	93	3	717	3
+labels	93	1	1164	1
+labor	93	1	1164	1
+laboratories	93	1	1164	1
+laboratory	93	1	1164	1
+laborious	93	1	1164	1
+lac	93	2	717	2
+lacrosse	93	1	717	1
+laid	93	2	1164	2
+lake	93	15	717	15
+lakes	93	4	717	4
+land	93	7	717	7
+landforms	93	1	717	1
+landlockededmonton	93	1	717	1
+landscape	93	2	1164	1	717	1
+language	93	12	1164	10	717	2
+languages	93	4	1164	3	717	1
+large	93	17	1164	5	717	12
+largely	93	4	1164	1	717	3
+larger	93	1	717	1
+largest	93	18	717	18
+last	93	1	717	1
+lasting	93	1	1164	1
+late	93	4	1164	2	717	2
+later	93	3	1164	1	1548	1	717	1
+latter	93	1	717	1
+law	93	4	1164	4
+lawfor	93	1	717	1
+lawrence	93	1	1164	1
+laws	93	1	717	1
+lead	93	1	1164	1
+leader	93	2	717	2
+leaders	93	1	1164	1
+leading	93	3	1164	1	717	2
+leadingedge	93	1	1164	1
+leads	93	1	1164	1
+league	93	2	717	2
+learn	93	1	1164	1
+learned	93	1	717	1
+learning	93	34	1164	33	717	1
+learningmachine	93	1	1164	1
+learningseveral	93	1	1164	1
+learningtemporal	93	1	1164	1
+least	93	3	1164	1	717	2
+leave	93	1	1548	1
+leaves	93	2	717	2
+led	93	3	1164	3
+legacy	93	1	717	1
+legendary	93	1	1164	1
+legislation	93	1	717	1
+legislative	93	6	717	6
+legislature	93	3	717	3
+legislaturethe	93	1	717	1
+legjpgthumb240pxrightalbertas	93	1	717	1
+lenats	93	1	1164	1
+lengthanother	93	1	717	1
+lengthens	93	1	717	1
+lengthy	93	1	1164	1
+less	93	3	1164	2	717	1
+lesser	93	1	717	1
+lethbridge	93	6	717	6
+letter	93	1	1164	1
+level	93	3	1164	2	717	1
+levels	93	3	1164	2	717	1
+levy	93	1	717	1
+liberal	93	1	717	1
+liberals	93	2	717	2
+license	93	1	1164	1
+lies	93	1	717	1
+liesa	93	1	1164	1
+lieutenant	93	2	717	2
+life	93	5	1164	3	717	2
+lifemany	93	1	1164	1
+lifesingularity	93	1	1164	1
+lift	93	1	1548	1
+lifting	93	2	1164	1	717	1
+light	93	1	717	1
+lighthill	93	2	1164	2
+lights	93	2	1164	1	717	1
+like	93	13	1164	10	717	3
+likely	93	1	717	1
+likenesses	93	1	1164	1
+limbs	93	1	1164	1
+limits	93	3	1164	3
+line	93	3	717	3
+lines	93	1	717	1
+links	93	5	1164	2	1548	1	717	2
+lion	93	1	717	1
+lisp	93	3	1164	3
+list	93	4	1164	4
+literally	93	1	1164	1
+little	93	2	717	2
+live	93	8	1548	1	717	7
+lived	93	1	717	1
+lives	93	1	717	1
+livestock	93	1	717	1
+living	93	1	717	1
+livingafter	93	1	717	1
+lloydminster	93	4	717	4
+loans	93	1	717	1
+local	93	6	1164	1	717	5
+locales	93	2	717	2
+localization	93	2	1164	2
+locally	93	1	717	1
+located	93	13	717	13
+location	93	3	717	3
+lode	93	1	1548	1
+loew	93	1	1164	1
+loews	93	1	1164	1
+logic	93	26	1164	26
+logical	93	6	1164	6
+logicbased	93	1	1164	1
+logics	93	5	1164	5
+logicsprobabilistic	93	1	1164	1
+logistics	93	1	1164	1
+lois	93	1	717	1
+long	93	6	1164	4	717	2
+longer	93	6	1164	6
+longest	93	1	717	1
+longstanding	93	1	1164	1
+look	93	4	1164	3	717	1
+lorne	93	1	717	1
+losswith	93	1	717	1
+lost	93	1	717	1
+lougheed	93	1	717	1
+louise	93	7	717	7
+louisethe	93	1	717	1
+louisiana	93	2	717	2
+love	93	1	717	1
+low	93	1	717	1
+lower	93	4	717	4
+lowest	93	2	1164	1	717	1
+lowesttaxed	93	1	717	1
+lowwage	93	1	1164	1
+lrt	93	3	717	3
+lt	93	1	1164	1
+luger	93	1	1164	1
+lumber	93	1	717	1
+lunch	93	1	1164	1
+lush	93	1	717	1
+lutherans	93	1	717	1
+lynx	93	1	717	1
+m	93	1	717	1
+m3s	93	1	717	1
+ma	93	1	1164	1
+macewan	93	1	717	1
+machine	93	21	1164	21
+machinemethods	93	1	1164	1
+machineneighbor	93	1	1164	1
+machinepdf	93	1	1164	1
+machinery	93	1	1164	1
+machines	93	17	1164	17
+machinesee	93	1	1164	1
+machinesthe	93	1	1164	1
+machinethe	93	1	1164	1
+machinic	93	1	1164	1
+mackenzie	93	2	717	2
+macleod	93	2	717	2
+made	93	12	1164	4	1548	1	717	7
+main	93	5	1164	2	717	3
+mainline	93	1	717	1
+mainly	93	2	717	2
+mainstream	93	1	1164	1
+maintain	93	1	1548	1
+maintained	93	1	1164	1
+maintaining	93	1	717	1
+maintains	93	1	717	1
+major	93	16	1164	6	1548	1	717	9
+majority	93	1	717	1
+make	93	11	1164	7	717	4
+makes	93	2	1164	2
+making	93	7	1164	4	1548	1	717	2
+mall	93	1	717	1
+man	93	2	1164	1	717	1
+manager	93	1	1548	1
+manga	93	1	1164	1
+manipulate	93	1	1164	1
+manipulation	93	3	1164	3
+manipulationthe	93	1	1164	1
+manitoba	93	2	717	2
+manner	93	1	1164	1
+manufacturers	93	1	717	1
+many	93	50	1164	29	717	21
+map	93	1	717	1
+mapping	93	2	1164	2
+march	93	3	1548	2	717	1
+margaret	93	1	1164	1
+marginthe	93	1	1164	1
+marine	93	3	1548	3
+market	93	5	1164	3	717	2
+marking	93	1	717	1
+markov	93	2	1164	2
+marquess	93	1	717	1
+mary	93	1	717	1
+mass	93	1	717	1
+massachusetts	93	1	1548	1
+masses	93	3	717	3
+master	93	1	1164	1
+match	93	3	1164	3
+matches	93	1	1164	1
+matching	93	1	1164	1
+material	93	1	717	1
+materials	93	1	717	1
+mathematical	93	13	1164	13
+mathematician	93	1	1164	1
+mathematicians	93	1	1164	1
+mathematics	93	3	1164	3
+matrixa	93	1	1164	1
+matter	93	2	1164	2
+maximize	93	3	1164	3
+maximum	93	2	717	2
+may	93	14	1164	8	1548	1	717	5
+mcc	93	1	1164	1
+mccarthy	93	10	1164	10
+mccarthys	93	1	1164	1
+mccathys	93	1	1164	1
+mccorduck	93	2	1164	2
+mccorducks	93	1	1164	1
+mccullough	93	2	1164	2
+mcmurray	93	3	717	3
+means	93	2	1164	2
+measurable	93	1	1164	1
+measure	93	1	1164	1
+measures	93	1	1164	1
+medal	93	1	1548	1
+median	93	1	717	1
+medical	93	2	717	2
+medicare	93	1	717	1
+medicine	93	2	717	2
+meetings	93	1	1164	1
+mellon	93	1	1164	1
+member	93	1	717	1
+members	93	4	717	4
+memberslocally	93	1	717	1
+memoirs	93	1	1548	1
+memories	93	1	1164	1
+memory	93	4	1164	3	1548	1
+mennonites	93	2	717	2
+mentioned	93	1	1164	1
+merge	93	2	1164	1	717	1
+meridian	93	2	717	2
+mesozoic	93	1	717	1
+method	93	2	1164	2
+methods	93	12	1164	10	717	2
+metis	93	1	717	1
+metres	93	1	1548	1
+metro	93	1	717	1
+metropolitan	93	2	717	2
+mexican	93	1	717	1
+mexico	93	2	717	2
+mexicothe	93	1	717	1
+michigan	93	2	1548	2
+microphones	93	1	1164	1
+microvertebrate	93	2	717	2
+mid70s	93	1	1164	1
+middle	93	4	1164	4
+might	93	1	1164	1
+mighty	93	1	717	1
+migrated	93	2	717	2
+migrating	93	1	717	1
+migration	93	1	717	1
+migratory	93	1	717	1
+mild	93	1	717	1
+mildred	93	1	717	1
+miles	93	1	1164	1
+milk	93	1	717	1
+mill	93	1	717	1
+million	93	11	717	11
+millions	93	1	717	1
+mind	93	12	1164	12
+minds	93	1	1164	1
+mine	93	1	717	1
+mines	93	14	1548	14
+minimum	93	1	717	1
+mining	93	10	1164	3	1548	5	717	2
+minorities	93	2	717	2
+minority	93	1	717	1
+minsky	93	6	1164	6
+misguided	93	1	1164	1
+misuse	93	1	1164	1
+mit	93	5	1164	5
+mixed	93	1	717	1
+mixture	93	1	1164	1
+mode	93	1	717	1
+model	93	6	1164	5	717	1
+modelbayes	93	1	1164	1
+modeling	93	1	1164	1
+modelling	93	1	1164	1
+models	93	6	1164	6
+moderation	93	1	717	1
+modern	93	7	1164	3	717	4
+moisture	93	1	717	1
+monarch	93	1	717	1
+money	93	3	1164	1	717	2
+monitoring	93	1	1164	1
+monster	93	1	1164	1
+montana	93	5	717	5
+montanaalberta	93	1	717	1
+monthsthe	93	1	717	1
+montreal	93	1	717	1
+moose	93	1	717	1
+moravec	93	2	1164	2
+more	93	27	1164	15	717	12
+mormons	93	1	717	1
+mosaic	93	1	1164	1
+mosque	93	4	717	4
+mosquitoes	93	1	717	1
+most	93	48	1164	25	1548	1	717	22
+mostly	93	2	717	2
+mother	93	5	717	5
+motives	93	1	1164	1
+mount	93	1	717	1
+mountain	93	9	717	9
+mountaineer	93	1	717	1
+mountains	93	16	717	16
+mous	93	1	717	1
+move	93	3	1164	2	717	1
+moved	93	3	1548	1	717	2
+movement	93	2	1164	2
+movements	93	1	717	1
+moving	93	3	1164	3
+mpumalanga	93	1	717	1
+much	93	7	1164	1	1548	1	717	5
+multiagent	93	1	1164	1
+municipal	93	2	717	2
+municipalities	93	4	717	4
+museum	93	4	1548	3	717	1
+museumjpgthumbkismet	93	1	1164	1
+music	93	2	717	2
+muslims	93	1	717	1
+must	93	10	1164	9	717	1
+mutate	93	1	1164	1
+mutton	93	1	717	1
+myers	93	1	1164	1
+myintelligentiejaintelligensintelligensartificiala	93	1	1164	1
+myth	93	3	1164	3
+myths	93	1	1164	1
+nakiska	93	1	717	1
+name	93	1	1164	1
+named	93	5	1164	2	717	3
+names	93	1	717	1
+namethe	93	1	717	1
+naming	93	1	717	1
+national	93	18	1548	2	717	16
+nations	93	3	717	3
+native	93	4	717	4
+natural	93	11	1164	5	1548	3	717	3
+nature	93	3	1164	3
+navigable	93	1	1548	1
+navigation	93	1	1164	1
+navigationthe	93	1	1548	1
+near	93	7	717	7
+nearby	93	1	717	1
+nearing	93	1	1164	1
+nearly	93	4	717	4
+neat	93	1	1164	1
+neats	93	2	1164	2
+necessarily	93	2	1164	1	717	1
+necessary	93	4	1164	3	717	1
+need	93	4	1164	4
+needham	93	1	1164	1
+needs	93	2	1164	2
+needthe	93	1	717	1
+neglect	93	1	717	1
+neighbor	93	1	1164	1
+neighbour	93	1	717	1
+neocortex	93	1	1164	1
+nest	93	1	717	1
+nesting	93	1	717	1
+net	93	2	1164	2
+nets	93	1	1164	1
+network	93	5	1164	4	717	1
+networkmethods	93	1	1164	1
+networks	93	27	1164	27
+networksvgthumba	93	1	1164	1
+neuchtel	93	1	1548	1
+neumann	93	1	1164	1
+neuqun	93	1	717	1
+neural	93	12	1164	12
+neurology	93	3	1164	3
+neurons	93	1	1164	1
+never	93	3	1164	2	717	1
+new	93	14	1164	8	1548	1	717	5
+newell	93	7	1164	7
+newly	93	1	717	1
+newsprint	93	1	717	1
+next	93	5	1164	4	717	1
+nhn	93	1	1164	1
+nilsson	93	1	1164	1
+nine	93	3	717	3
+nineties	93	1	1164	1
+nj	93	1	1164	1
+no	93	15	1164	11	717	4
+nodes	93	1	1164	1
+nonconsciously	93	1	1164	1
+nonconventional	93	1	717	1
+nondeterministic	93	1	1164	1
+none	93	2	1164	1	717	1
+nongofai	93	1	1164	1
+nonhuman	93	1	1164	1
+nonprofit	93	1	717	1
+nonreligious	93	1	717	1
+nonrenewable	93	1	717	1
+nonsymbolic	93	1	1164	1
+normal	93	1	1164	1
+norquay	93	1	717	1
+north	93	32	717	32
+northafter	93	1	717	1
+northbound	93	1	717	1
+northcentral	93	1	717	1
+northeast	93	2	717	2
+northeastern	93	1	717	1
+northeastwith	93	1	717	1
+northerly	93	3	717	3
+northern	93	17	717	17
+northernmost	93	1	717	1
+northsouth	93	2	717	2
+northward	93	2	717	2
+northwest	93	4	717	4
+northwesterly	93	1	717	1
+northwestern	93	3	717	3
+norvig	93	2	1164	2
+norwegian	93	3	717	3
+not	93	16	1164	9	1548	1	717	6
+notable	93	3	717	3
+notably	93	2	717	2
+note	93	1	1164	1
+notes	93	1	1164	1
+nothing	93	3	1164	3
+notions	93	1	1164	1
+now	93	11	1164	7	717	4
+number	93	22	1164	14	717	8
+numbers	93	4	1164	1	717	3
+numerical	93	2	1164	2
+numerous	93	2	1164	1	717	1
+nur	93	1	717	1
+nutritious	93	1	717	1
+nwc	93	3	717	3
+object	93	1	1164	1
+objection	93	4	1164	4
+objects	93	5	1164	5
+observation	93	2	1164	2
+observations	93	2	1164	2
+obtained	93	1	1548	1
+occasional	93	2	717	2
+occupationsand	93	1	1164	1
+occupied	93	1	717	1
+occur	93	1	1164	1
+occurred	93	1	717	1
+ocean	93	5	717	5
+ocr	93	3	1164	3
+october	93	2	717	2
+odd	93	1	1164	1
+of	93	712	1164	320	1548	38	717	354
+off	93	1	1164	1
+offer	93	1	717	1
+offering	93	2	717	2
+offers	93	1	717	1
+official	93	2	1164	1	717	1
+offshore	93	1	1164	1
+offtheshelf	93	1	1164	1
+often	93	4	1164	1	717	3
+oil	93	16	717	16
+okotoks	93	1	717	1
+old	93	2	1164	1	717	1
+older	93	1	717	1
+oldest	93	2	717	2
+oldfashioned	93	1	1164	1
+oldman	93	2	717	2
+olivaw	93	1	1164	1
+on	93	74	1164	37	1548	5	717	32
+once	93	4	1164	1	1548	1	717	2
+one	93	36	1164	13	717	23
+onefourth	93	1	717	1
+ones	93	2	1164	2
+ongoing	93	1	1164	1
+online	93	2	1164	2
+only	93	21	1164	4	717	17
+ontario	93	4	717	4
+ontological	93	1	1164	1
+ontologiesamong	93	1	1164	1
+ontology	93	3	1164	3
+ontologythe	93	1	1164	1
+open	93	2	1164	1	717	1
+operable	93	1	717	1
+operate	93	5	1164	1	717	4
+operated	93	2	717	2
+operating	93	4	1164	1	717	3
+operation	93	1	1164	1
+operations	93	4	1164	1	1548	3
+opinion	93	2	1164	2
+opposed	93	3	1164	2	717	1
+opposition	93	1	717	1
+optimal	93	2	1164	2
+optimism	93	3	1164	3
+optimismthe	93	1	1164	1
+optimistic	93	1	1164	1
+optimization	93	7	1164	7
+optimizationcomputation	93	1	1164	1
+optimizationsimple	93	1	1164	1
+or	93	65	1164	52	717	13
+order	93	2	1548	1	717	1
+ordinary	93	1	1164	1
+organisms	93	1	1164	1
+organization	93	2	1164	1	717	1
+organizations	93	1	1164	1
+organized	93	1	717	1
+oriented	93	1	717	1
+original	93	7	1164	7
+originally	93	1	1164	1
+originated	93	2	717	2
+originates	93	1	717	1
+origins	93	2	717	2
+originsalberta	93	1	717	1
+orthodox	93	1	717	1
+osb	93	1	717	1
+other	93	40	1164	19	1548	3	717	18
+others	93	9	1164	8	717	1
+otherthis	93	1	1164	1
+our	93	6	1164	6
+out	93	8	1164	5	717	3
+outcome	93	1	1164	1
+outcrops	93	3	717	3
+outdoor	93	3	717	3
+outflow	93	1	717	1
+outlet	93	1	717	1
+outlets	93	1	717	1
+outputs	93	3	1164	3
+outside	93	2	717	2
+outsource	93	1	1164	1
+over	93	20	1164	5	1548	1	717	14
+owls	93	1	717	1
+own	93	8	1164	4	717	4
+owners	93	1	717	1
+p	93	1	717	1
+pachyrhinosaurus	93	1	717	1
+pacific	93	2	717	2
+page	93	1	1164	1
+pagein	93	1	1164	1
+pages	93	1	1164	1
+palaeontology	93	1	717	1
+paleoindians	93	1	717	1
+paleontological	93	1	717	1
+pamela	93	1	1164	1
+panorama2jpgthumb800pxcentercalgary	93	1	717	1
+panoramajpgthumb800pxcenteredmontonfilecalgary	93	1	717	1
+paper	93	3	1164	2	1548	1
+papert	93	2	1164	2
+par	93	1	717	1
+paracelsus	93	2	1164	2
+paradigm	93	6	1164	6
+paradigms	93	1	1164	1
+parallel	93	4	717	4
+paraphrase	93	1	1164	1
+park	93	17	717	17
+parkalberta	93	1	717	1
+parkalbertas	93	1	717	1
+parkimagemay	93	1	717	1
+parkland	93	4	717	4
+parks	93	3	717	3
+parkway	93	2	717	2
+parliamentary	93	1	717	1
+part	93	16	1164	3	1548	1	717	12
+participation	93	1	717	1
+particular	93	6	1164	5	717	1
+particularly	93	2	1164	1	717	1
+parties	93	2	717	2
+partly	93	1	717	1
+partners	93	1	717	1
+partnerships	93	1	717	1
+parts	93	5	717	5
+party	93	8	717	8
+passanother	93	1	717	1
+passes	93	2	1164	1	717	1
+past	93	4	1164	1	717	3
+pasture	93	1	717	1
+patent	93	3	717	3
+patents	93	1	717	1
+path	93	3	1164	3
+pattern	93	1	1164	1
+patterns	93	2	1164	2
+paul	93	1	717	1
+paved	93	1	717	1
+pcbased	93	1	1164	1
+peace	93	7	717	7
+peaks	93	1	717	1
+pelicans	93	1	717	1
+peninsula	93	1	1548	1
+penrose	93	1	1164	1
+people	93	18	1164	11	717	7
+peoples	93	3	717	3
+per	93	5	717	5
+percapita	93	1	717	1
+perceives	93	2	1164	2
+percent	93	4	717	4
+percentage	93	2	717	2
+perception	93	7	1164	7
+perceptron	93	1	1164	1
+perceptrons	93	5	1164	5
+perceptual	93	2	1164	2
+perennials	93	1	717	1
+perform	93	2	1164	2
+performance	93	8	1164	8
+performing	93	2	1164	1	717	1
+performs	93	3	1164	3
+perhaps	93	1	1164	1
+period	93	1	717	1
+periodically	93	1	1164	1
+permit	93	1	1164	1
+permitted	93	1	1164	1
+persian	93	1	717	1
+persisting	93	1	717	1
+person	93	3	1164	1	717	2
+personal	93	2	717	2
+persons	93	1	717	1
+perspective	93	1	1164	1
+persuaded	93	1	1548	1
+peru	93	2	1548	2
+peruvian	93	1	1548	1
+pervaded	93	1	1164	1
+pervasive	93	1	1164	1
+peter	93	1	717	1
+petrochemical	93	1	717	1
+petrochemicals	93	1	717	1
+petroleum	93	1	717	1
+pharmacy	93	1	717	1
+phenomenon	93	1	1164	1
+philosopher	93	1	1164	1
+philosophers	93	3	1164	3
+philosophical	93	3	1164	3
+philosophy	93	5	1164	5
+physical	93	2	1164	2
+pick	93	1	1164	1
+picture	93	1	1164	1
+pike	93	1	717	1
+pine	93	3	717	3
+pitts	93	2	1164	2
+place	93	1	1164	1
+placenames	93	1	717	1
+places	93	4	1164	3	717	1
+plains	93	2	717	2
+plan	93	3	1164	2	717	1
+planning	93	16	1164	15	717	1
+plant	93	1	717	1
+plantjpgthumbright250pxmildred	93	1	717	1
+plants	93	2	717	2
+platform	93	4	1164	4
+platforms	93	4	1164	4
+play	93	1	1164	1
+played	93	2	1164	1	717	1
+playing	93	1	1164	1
+plentiful	93	1	717	1
+plug	93	1	1164	1
+plus	93	1	717	1
+plywood	93	1	717	1
+pockets	93	1	717	1
+point	93	8	1164	3	717	5
+pointed	93	1	1164	1
+points	93	1	1164	1
+pointsalberta	93	1	717	1
+polish	93	2	717	2
+polite	93	2	1164	2
+political	93	3	717	3
+pollination	93	1	717	1
+polyethylene	93	1	717	1
+polytechnicas	93	1	717	1
+pond	93	2	717	2
+poole	93	1	1164	1
+pools	93	1	717	1
+poorly	93	1	1164	1
+poplar	93	3	717	3
+popular	93	4	1164	3	717	1
+populated	93	2	717	2
+population	93	28	1164	1	717	27
+populationin	93	1	717	1
+populations	93	1	717	1
+populous	93	1	717	1
+porcupines	93	1	717	1
+portage	93	1	717	1
+portion	93	2	717	2
+portions	93	1	717	1
+portuguese	93	1	717	1
+position	93	6	1164	4	1548	1	717	1
+positions	93	1	1164	1
+positive	93	1	1164	1
+possibility	93	2	1164	2
+possible	93	4	1164	4
+possibly	93	1	1164	1
+posts	93	1	717	1
+postscript	93	7	1164	1	717	6
+postsecondary	93	2	717	2
+potential	93	2	1164	2
+pours	93	1	1164	1
+power	93	5	1164	3	717	2
+powerful	93	4	1164	3	717	1
+pp	93	3	1164	2	717	1
+practically	93	1	1164	1
+pragmatic	93	1	1164	1
+prairie	93	20	717	20
+prairies	93	3	717	3
+pray	93	1	1164	1
+prayhttpwwwplugandprayfilmdeencontenthtml	93	1	1164	1
+precipitation	93	2	717	2
+precipitationalberta	93	1	717	1
+precise	93	1	1164	1
+precisely	93	2	1164	2
+precursor	93	1	717	1
+precursors	93	1	1164	1
+predefined	93	1	1164	1
+predicates	93	1	1164	1
+predict	93	1	1164	1
+predicted	93	2	1164	2
+prediction	93	1	1164	1
+predictions	93	4	1164	4
+predicts	93	2	1164	2
+predominate	93	1	717	1
+prefer	93	1	1164	1
+preferred	93	1	1164	1
+premature	93	1	1164	1
+prematurity	93	1	1164	1
+premier	93	6	717	6
+premierthe	93	1	717	1
+premises	93	1	1164	1
+presence	93	2	717	2
+present	93	1	1164	1
+presentalberta	93	1	717	1
+presentation	93	1	1164	1
+presented	93	3	1164	2	1548	1
+preserved	93	1	717	1
+president	93	3	1548	3
+presidential	93	1	1164	1
+press	93	3	1164	2	717	1
+pressure	93	1	1164	1
+prevail	93	1	717	1
+prevailing	93	1	717	1
+previous	93	1	1164	1
+price	93	2	717	2
+prices	93	1	717	1
+prides	93	1	717	1
+primarily	93	6	1164	1	717	5
+primary	93	4	1164	1	717	3
+prime	93	2	717	2
+prince	93	1	717	1
+princess	93	3	717	3
+principle	93	1	1164	1
+principles	93	1	1164	1
+printed	93	1	1164	1
+prior	93	3	717	3
+priority	93	1	1164	1
+private	93	5	717	5
+privatization	93	1	717	1
+privatized	93	1	717	1
+prizes	93	2	1164	2
+probabilistic	93	3	1164	3
+probability	93	2	1164	2
+probably	93	1	717	1
+problem	93	23	1164	23
+problems	93	41	1164	40	717	1
+problemscan	93	1	1164	1
+problemthe	93	1	1164	1
+procedure	93	2	1164	2
+proceedings	93	1	1164	1
+process	93	2	1164	2
+processes	93	6	1164	6
+processing	93	7	1164	7
+processingfileparsetreesvgthumb	93	1	1164	1
+processingjohn	93	1	1164	1
+produce	93	6	717	6
+produced	93	3	717	3
+producer	93	2	717	2
+producers	93	3	717	3
+producing	93	1	1164	1
+product	93	1	1164	1
+production	93	3	717	3
+productive	93	1	1164	1
+productivity	93	1	717	1
+products	93	4	717	4
+professional	93	1	717	1
+professionally	93	1	717	1
+profit	93	1	717	1
+profitable	93	1	717	1
+profits	93	1	717	1
+profoundly	93	2	1164	2
+program	93	10	1164	5	717	5
+programmable	93	1	1164	1
+programmed	93	2	1164	2
+programming	93	6	1164	6
+programs	93	7	1164	7
+progress	93	5	1164	4	1548	1
+progressalgorithms	93	1	1164	1
+progressive	93	6	717	6
+progresslanguage	93	1	1164	1
+progressmathematical	93	1	1164	1
+progressof	93	1	1164	1
+progressstochastic	93	1	1164	1
+project	93	2	1164	2
+projections	93	1	1164	1
+projectmany	93	1	1164	1
+projects	93	7	1164	4	717	3
+prolog	93	3	1164	3
+prologevaluating	93	1	1164	1
+prominence	93	1	1164	1
+prominent	93	2	717	2
+promise	93	1	717	1
+promote	93	2	1164	1	717	1
+promoted	93	2	1164	2
+prone	93	1	717	1
+pronghorn	93	1	717	1
+proof	93	1	1164	1
+propel	93	1	717	1
+properly	93	1	1164	1
+properties	93	3	1164	3
+property	93	5	1164	1	717	4
+proportion	93	1	717	1
+proposal	93	6	1164	6
+proposed	93	3	1164	3
+propositional	93	1	1164	1
+prosper	93	1	1548	1
+protected	93	1	717	1
+protestant	93	2	717	2
+prove	93	1	1164	1
+provide	93	4	1164	2	717	2
+provided	93	1	717	1
+providerde	93	1	1164	1
+provides	93	7	1164	5	717	2
+providing	93	4	1164	2	717	2
+province	93	51	717	51
+provinceas	93	1	717	1
+provincefileuniversity	93	1	717	1
+provincein	93	1	717	1
+provinces	93	18	717	18
+provincesapproximately	93	1	717	1
+provincial	93	19	717	19
+proving	93	1	1164	1
+proximity	93	1	717	1
+pruning	93	1	1164	1
+psychological	93	4	1164	4
+psychologically	93	1	1164	1
+psychology	93	1	1164	1
+psychotherapyin	93	1	1164	1
+public	93	11	717	11
+publication	93	1	1164	1
+publications	93	2	1164	1	1548	1
+published	93	2	1164	1	1548	1
+publishers	93	1	1164	1
+publishing	93	1	1548	1
+pulp	93	1	717	1
+punished	93	1	1164	1
+punjabi	93	1	717	1
+purchase	93	1	1548	1
+purchased	93	1	717	1
+pure	93	1	1164	1
+purple	93	1	717	1
+purposesin	93	1	1548	1
+pushed	93	2	1164	2
+put	93	2	1164	2
+putting	93	1	717	1
+puzzle	93	1	1164	1
+puzzles	93	1	1164	1
+pygmalions	93	1	1164	1
+pylyshyn	93	1	1164	1
+qualification	93	1	1164	1
+quantifiers	93	1	1164	1
+quantities	93	2	717	2
+quantity	93	1	717	1
+quarries	93	1	717	1
+quarter	93	1	717	1
+quebec	93	1	717	1
+queensland	93	1	1548	1
+questions	93	2	1164	2
+quickly	93	1	1164	1
+quite	93	1	1164	1
+quote	93	2	1164	2
+quoted	93	4	1164	4
+quotes	93	1	1164	1
+r	93	2	1164	2
+r2d2	93	1	1164	1
+ra	93	1	1164	1
+rabbits	93	1	717	1
+race	93	2	1164	2
+races	93	1	717	1
+rail	93	5	717	5
+railroad	93	1	1548	1
+railway	93	7	717	7
+rainbow	93	1	717	1
+rainfall	93	3	717	3
+raised	93	1	717	1
+raisedwheat	93	1	717	1
+raises	93	2	1164	2
+ranching	93	3	717	3
+random	93	1	1164	1
+range	93	6	1164	1	717	5
+ranges	93	3	717	3
+ranging	93	2	1164	1	717	1
+rapidly	93	1	717	1
+rarely	93	1	1164	1
+rat	93	2	717	2
+ratcontrol	93	1	717	1
+rate	93	6	1164	1	717	5
+rates	93	3	717	3
+ratfree	93	1	717	1
+rather	93	7	1164	7
+rational	93	1	1164	1
+rats	93	6	717	6
+rattlesnakethumbleft200pxwater	93	1	717	1
+raw	93	1	717	1
+raymond	93	1	1164	1
+rd	93	1	1164	1
+reach	93	3	1164	2	717	1
+reached	93	1	1164	1
+reaches	93	3	1164	1	717	2
+reaching	93	2	717	2
+reactive	93	1	1164	1
+read	93	1	1164	1
+reading	93	4	1164	3	717	1
+real	93	2	1164	2
+reality	93	2	1164	1	717	1
+realization	93	1	1164	1
+realize	93	2	1164	2
+realized	93	1	1164	1
+really	93	1	1164	1
+realto	93	1	1164	1
+realworld	93	2	1164	2
+reason	93	2	1164	2
+reasoning	93	25	1164	25
+reasoningmany	93	1	1164	1
+receive	93	3	717	3
+received	93	2	1164	2
+receives	93	1	717	1
+recent	93	7	1164	1	717	6
+recently	93	1	1164	1
+recognition	93	7	1164	7
+recognitionrecognitionemotion	93	1	1164	1
+recognitionsocial	93	1	1164	1
+recognize	93	1	1164	1
+recognized	93	2	1164	1	717	1
+recognizing	93	1	1164	1
+recombine	93	1	1164	1
+record	93	1	1164	1
+recorded	93	2	717	2
+recoverable	93	1	717	1
+recovered	93	1	717	1
+recreate	93	1	1164	1
+recurrent	93	1	1164	1
+red	93	6	717	6
+redford	93	3	717	3
+reduced	93	2	1164	2
+reducing	93	1	717	1
+reduction	93	1	717	1
+reef	93	1	1548	1
+reelected	93	1	717	1
+reference	93	1	1164	1
+references	93	2	1164	1	717	1
+referendums	93	1	717	1
+referred	93	5	1164	4	717	1
+refine	93	1	1164	1
+refinements	93	1	1164	1
+refineries	93	1	717	1
+refinery	93	1	717	1
+refining	93	1	1164	1
+refused	93	1	1548	1
+refuting	93	1	1164	1
+regardless	93	2	1164	2
+region	93	15	717	15
+regional	93	3	717	3
+regions	93	9	717	9
+regionthe	93	1	717	1
+regression	93	2	1164	2
+regulate	93	1	717	1
+reigning	93	1	1164	1
+reintroduced	93	1	1164	1
+reiterated	93	1	1164	1
+rejected	93	1	1164	1
+related	93	6	1164	5	717	1
+relations	93	3	1164	3
+relationships	93	10	1164	1	717	9
+relationshipssee	93	1	717	1
+relatively	93	3	717	3
+relaxed	93	1	1164	1
+released	93	1	717	1
+relentless	93	1	1164	1
+relevant	93	2	1164	1	717	1
+relies	93	1	717	1
+religious	93	2	717	2
+relocated	93	1	717	1
+remainder	93	2	717	2
+remained	93	1	1164	1
+remains	93	1	717	1
+remitted	93	1	717	1
+remnants	93	1	717	1
+remote	93	2	1548	1	717	1
+removed	93	1	1548	1
+repetitive	93	1	1164	1
+replaced	93	1	717	1
+replacement	93	1	1164	1
+replanning	93	1	1164	1
+report	93	5	1164	5
+reported	93	3	717	3
+reports	93	1	717	1
+reportsbetween	93	1	1548	1
+represent	93	4	1164	3	717	1
+representation	93	6	1164	6
+representationrightthumban	93	1	1164	1
+representatives	93	1	717	1
+represented	93	7	1164	3	717	4
+representing	93	6	1164	4	717	2
+represents	93	4	1164	3	717	1
+reproduce	93	2	1164	2
+reproduced	93	2	1164	2
+reptiles	93	1	717	1
+republic	93	1	717	1
+require	93	9	1164	7	1548	1	717	1
+required	93	7	1164	7
+requirement	93	1	1164	1
+requires	93	5	1164	3	717	2
+requiring	93	1	1164	1
+rescue	93	1	717	1
+research	93	39	1164	35	717	4
+researched	93	1	1164	1
+researcher	93	1	1164	1
+researchers	93	30	1164	30
+researchershttpciteseerxistpsueduviewdocdownloaddoi1011388384reprep1typepdfhttpbooksgooglecombookshlenlridazr81z25z0coifndpgpa63dqrelatedicputpmgk6gjscholargooglecomotsn1tsvqxgjsig1xthoj2wqmktdst7isfh2yu2l3qvonepageqffalsehttpwwwimaginationenginescom	93	1	1164	1
+researchhuman	93	1	1164	1
+researchkinects	93	1	1164	1
+researchplanning	93	1	1164	1
+reserves	93	3	717	3
+reside	93	2	717	2
+residents	93	5	717	5
+resolved	93	1	717	1
+resorts	93	1	717	1
+resource	93	2	717	2
+resources	93	5	1164	2	717	3
+respecting	93	1	717	1
+respectively	93	1	717	1
+response	93	1	1164	1
+responses	93	2	1164	1	717	1
+responsesalberta	93	1	717	1
+responsible	93	1	1164	1
+rest	93	3	717	3
+restated	93	1	1164	1
+restore	93	1	1164	1
+restricted	93	1	717	1
+result	93	4	1164	2	717	2
+resulting	93	1	717	1
+results	93	5	1164	4	717	1
+resultsthe	93	1	1164	1
+retired	93	1	1548	1
+retrieval	93	2	1164	2
+retrieved	93	1	717	1
+return	93	1	1548	1
+returned	93	2	1548	2
+returning	93	1	717	1
+revenue	93	2	717	2
+review	93	1	1548	1
+revival	93	1	1164	1
+revived	93	4	1164	4
+revolution	93	4	1164	4
+rewarded	93	1	1164	1
+reworked	93	1	717	1
+rexall	93	1	717	1
+rich	93	2	1548	1	717	1
+ridera	93	1	1164	1
+riders	93	1	717	1
+riding	93	1	717	1
+right	93	3	1164	2	717	1
+rights	93	3	1164	3
+rightsai	93	1	1164	1
+rigorous	93	1	1164	1
+rim	93	1	717	1
+rise	93	2	1164	2
+rising	93	1	717	1
+rite	93	1	717	1
+rival	93	2	717	2
+rivals	93	1	1164	1
+river	93	26	717	26
+riverfilemoraine	93	1	717	1
+rivers	93	6	717	6
+riverwhich	93	1	717	1
+rms	93	1	1548	1
+roads	93	1	717	1
+roamed	93	1	717	1
+robot	93	9	1164	9
+robotics	93	10	1164	10
+robots	93	4	1164	4
+rock	93	1	1548	1
+rockiesabout	93	1	717	1
+rocky	93	11	717	11
+rodents	93	1	717	1
+rodeo	93	2	717	2
+roderick	93	1	717	1
+rodney	93	1	1164	1
+rodolphe	93	1	1548	1
+roles	93	2	1164	2
+rolling	93	1	717	1
+roman	93	1	717	1
+room	93	3	1164	3
+roomba	93	2	1164	2
+roots	93	3	1164	2	717	1
+roping	93	1	717	1
+rose	93	2	717	2
+rosenblatt	93	2	1164	2
+rossums	93	1	1164	1
+rough	93	1	1164	1
+roughly	93	1	717	1
+route	93	3	1548	1	717	2
+routine	93	1	1164	1
+row	93	2	717	2
+rowjpgthumb250pxrightthe	93	1	717	1
+royal	93	3	717	3
+royalties	93	1	717	1
+rudimentary	93	2	1164	2
+rule	93	2	1164	2
+ruler	93	1	1164	1
+rules	93	2	1164	2
+rumelhart	93	1	1164	1
+run	93	2	1164	1	717	1
+runner	93	1	1164	1
+runs	93	4	717	4
+ruperts	93	3	717	3
+rural	93	1	717	1
+russell	93	2	1164	1	717	1
+russia	93	3	717	3
+rutherford	93	2	717	2
+rutherfordjpgrightthumb150pxc	93	1	717	1
+rutter	93	1	1164	1
+s	93	1	1164	1
+sacred	93	1	1164	1
+saddled	93	1	1548	1
+sage	93	1	717	1
+sagi	93	1	1164	1
+said	93	2	1164	2
+sail	93	2	1164	2
+salamanders	93	1	717	1
+sales	93	1	717	1
+same	93	10	1164	8	1548	1	717	1
+samuel	93	1	1164	1
+sands	93	5	717	5
+sandsalberta	93	2	717	2
+sapience	93	1	1164	1
+sapienscan	93	1	1164	1
+saskatchewan	93	10	717	10
+satisfies	93	1	1164	1
+satplan	93	2	1164	2
+savior	93	1	1164	1
+say	93	1	1164	1
+scandinavians	93	1	717	1
+scanned	93	1	1164	1
+scanners	93	1	1164	1
+scarcity	93	1	717	1
+scenario	93	2	1164	2
+scenarios	93	1	1164	1
+scenery	93	1	717	1
+scenes	93	2	1164	2
+scenic	93	2	717	2
+scentsthe	93	1	717	1
+schank	93	1	1164	1
+school	93	17	1548	1	717	16
+schoolers	93	1	717	1
+schooling	93	2	717	2
+schools	93	8	717	8
+sci	93	1	1164	1
+science	93	15	1164	14	1548	1
+scienceai	93	1	1164	1
+sciencefiction	93	1	1164	1
+sciences	93	3	1164	1	1548	2
+scientific	93	6	1164	5	1548	1
+scientist	93	1	1548	1
+scientists	93	1	1164	1
+scotland	93	1	717	1
+scots	93	1	717	1
+scottish	93	2	717	2
+scripts	93	1	1164	1
+scruffies	93	1	1164	1
+scruffy	93	4	1164	4
+sea	93	1	717	1
+search	93	19	1164	19
+searches	93	5	1164	5
+searching	93	2	1164	2
+searle	93	2	1164	2
+searles	93	3	1164	3
+seaside	93	1	1548	1
+season	93	2	717	2
+seasons	93	1	717	1
+seat	93	1	717	1
+seats	93	1	717	1
+secession	93	1	717	1
+second	93	10	1164	2	717	8
+sect	93	1	717	1
+section	93	4	1164	2	717	2
+sector	93	1	717	1
+sedimentsryan	93	1	717	1
+see	93	16	1164	12	1548	2	717	2
+seed	93	1	717	1
+seeing	93	1	1164	1
+seemed	93	1	1164	1
+seems	93	1	1164	1
+seen	93	1	1164	1
+sees	93	1	717	1
+seized	93	1	717	1
+selected	93	2	1164	1	717	1
+selecting	93	1	1164	1
+selection	93	1	1164	1
+selfreproduction	93	1	1164	1
+selling	93	1	1548	1
+semiarid	93	2	717	2
+sense	93	3	1164	3
+sensitive	93	2	1164	1	717	1
+sensorimotor	93	2	1164	2
+sensors	93	1	1164	1
+sensus	93	1	1164	1
+sentence	93	1	1164	1
+sentient	93	1	1164	1
+sentiment	93	1	717	1
+separate	93	10	717	10
+separately	93	1	717	1
+separates	93	1	717	1
+separating	93	1	717	1
+separatist	93	1	717	1
+september	93	3	717	3
+series	93	2	1164	2
+seriesshelleys	93	1	1164	1
+serious	93	1	1164	1
+seriously	93	1	1164	1
+servant	93	1	1164	1
+served	93	1	1548	1
+serves	93	2	717	2
+service	93	5	1164	2	717	3
+servicelocated	93	1	717	1
+services	93	2	717	2
+session	93	1	1164	1
+set	93	7	1164	5	717	2
+setbacks	93	1	1164	1
+setbacksthe	93	1	1164	1
+setting	93	1	717	1
+settle	93	1	717	1
+settled	93	1	717	1
+settlement	93	3	1548	1	717	2
+settlers	93	1	717	1
+seventeen	93	1	717	1
+seventhday	93	1	717	1
+several	93	16	1164	5	1548	1	717	10
+severe	93	2	717	2
+shadow	93	1	717	1
+shannon	93	1	1164	1
+shared	93	1	1164	1
+shattering	93	1	1164	1
+shaw	93	5	1548	5
+she	93	4	1164	4
+sheep	93	3	717	3
+shell	93	1	1164	1
+shelland	93	1	1164	1
+shelleys	93	1	1164	1
+shi	93	2	1164	2
+shift	93	1	717	1
+shiny	93	2	1164	2
+shipped	93	1	717	1
+shoemaker	93	1	1164	1
+shopping	93	1	717	1
+shore	93	1	717	1
+short	93	3	717	3
+should	93	7	1164	7
+show	93	2	1164	1	717	1
+showcases	93	1	717	1
+showed	93	1	1164	1
+shown	93	2	1164	1	717	1
+shrdludarpa	93	1	1164	1
+shrubs	93	1	717	1
+shuffling	93	1	1164	1
+siberia	93	1	717	1
+side	93	3	717	3
+sightings	93	1	717	1
+signal	93	1	1164	1
+significancethe	93	1	1164	1
+significant	93	5	1164	3	717	2
+sikhs	93	2	717	2
+similar	93	5	1164	2	717	3
+similarly	93	1	1164	1
+simon	93	7	1164	7
+simons	93	2	1164	2
+simpkins	93	1	1548	1
+simple	93	4	1164	4
+simplest	93	2	1164	2
+simply	93	4	1164	4
+simulate	93	7	1164	7
+simulated	93	4	1164	4
+simulatedin	93	1	1164	1
+simulating	93	3	1164	3
+simulation	93	6	1164	6
+simulators	93	1	1164	1
+since	93	11	1164	4	1548	1	717	6
+single	93	5	1164	2	717	3
+singlelanguage	93	1	717	1
+sings	93	1	1164	1
+singularity	93	1	1164	1
+singularityrobot	93	1	1164	1
+sir	93	1	717	1
+site	93	1	717	1
+sites	93	2	717	2
+situ	93	1	717	1
+situated	93	2	1164	2
+situation	93	1	1164	1
+situations	93	1	1164	1
+sixteen	93	1	717	1
+size	93	1	1164	1
+sized	93	1	1164	1
+skeletons	93	1	717	1
+ski	93	1	717	1
+skiing	93	1	717	1
+skillknowledge	93	1	1164	1
+skills	93	9	1164	9
+skillsemotion	93	1	1164	1
+skull	93	1	717	1
+skulljpgthumbright200pxpachyrhinosaurus	93	1	717	1
+skunks	93	1	717	1
+skyline	93	1	717	1
+slave	93	2	717	2
+slopes	93	1	717	1
+slow	93	1	1164	1
+slowly	93	1	717	1
+small	93	6	1164	3	717	3
+smaller	93	4	1164	1	717	3
+smartish	93	1	1164	1
+smoothing	93	1	1164	1
+snake	93	1	717	1
+snd	93	1	1164	1
+so	93	7	1164	4	717	3
+soar	93	2	1164	2
+soared	93	1	717	1
+soccer	93	2	1164	1	717	1
+social	93	6	1164	3	717	3
+society	93	4	1164	3	717	1
+societythe	93	1	1164	1
+software	93	9	1164	9
+softwood	93	1	717	1
+soil	93	2	717	2
+sold	93	2	1548	1	717	1
+solid	93	1	1164	1
+solomonoff	93	1	1164	1
+solution	93	3	1164	3
+solutions	93	4	1164	4
+solve	93	11	1164	11
+solved	93	2	1164	2
+solvedthey	93	1	1164	1
+solves	93	1	1164	1
+solving	93	13	1164	13
+some	93	25	1164	15	1548	1	717	9
+something	93	3	1164	3
+sometimes	93	1	717	1
+somewhat	93	1	1164	1
+son	93	2	1548	2
+sonar	93	1	1164	1
+sophisticated	93	2	1164	2
+sort	93	1	1164	1
+sourceai	93	1	1164	1
+sources	93	2	1164	2
+south	93	19	717	19
+southampton	93	1	1548	1
+southbound	93	1	717	1
+southeast	93	2	717	2
+southeasterly	93	1	717	1
+southeastern	93	4	717	4
+southern	93	14	717	14
+southernmost	93	1	717	1
+souththe	93	1	717	1
+southwest	93	3	717	3
+southwestern	93	2	717	2
+space	93	5	1164	5
+spanish	93	2	717	2
+speak	93	1	1164	1
+speakers	93	5	717	5
+speaking	93	1	1164	1
+special	93	8	717	8
+specialist	93	1	1548	1
+specialized	93	3	1164	3
+specially	93	1	717	1
+species	93	4	717	4
+specific	93	11	1164	11
+specimens	93	2	717	2
+speckled	93	1	717	1
+spending	93	1	717	1
+spent	93	1	717	1
+spie	93	1	1164	1
+spiritus	93	1	1164	1
+sporting	93	1	717	1
+sports	93	1	717	1
+spring	93	3	717	3
+spruce	93	1	717	1
+square	93	2	717	2
+squirrels	93	1	717	1
+sri	93	1	1164	1
+st	93	4	717	4
+stabilising	93	1	1548	1
+stage	93	1	1164	1
+stages	93	1	717	1
+stall	93	1	1164	1
+stampede	93	4	717	4
+stampedesummer	93	1	717	1
+standard	93	1	1164	1
+standardson	93	1	1164	1
+standing	93	1	1164	1
+stanford	93	4	1164	4
+start	93	1	1164	1
+state	93	6	1164	1	717	5
+statement	93	1	1164	1
+statements	93	3	1164	3
+statementsthis	93	1	1164	1
+states	93	12	1164	4	1548	2	717	6
+statescare	93	1	717	1
+station	93	1	717	1
+statistical	93	3	1164	3
+statistics	93	1	717	1
+statue	93	2	1164	2
+statues	93	1	1164	1
+status	93	2	717	2
+steam	93	1	717	1
+steamer	93	1	1548	1
+step	93	1	1164	1
+stepbystep	93	2	1164	2
+stepmother	93	1	1548	1
+steppe	93	2	717	2
+steps	93	1	1164	1
+stepson	93	1	1548	1
+stettler	93	2	717	2
+still	93	5	1164	4	717	1
+stimulating	93	1	1548	1
+stochastic	93	1	1164	1
+stop	93	1	717	1
+stores	93	1	717	1
+stories	93	1	1164	1
+straddles	93	1	717	1
+straightforward	93	2	1164	2
+strait	93	1	717	1
+strand	93	1	717	1
+strata	93	4	717	4
+stratigraphic	93	1	717	1
+stratigraphy	93	2	717	2
+stream	93	1	1164	1
+streams	93	1	1164	1
+stretches	93	1	717	1
+striking	93	1	717	1
+strip	93	1	717	1
+strong	93	7	1164	6	717	1
+strongest	93	2	717	2
+strongly	93	1	717	1
+structural	93	1	1164	1
+structure	93	1	1164	1
+structures	93	1	1164	1
+struggled	93	1	1548	1
+stuart	93	1	1164	1
+student	93	1	1164	1
+students	93	5	1164	2	717	3
+studied	93	3	1164	2	717	1
+studies	93	4	1548	1	717	3
+study	93	8	1164	6	717	2
+studying	93	2	1164	1	1548	1
+sturgeon	93	1	717	1
+style	93	2	1164	1	717	1
+subfield	93	1	1164	1
+subfields	93	2	1164	2
+subfieldsvision	93	1	1164	1
+subgoals	93	1	1164	1
+subhuman	93	1	1164	1
+subhumana	93	1	1164	1
+subject	93	6	1164	3	1548	1	717	2
+subproblems	93	5	1164	5
+subsequently	93	1	1548	1
+substantial	93	1	717	1
+substantially	93	1	1164	1
+subsubfieldthat	93	1	1164	1
+subsymbolic	93	15	1164	15
+subsymbolically	93	2	1164	2
+subsymboliccognitive	93	1	1164	1
+success	93	6	1164	5	1548	1
+successes	93	2	1164	2
+successful	93	4	1164	3	717	1
+successfully	93	1	1164	1
+such	93	46	1164	34	1548	1	717	11
+suffered	93	1	1164	1
+suffering	93	1	1164	1
+suffers	93	1	717	1
+sufficient	93	2	1164	2
+sufficiently	93	1	1164	1
+suggest	93	1	1164	1
+suggested	93	1	1164	1
+suitable	93	1	1164	1
+summer	93	15	1164	2	1548	3	717	10
+summerin	93	1	717	1
+summers	93	1	717	1
+summit	93	1	717	1
+sun	93	1	1164	1
+sunflower	93	1	717	1
+sunny	93	1	717	1
+sunshine	93	1	717	1
+superhuman	93	4	1164	4
+superintendence	93	1	1548	1
+superior	93	2	1548	2
+supervised	93	1	1164	1
+supplementary	93	1	717	1
+supplemented	93	1	717	1
+supplies	93	1	1548	1
+supply	93	3	1164	1	717	2
+supplying	93	1	1164	1
+support	93	4	717	4
+supported	93	1	717	1
+supports	93	1	1164	1
+surface	93	1	717	1
+surges	93	1	717	1
+surrounded	93	1	717	1
+surrounding	93	1	717	1
+survey	93	1	1548	1
+surveyed	93	1	1548	1
+surveythenceforward	93	1	1548	1
+survive	93	2	1164	2
+survives	93	1	717	1
+surviving	93	1	717	1
+susceptible	93	1	1164	1
+swans	93	1	717	1
+swarm	93	1	1164	1
+swimming	93	1	717	1
+switzerland	93	1	1548	1
+sworn	93	1	717	1
+sylvan	93	1	717	1
+symbol	93	6	1164	6
+symbolic	93	13	1164	13
+symbols	93	3	1164	3
+synonym	93	1	1164	1
+syntactic	93	1	1164	1
+synthetic	93	1	717	1
+system	93	25	1164	20	717	5
+systemalbertas	93	1	717	1
+systems	93	26	1164	20	717	6
+systemsinteractive	93	1	717	1
+systemus	93	1	717	1
+tablet	93	1	1164	1
+tagalog	93	1	717	1
+take	93	3	1164	2	717	1
+taken	93	1	717	1
+takes	93	3	1164	3
+taking	93	2	1164	1	1548	1
+takwin	93	1	1164	1
+tales	93	1	717	1
+talked	93	1	1164	1
+talos	93	1	1164	1
+tamarack	93	1	717	1
+tanke	93	1	717	1
+target	93	1	1164	1
+task	93	3	1164	2	717	1
+tasks	93	3	1164	3
+taste	93	1	717	1
+tax	93	10	717	10
+taxa	93	1	717	1
+taxable	93	1	717	1
+taxation	93	3	717	3
+taxes	93	4	717	4
+taxpayers	93	1	717	1
+teachers	93	1	717	1
+team	93	1	1164	1
+teams	93	1	717	1
+tech	93	1	1164	1
+techcast	93	1	1164	1
+technical	93	3	1164	1	717	2
+technically	93	1	717	1
+technique	93	1	1164	1
+techniques	93	4	1164	4
+technologically	93	1	1164	1
+technologies	93	2	1164	1	717	1
+technology	93	12	1164	9	717	3
+technologysmart	93	1	717	1
+technologythere	93	1	717	1
+teeth	93	1	717	1
+teleological	93	1	1164	1
+temperate	93	1	717	1
+temperature	93	1	717	1
+temperatures	93	8	717	8
+temporal	93	2	1164	2
+ten	93	1	717	1
+tend	93	2	1164	1	717	1
+tendencies	93	1	1164	1
+tennis	93	1	1164	1
+tens	93	1	717	1
+term	93	11	1164	11
+termed	93	1	1164	1
+terminatora	93	1	1164	1
+terms	93	3	1164	2	717	1
+terrain	93	2	717	2
+terrible	93	1	1164	1
+territories	93	5	717	5
+territoriesthe	93	1	717	1
+territory	93	4	717	4
+test	93	4	1164	4
+tested	93	1	1164	1
+testers	93	1	1164	1
+tests	93	6	1164	5	717	1
+testthe	93	1	1164	1
+testturings	93	1	1164	1
+text	93	1	1164	1
+textbooks	93	3	1164	3
+than	93	25	1164	14	717	11
+that	93	154	1164	126	1548	4	717	24
+the	93	1086	1164	442	1548	55	717	589
+theatre	93	1	717	1
+their	93	35	1164	19	1548	1	717	15
+them	93	16	1164	7	1548	2	717	7
+themselves	93	1	717	1
+then	93	17	1164	7	717	10
+theorem	93	3	1164	3
+theorems	93	2	1164	2
+theoretically	93	1	1164	1
+theorist	93	1	1164	1
+theorized	93	1	1164	1
+theory	93	25	1164	25
+theorynatural	93	1	1164	1
+therapeutic	93	1	1164	1
+there	93	27	1164	12	717	15
+thereby	93	1	1164	1
+therefore	93	4	1164	2	717	2
+thereperceptionperception	93	1	1164	1
+these	93	36	1164	28	717	8
+thesis	93	2	1164	2
+they	93	22	1164	14	717	8
+thing	93	1	1164	1
+things	93	4	1164	4
+think	93	2	1164	2
+thinking	93	3	1164	3
+third	93	2	717	2
+this	93	46	1164	36	717	10
+thompson	93	3	717	3
+thomson	93	1	1548	1
+thoroughly	93	1	717	1
+those	93	6	1164	2	717	4
+though	93	1	717	1
+thought	93	2	1164	2
+thousands	93	2	717	2
+three	93	11	1164	2	1548	1	717	8
+through	93	14	1164	3	717	11
+throughout	93	4	1164	1	717	3
+thumb	93	1	1164	1
+thunderstorms	93	1	717	1
+thus	93	1	1164	1
+ties	93	1	1164	1
+time	93	17	1164	11	1548	3	717	3
+timecalculus	93	1	1164	1
+timethe	93	1	717	1
+titicaca	93	1	1548	1
+title	93	1	717	1
+to	93	359	1164	183	1548	23	717	153
+today	93	3	1164	3
+todaylowcost	93	1	1164	1
+tofiuvrokunstmistusnga	93	1	1164	1
+tokyo	93	1	1164	1
+tongue	93	2	717	2
+tongues	93	3	717	3
+tons	93	1	1548	1
+too	93	4	1164	4
+took	93	2	1548	2
+tool	93	2	1164	2
+tools	93	8	1164	8
+top	93	1	1164	1
+topic	93	1	1164	1
+topics	93	2	1164	2
+topio	93	1	1164	1
+tories	93	1	717	1
+tornadoes	93	1	717	1
+total	93	3	717	3
+totals	93	1	717	1
+touch	93	1	717	1
+touched	93	1	1164	1
+tourism	93	2	717	2
+tourist	93	5	717	5
+tourists	93	4	717	4
+toward	93	1	717	1
+towns	93	3	717	3
+toysin	93	1	1164	1
+traces	93	1	1164	1
+trade	93	3	717	3
+traders	93	1	717	1
+trading	93	2	717	2
+tradition	93	4	1164	2	717	2
+traditional	93	2	1164	2
+traditionally	93	1	717	1
+traditions	93	1	1164	1
+traffic	93	2	717	2
+trail	93	8	717	8
+trailcalgary	93	1	717	1
+traildarpa	93	1	1164	1
+trails	93	2	717	2
+trained	93	1	1164	1
+trains	93	1	717	1
+traits	93	4	1164	4
+transboundary	93	1	717	1
+transcanada	93	1	717	1
+transcend	93	1	1164	1
+transgression	93	1	717	1
+transhumanism	93	2	1164	2
+transhumanists	93	1	1164	1
+transit	93	2	717	2
+transitional	93	1	717	1
+translation	93	3	1164	3
+translationmotion	93	1	1164	1
+transportation	93	2	717	2
+trapped	93	1	717	1
+trauma	93	1	717	1
+travel	93	3	717	3
+travels	93	4	717	4
+treasurer	93	1	1548	1
+tree	93	3	1164	3
+trees	93	2	1164	1	717	1
+treethe	93	1	1164	1
+trek	93	1	1164	1
+trekked	93	1	717	1
+trend	93	1	717	1
+triangle	93	1	717	1
+tribes	93	3	717	3
+tributary	93	1	717	1
+trillion	93	1	717	1
+trip	93	1	1548	1
+trips	93	1	717	1
+trismegistus	93	1	1164	1
+trophies	93	1	717	1
+trout	93	1	717	1
+truck	93	1	717	1
+trucks	93	1	717	1
+true	93	8	1164	8
+truly	93	2	1164	2
+truth	93	1	1164	1
+try	93	2	1164	2
+tuition	93	1	717	1
+tuned	93	1	1164	1
+tunnel	93	1	1164	1
+turing	93	6	1164	6
+turings	93	1	1164	1
+turns	93	1	717	1
+turtles	93	2	1164	1	717	1
+twelve	93	1	717	1
+twentieth	93	1	717	1
+twenty	93	1	1164	1
+twice	93	2	1548	1	717	1
+twinning	93	1	717	1
+two	93	19	1164	5	1548	1	717	13
+types	93	1	1164	1
+typically	93	3	1164	1	717	2
+tyrrell	93	1	717	1
+tyumen	93	1	717	1
+ucmc	93	1	717	1
+ukrainian	93	2	717	2
+ukrainians	93	1	717	1
+ultimately	93	3	1164	3
+unanswered	93	1	1164	1
+uncertain	93	8	1164	8
+uncertainty	93	2	1164	2
+uncertaintyplanning	93	1	1164	1
+unconscious	93	1	1164	1
+under	93	9	1164	6	1548	1	717	2
+underground	93	1	717	1
+underlying	93	1	1164	1
+understand	93	3	1164	3
+understanding	93	1	1164	1
+undirected	93	2	1164	2
+unemployment	93	1	1164	1
+unequivocally	93	1	1164	1
+unesco	93	1	717	1
+unforested	93	1	717	1
+unicameral	93	2	717	2
+unified	93	1	717	1
+unifying	93	1	1164	1
+uninformed	93	1	1164	1
+union	93	1	717	1
+unique	93	1	717	1
+united	93	1	717	1
+universal	93	1	1164	1
+universities	93	5	717	5
+university	93	17	1164	3	1548	1	717	13
+unlike	93	1	1164	1
+unlikely	93	1	1164	1
+unmanned	93	2	1164	2
+unprotectedagriculture	93	1	717	1
+unrehearsed	93	1	1164	1
+unrelated	93	1	1164	1
+unsupervised	93	1	1164	1
+until	93	11	1164	2	1548	2	717	7
+up	93	11	1164	4	1548	2	717	5
+updraftdowndraft	93	1	717	1
+uphill	93	1	1164	1
+upon	93	1	1164	1
+upper	93	1	1164	1
+upstream	93	1	717	1
+upward	93	1	717	1
+urban	93	3	717	3
+urbanized	93	2	717	2
+urdu	93	1	717	1
+urge	93	2	1164	2
+urgent	93	1	1164	1
+us	93	15	1164	5	717	10
+us500000	93	1	1548	1
+usage	93	1	1164	1
+usbypassing	93	1	1164	1
+use	93	17	1164	16	717	1
+used	93	22	1164	19	717	3
+useful	93	2	1164	2
+uses	93	5	1164	5
+using	93	13	1164	13
+usually	93	2	717	2
+utility	93	3	1164	3
+valley	93	3	717	3
+valleys	93	1	717	1
+valuable	93	1	1164	1
+value	93	4	1164	4
+vanlehn	93	1	1164	1
+varies	93	1	717	1
+variety	93	6	1164	2	717	4
+various	93	5	1164	2	717	3
+varying	93	1	717	1
+vast	93	4	1164	2	717	2
+vector	93	2	1164	2
+vehicle	93	1	1164	1
+vehicles	93	1	1164	1
+venerable	93	1	1164	1
+ventures	93	1	1548	1
+venues	93	1	717	1
+verbally	93	1	1164	1
+verifiable	93	2	1164	2
+version	93	5	1164	5
+versus	93	1	1164	1
+vertebrate	93	1	717	1
+very	93	9	1164	5	1548	1	717	3
+via	93	2	1164	2
+viability	93	1	717	1
+victoria	93	1	717	1
+victory	93	2	1164	2
+video	93	1	1164	1
+vietnamese	93	1	717	1
+view	93	2	1164	2
+viewed	93	2	1164	2
+viewpoint	93	1	1164	1
+village	93	2	717	2
+vinge	93	1	1164	1
+vinyl	93	1	717	1
+virtually	93	2	1548	1	717	1
+visible	93	1	717	1
+vision	93	3	1164	3
+visit	93	2	717	2
+visited	93	3	1548	2	717	1
+visitors	93	3	717	3
+visual	93	1	1164	1
+visualization	93	1	1164	1
+visualize	93	1	1164	1
+visualized	93	1	1164	1
+vols	93	1	1548	1
+volume	93	1	1164	1
+volumes	93	1	1548	1
+von	93	2	1164	2
+vs	93	3	1164	3
+wales	93	1	717	1
+walleye	93	1	717	1
+walters	93	1	1164	1
+wapiti	93	1	717	1
+war	93	1	717	1
+ward	93	1	717	1
+warm	93	2	717	2
+warsa	93	1	1164	1
+warwick	93	1	1164	1
+was	93	70	1164	30	1548	9	717	31
+washed	93	1	717	1
+wasps	93	1	717	1
+water	93	2	717	2
+waters	93	1	1548	1
+watson	93	1	1164	1
+way	93	3	1164	2	717	1
+ways	93	3	1164	2	717	1
+we	93	8	1164	8
+weak	93	1	1164	1
+wealth	93	1	717	1
+weather	93	2	717	2
+web	93	1	1164	1
+website	93	3	717	3
+weizenbaum	93	4	1164	4
+weizenbaums	93	2	1164	2
+well	93	15	1164	7	717	8
+wellconnected	93	1	717	1
+werbos	93	1	1164	1
+were	93	28	1164	12	1548	1	717	15
+werefound	93	1	717	1
+west	93	16	717	16
+westerly	93	1	717	1
+western	93	10	1164	1	717	9
+westjet	93	1	717	1
+westward	93	1	717	1
+wetaskiwin	93	1	717	1
+what	93	14	1164	13	717	1
+wheat	93	1	717	1
+when	93	13	1164	7	717	6
+whenever	93	1	1164	1
+where	93	13	1164	8	717	5
+whereas	93	1	717	1
+whether	93	1	1164	1
+which	93	61	1164	24	1548	4	717	33
+while	93	14	1164	1	1548	1	717	12
+white	93	3	717	3
+whitefish	93	1	717	1
+who	93	27	1164	17	717	10
+wholeagent	93	1	1164	1
+wholethe	93	1	717	1
+whom	93	1	717	1
+whose	93	1	717	1
+wide	93	5	1164	4	717	1
+widely	93	9	1164	8	717	1
+width	93	1	717	1
+wiener	93	1	1164	1
+wife	93	2	1548	1	717	1
+wild	93	3	717	3
+wilderness	93	1	717	1
+wildfires	93	2	717	2
+will	93	14	1164	13	717	1
+willing	93	1	1164	1
+willow	93	2	717	2
+winds	93	4	717	4
+winograds	93	1	1164	1
+winspear	93	1	717	1
+winter	93	11	1164	4	1548	3	717	4
+winterin	93	1	1164	1
+wintering	93	1	717	1
+winters	93	2	717	2
+wishing	93	1	717	1
+with	93	97	1164	32	1548	7	717	58
+within	93	6	1164	4	717	2
+without	93	3	1164	2	717	1
+wolves	93	1	717	1
+women	93	1	717	1
+womens	93	1	717	1
+won	93	1	1164	1
+wood	93	2	717	2
+wooded	93	2	717	2
+wool	93	1	717	1
+word	93	2	1164	2
+words	93	1	1164	1
+work	93	10	1164	8	1548	1	717	1
+worked	93	1	1548	1
+workers	93	3	1164	2	717	1
+working	93	5	1164	4	717	1
+works	93	3	1164	2	717	1
+workshops	93	1	1164	1
+workweizenbaum	93	1	1164	1
+world	93	17	1164	10	717	7
+worldclass	93	1	717	1
+worlds	93	2	717	2
+worldthat	93	1	717	1
+worldwide	93	1	717	1
+worldwidealberta	93	1	717	1
+worse	93	1	1164	1
+worship	93	1	1164	1
+worshipped	93	1	1164	1
+would	93	16	1164	14	717	2
+write	93	3	1164	3
+writer	93	1	1164	1
+writes	93	6	1164	6
+writing	93	2	1164	2
+writings	93	1	1548	1
+wrote	93	4	1164	3	1548	1
+wwwalbertacaalberta	93	1	717	1
+wyville	93	1	1548	1
+yamalonenets	93	1	717	1
+yan	93	1	1164	1
+year	93	7	1164	1	1548	1	717	5
+yearalberta	93	1	717	1
+yearround	93	1	1548	1
+years	93	15	1164	7	717	8
+yellow	93	2	717	2
+yield	93	2	717	2
+yisraelthe	93	1	717	1
+york	93	1	1548	1
+you	93	3	1164	3
+young	93	1	1548	1
+yukon	93	1	717	1
+zero	93	1	717	1
+zoology	93	4	1548	4
+zoos	93	1	717	1
+>>>>>>> 7eeb12f30a058262997ab4538d336dfac52bfc54:hadoop/mapreduce/test_intermediate/file01

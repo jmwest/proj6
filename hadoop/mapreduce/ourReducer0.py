@@ -10,5 +10,5 @@ docSum = 0
 for line in sys.stdin:
 	docSum += int(line)
 
-outputFile = open('totalDocCount.txt', 'w')
+outputFile = open('mapreduce/totalDocCount.txt', 'w')
 outputFile.write(str(docSum) + '\n')

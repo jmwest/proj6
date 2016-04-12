@@ -3,6 +3,7 @@
 export JAVA_HOME=/usr/lib/jvm/java-7-oracle
 
 # Hadoop doesn't like to clobber
+rm -rf mapreduce/yolo
 rm -rf mapreduce/intermediate
 rm -rf mapreduce/output
 
@@ -35,6 +36,3 @@ rm -rf mapreduce/output
   -output ./mapreduce/output \
   -mapper ./mapreduce/ourMapper2.py \
   -reducer ./mapreduce/ourReducer2.py
-
-cd mapreduce/output
-cat part* | sort > output.txt

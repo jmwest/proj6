@@ -26,9 +26,14 @@
 import os 
 import sys
 
+
 mapForAllWords = {}
 ticker = 0
 docID = -1
+
+listOfStopWords = []
+for line in open('mapreduce/stopwords.txt', 'r'):
+	listOfStopWords.append(line)
 
 for line in sys.stdin:
 	if ticker == 0:
@@ -51,16 +56,18 @@ for line in sys.stdin:
 		line = line.lower()
 		fullBody = line.split()
 		for word in fullBody:
-			# if word == 'sciences':
-				# print "Found sciences"
-			if word in mapForAllWords:
-				if docID in mapForAllWords[word]:
-					mapForAllWords[word][docID] = mapForAllWords[word][docID] + 1
+			#if not stop word, add to mapForAllWords
+		 	if word not in listOfStopWords:
+				# if word == 'sciences':
+					# print "Found sciences"
+				if word in mapForAllWords:
+					if docID in mapForAllWords[word]:
+						mapForAllWords[word][docID] = mapForAllWords[word][docID] + 1
+					else:
+						mapForAllWords[word][docID] = 1
 				else:
+					mapForAllWords[word] = {}
 					mapForAllWords[word][docID] = 1
-			else:
-				mapForAllWords[word] = {}
-				mapForAllWords[word][docID] = 1
 		ticker = 0
 
 

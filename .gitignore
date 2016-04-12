@@ -15,7 +15,9 @@ hadoop/mapreduce/intermediate
 hadoop/mapreduce/splitArticles
 hadoop/mapreduce/tmp*
 starter/
+submit/
 *.zip
+mapreduce.tar.gz
 
 # Project 4 gitignore
 venv

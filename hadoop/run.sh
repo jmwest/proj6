@@ -16,7 +16,6 @@ rm -rf mapreduce/output
   -mapper ./mapreduce/ourMapper0.py \
   -reducer ./mapreduce/ourReducer0.py
 
-
 # Job 1
 ./bin/hadoop \
   jar ./share/hadoop/tools/lib/hadoop-streaming-2.7.2.jar \

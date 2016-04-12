@@ -32,7 +32,7 @@ ticker = 0
 docID = -1
 
 listOfStopWords = []
-for line in open('mapreduce/stopwords.txt', 'r'):
+for line in open('stopwords.txt', 'r'):
 	listOfStopWords.append(line)
 
 for line in sys.stdin:

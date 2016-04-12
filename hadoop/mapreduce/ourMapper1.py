@@ -27,7 +27,6 @@ import os
 import sys
 
 mapForAllWords = {}
-totalDocCount = 0
 ticker = 0
 docID = -1
 
@@ -63,11 +62,9 @@ for line in sys.stdin:
 				mapForAllWords[word] = {}
 				mapForAllWords[word][docID] = 1
 		ticker = 0
-		totalDocCount += 1
 
 
 #print everything to output
-print totalDocCount
 for word in mapForAllWords:
 	# if word == 'sciences':
 		# print mapForAllWords[word]

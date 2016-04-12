@@ -3,10 +3,12 @@
 import sys
 import collections
 import math
+import os
 
 wordDict = {}
 
-total_num_docs = 0
+docSumOutputFile = open('totalDocCount.txt', 'r')
+total_num_docs = int(docSumOutputFile.readline())
 
 for line in sys.stdin:
 	line_array = line.split()

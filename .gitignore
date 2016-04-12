@@ -2,6 +2,7 @@
 data/
 venv/
 hadoop-2.7.2
+hadoop/hadoop
 hadoop/bin
 hadoop/etc
 hadoop/include

@@ -1,17 +1,13 @@
 # Runs both jobs on our test mappers.
 
-cd mapreduce
-
 # Job 0
-cat test_input/* | python ourMapper0.py > ourMapper0_output.txt
-cat ourMapper0_output.txt | python ourReducer0.py
+cat mapreduce/test_input/* | python mapreduce/ourMapper0.py > mapreduce/ourMapper0_output.txt
+cat mapreduce/ourMapper0_output.txt | python mapreduce/ourReducer0.py
 
 # Job 1
-cat test_input/* | python ourMapper1.py > ourMapper1_output.txt
-cat ourMapper1_output.txt | python ourReducer1.py > test_intermediate/file01
+cat mapreduce/test_input/* | python mapreduce/ourMapper1.py > mapreduce/ourMapper1_output.txt
+cat mapreduce/ourMapper1_output.txt | python mapreduce/ourReducer1.py > mapreduce/test_intermediate/file01
 
 # Job 2
-cat test_intermediate/* | python ourMapper2.py > ourMapper2_output.txt
-cat ourMapper2_output.txt | python ourReducer2.py | sort > test_output/file01
-
-cd ..
+cat mapreduce/test_intermediate/* | python mapreduce/ourMapper2.py > mapreduce/ourMapper2_output.txt
+cat mapreduce/ourMapper2_output.txt | python mapreduce/ourReducer2.py | sort > mapreduce/test_output/file01

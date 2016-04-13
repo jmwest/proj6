@@ -4,7 +4,15 @@
 # word | idf | total occurences in our entire database | docID | occurences in doc | docID | occrences in doc| doc ID....
 
 #outputs to standard output lines in the following format:
-# word | idf | total occurences in our entrie databse | docID | occurences in doc | preSquareRootNormalization | docID | occurences in doc | preSquareRootNormalization |docID | occurences in doc | preSquareRootNormalization |.....
+# docIDA | wordA | total occurences in our entrie database | idf  | occurences in doc |
+# docIDA | wordB | total occurences in our entrie database | idf  | occurences in doc |
+# docIDA | wordC | total occurences in our entrie database | idf  | occurences in doc |
+# docIDB | wordA | total occurences in our entrie database | idf  | occurences in doc |
+# docIDB | wordB | total occurences in our entrie database | idf  | occurences in doc |
+# docIDC | wordD | total occurences in our entrie database | idf  | occurences in doc |
+# docIDD | wordB | total occurences in our entrie database | idf  | occurences in doc |
+# docIDD | wordD | total occurences in our entrie database | idf  | occurences in doc |
+
 
 import os
 import sys
@@ -22,7 +30,7 @@ for line in sys.stdin:
 	wordTotalAppearances = lineAsListOfCols[2]
 	i = 3
 	#go through each doc that word is in
-	for doc in lineAsListOfWords[3::2]:
+	for doc in lineAsListOfCols[3::2]:
 
 		#if doc is not in dictionary of docs
 		if doc not in dictionaryOfDocIDs:

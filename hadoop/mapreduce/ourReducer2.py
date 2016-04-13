@@ -1,7 +1,84 @@
 #!/usr/bin/python
 
-# This reducer is useless
+#Input: sys.read in the following format:
+# docIDA | wordA | total occurences in our entrie database | idf  | occurences in doc |
+# docIDA | wordB | total occurences in our entrie database | idf  | occurences in doc |
+# docIDA | wordC | total occurences in our entrie database | idf  | occurences in doc |
+# docIDB | wordA | total occurences in our entrie database | idf  | occurences in doc |
+# docIDB | wordB | total occurences in our entrie database | idf  | occurences in doc |
+# docIDC | wordD | total occurences in our entrie database | idf  | occurences in doc |
+# docIDD | wordB | total occurences in our entrie database | idf  | occurences in doc |
+# docIDD | wordD | total occurences in our entrie database | idf  | occurences in doc |
+
+#Output: same thing, only with preSquareRootNormalization col at the end
+
 import sys
+
+#key: docID 		#value: preSquareRootNormalization score
+dictionaryOfDocIDsToPreSquareScores = {}
+
+#key: docID 		#value: dictionary { key: word   value: [total occurences in our entrie database | idf  | occurences in doc]}
+finalOutput = {}
+
+for line in sys.stdin:
+	lineAsListOfCols = line.split()
+
+	#make sure this doc is in our tf2idf2 dict
+	if lineAsListOfCols[0] not in dictionaryOfDocIDsToPreSquareScores:
+		dictionaryOfDocIDsToPreSquareScores[lineAsListOfCols[0]] = 0
+
+	#get tf2idf2 of this word, for this doc
+	tf = int(lineAsListOfCols[4])
+	idf = float(lineAsListOfCols[3])
+	tf2idf2 = tf * tf * idf * idf
+
+	#add it to sum of all tf2idf2's for this doc
+	dictionaryOfDocIDsToPreSquareScores[lineAsListOfCols[0]] += tf2idf2
+
+	#make sure this doc is in our final output dict
+	if lineAsListOfCols[0] not in finalOutput:
+		finalOutput[lineAsListOfCols[0]] = {}
+
+	#add this word and it's info to our finalOutput dict
+	finalOutput[lineAsListOfCols[0]][lineAsListOfCols[1]] = [lineAsListOfCols[2], lineAsListOfCols[3], lineAsListOfCols[4]]
+
+
+#print out what we got
+for doc in finalOutput:
+	for word in finalOutput[doc]:
+		sys.stdout.write(doc + '\t' + word + '\t' + finalOutput[doc][word][0] + '\t' + finalOutput[doc][word][1] + '\t' + finalOutput[doc][word][2] + '\t' + dictionaryOfDocIDsToPreSquareScores[doc] + '\n')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 motto = '''
 When it comes to great steaks, I've just raised the stakes.
@@ -24,5 +101,4 @@ One bite and you'll know exactly what I'm talking about.
 And believe me, I understand steaks, it's my favorite food, and these are the best.
 '''
 
-for line in sys.stdin:
-	sys.stdout.write(line)
+

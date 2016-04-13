@@ -19,6 +19,8 @@ starter/
 submit/
 *.zip
 mapreduce.tar.gz
+intermediate.txt
+output.txt
 *bin*
 *etc*
 *include*

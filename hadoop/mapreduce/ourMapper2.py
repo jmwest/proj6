@@ -43,16 +43,16 @@ for line in sys.stdin:
 		else:
 			#go to the doc key, whose value is a dictionary, and give that inner dict this word as a key. 
 			#The value to the inner key is this list: [# total occurences, idf, # occurences in this doc]
-			dictionaryOfDocIDS[doc][key] = [wordTotalAppearances, wordIDF, lineAsListOfCols[i+1]]
+			dictionaryOfDocIDs[doc][word] = [wordTotalAppearances, wordIDF, lineAsListOfCols[i+1]]
 		#move on to the next doc
 		i += 2
 
 #go through each doc in outer dictionary
 for doc in dictionaryOfDocIDs:
 	#go through each word in that dict
-	for word in dictionaryOfDocIDS[doc]:
+	for word in dictionaryOfDocIDs[doc]:
 		#write 'docID' tab 'word' tab '# total occurences' tab 'idf' tab '# occurences in this doc'
-		sys.stdout.write(doc + '\t' + word + '\t' + dictionaryOfDocIDS[doc][word][0] + '\t' + dictionaryOfDocIDS[doc][word][1] + '\t' + dictionaryOfDocIDS[doc][word][2] + '\n')
+		sys.stdout.write(doc + '\t' + word + '\t' + dictionaryOfDocIDs[doc][word][0] + '\t' + dictionaryOfDocIDs[doc][word][1] + '\t' + dictionaryOfDocIDs[doc][word][2] + '\n')
 
 
 

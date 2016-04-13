@@ -76,7 +76,7 @@ for word in mapForAllWords:
 	# if word == 'sciences':
 		# print mapForAllWords[word]
 	for docID in mapForAllWords[word]:
-		print word + "    " + str(docID) + "    " + str(mapForAllWords[word][docID])
+		print word + "\t" + str(docID) + "\t" + str(mapForAllWords[word][docID])
 
 
 

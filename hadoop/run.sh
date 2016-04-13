@@ -5,6 +5,7 @@ export JAVA_HOME=/usr/lib/jvm/java-7-oracle
 # Hadoop doesn't like to clobber
 rm -rf mapreduce/yolo
 rm -rf mapreduce/intermediate
+rm -rf mapreduce/intermediate2
 rm -rf mapreduce/output
 
 # Job 0
@@ -33,6 +34,16 @@ rm -rf mapreduce/output
   -D mapreduce.job.maps=30 \
   -D mapreduce.job.reduces=30 \
   -input ./mapreduce/intermediate \
-  -output ./mapreduce/output \
+  -output ./mapreduce/intermediate2 \
   -mapper ./mapreduce/ourMapper2.py \
   -reducer ./mapreduce/ourReducer2.py
+
+  # Job 2
+./bin/hadoop \
+  jar ./share/hadoop/tools/lib/hadoop-streaming-2.7.2.jar \
+  -D mapreduce.job.maps=30 \
+  -D mapreduce.job.reduces=30 \
+  -input ./mapreduce/intermediate2 \
+  -output ./mapreduce/output \
+  -mapper ./mapreduce/ourMapper3.py \
+  -reducer ./mapreduce/ourReducer3.py

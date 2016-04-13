@@ -46,8 +46,11 @@ for line in sys.stdin:
 #print out what we got
 for doc in finalOutput:
 	for word in finalOutput[doc]:
-		sys.stdout.write(doc + '\t' + word + '\t' + str(finalOutput[doc][word][0]) + '\t' + str(finalOutput[doc][word][1]) + '\t' + str(finalOutput[doc][word][2]) + '\t' + str(dictionaryOfDocIDsToPreSquareScores[doc]) + '\n')
-
+		johncena = doc + '\t' + word + '\t' + str(finalOutput[doc][word][0]) + '\t' + str(finalOutput[doc][word][1]) + '\t' + str(finalOutput[doc][word][2]) + '\t' + str(dictionaryOfDocIDsToPreSquareScores[doc]) + '\n'
+		sys.stdout.write(johncena)
+		# words = johncena.split()
+		# if (len(words) < 6):
+		# 	print word, "John Cena", len(words)
 
 
 

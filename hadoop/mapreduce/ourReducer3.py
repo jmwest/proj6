@@ -41,14 +41,13 @@ for line in sys.stdin:
 		
 	# If word is not in wordDict, add it, and append the last 5 indices to the end of val
 	else:
-		wordDict[word] = ''
 		lastIndices = []
 		lastIndices.append(words[1])
 		lastIndices.append(words[2])
 		lastIndices.append(words[3])
 		lastIndices.append(words[4])
 		lastIndices.append(words[5])
-		wordDict[word] = appendList(wordDict[word], lastIndices)
+		wordDict[word] = appendList('', lastIndices)
 
 for word in wordDict:
 	print word, wordDict[word]

@@ -14,18 +14,21 @@
 
 import sys
 
+ticker = 0
+
 for line in sys.stdin:
 	words = line.split()
-	
+
+	ticker += 1
 	# If it's a newline, skip it
 	if (len(words) < 6):
 		continue
 
-	output = words[1] + '\t'
-	output += words[3] + '\t'
-	output += words[2] + '\t'
-	output += words[0] + '\t'
-	output += words[4] + '\t'
-	output += words[5] + '\t'
+	output = str(words[1]) + '\t'
+	output += str(words[3]) + '\t'
+	output += str(words[2]) + '\t'
+	output += str(words[0]) + '\t'
+	output += str(words[4]) + '\t'
+	output += str(words[5]) + '\t'
 
 	print output

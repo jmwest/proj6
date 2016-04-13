@@ -18,6 +18,8 @@ starter/
 submit/
 *.zip
 mapreduce.tar.gz
+intermediate.txt
+output.txt
 
 # Project 4 gitignore
 venv

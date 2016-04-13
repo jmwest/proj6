@@ -46,20 +46,20 @@ for line in sys.stdin:
 			dictionaryOfDocIDs[doc].append([lineAsListOfWords[0], tf2idf2])
 		i += 2
 
-	#we now have dictionaryOfDocIDS completed
-	#now go through each doc, and find the sum of all the tf2idf2's 
-	for docID in dictionaryOfDocIDs:
-		SUMtf2idf2 = 0
-		for tuple in dictionaryOfDocIDs[docID]:
-			SUMtf2idf2 += tuple[1]
-		dictionaryOfDoc_tf2idf2_Sums[docID] = SUMtf2idf2
+#we now have dictionaryOfDocIDS completed
+#now go through each doc, and find the sum of all the tf2idf2's 
+for docID in dictionaryOfDocIDs:
+	SUMtf2idf2 = 0
+	for tuple in dictionaryOfDocIDs[docID]:
+		SUMtf2idf2 += tuple[1]
+	dictionaryOfDoc_tf2idf2_Sums[docID] = SUMtf2idf2
 
 
 #print each line of the inverted index file
 for word in finalOutput:
-	sys.stdout.write(word + ' ' + str(finalOutput[word][0]) + ' ' + str(finalOutput[word][1])) 
+	sys.stdout.write(word + '\t' + str(finalOutput[word][0]) + '\t' + str(finalOutput[word][1])) 
 	for doc in finalOutput[word][2]:
-		sys.stdout.write(' ' + str(doc[0]) + ' ' + str(doc[1]) + ' ' + str(dictionaryOfDoc_tf2idf2_Sums[doc[0]])) 
+		sys.stdout.write('\t' + str(doc[0]) + '\t' + str(doc[1]) + '\t' + str(dictionaryOfDoc_tf2idf2_Sums[doc[0]])) 
 	print
 
 # for doc in dictionaryOfDoc_tf2idf2_Sums:

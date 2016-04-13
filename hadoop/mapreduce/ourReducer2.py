@@ -46,7 +46,7 @@ for line in sys.stdin:
 #print out what we got
 for doc in finalOutput:
 	for word in finalOutput[doc]:
-		sys.stdout.write(doc + '\t' + word + '\t' + finalOutput[doc][word][0] + '\t' + finalOutput[doc][word][1] + '\t' + finalOutput[doc][word][2] + '\t' + dictionaryOfDocIDsToPreSquareScores[doc] + '\n')
+		sys.stdout.write(doc + '\t' + word + '\t' + str(finalOutput[doc][word][0]) + '\t' + str(finalOutput[doc][word][1]) + '\t' + str(finalOutput[doc][word][2]) + '\t' + str(dictionaryOfDocIDsToPreSquareScores[doc]) + '\n')
 
 
 

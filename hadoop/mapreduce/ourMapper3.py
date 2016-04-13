@@ -16,6 +16,7 @@ import sys
 
 for line in sys.stdin:
 	words = line.split()
+	
 	# If it's a newline, skip it
 	if (len(words) < 6):
 		continue

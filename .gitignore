@@ -2,6 +2,7 @@
 data/
 venv/
 hadoop-2.7.2
+hadoop/hadoop
 hadoop/bin
 hadoop/etc
 hadoop/include
@@ -20,6 +21,15 @@ submit/
 mapreduce.tar.gz
 intermediate.txt
 output.txt
+*bin*
+*etc*
+*include*
+*input*
+*lib*
+*libexec*
+*sbin*
+*share*
+*part-*
 
 # Project 4 gitignore
 venv

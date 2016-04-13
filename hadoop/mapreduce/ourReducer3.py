@@ -50,4 +50,4 @@ for line in sys.stdin:
 		wordDict[word] = appendList('', lastIndices)
 
 for word in wordDict:
-	print word, wordDict[word]
+	print word + wordDict[word]

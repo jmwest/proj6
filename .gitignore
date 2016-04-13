@@ -32,6 +32,12 @@ output.txt
 *share*
 *part-*
 
+# Graded folders and output files
+hadoop/mapreduce/graded/10docs_*
+hadoop/mapreduce/graded/40docs_*
+hadoop/mapreduce/graded/160docs_*
+hadoop/mapreduce/graded/empty
+
 # Project 4 gitignore
 venv
 flask/static/images

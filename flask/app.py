@@ -7,7 +7,7 @@ import controllers
 app = Flask(__name__, template_folder='templates')
 
 # Secret key for cookie authentication
-app.secret_key = 'password'
+app.secret_key = 'rkrjjwkx1or'
 
 # Initialize Flask file upload path
 app.config['UPLOAD_FOLDER'] = 'static/images/'

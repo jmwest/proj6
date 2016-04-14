@@ -15,6 +15,8 @@ for article in articles:
 		if articleAttribute.tag == 'eecs485_article_id' or articleAttribute.tag == 'eecs485_article_title':
 			if articleAttribute.text:
 				file.write(articleAttribute.text + '\n')
+			else:
+				file.write('\n')
 		elif articleAttribute.tag == 'eecs485_article_body':
 			bodyString = articleAttribute.text.replace('\n', ' ')
 			file.write(bodyString)

@@ -53,5 +53,5 @@ echo "Done."
 cd ..
 
 echo "Starting index server."
-make -C $PA4_CPP pa6
+make -C $PA4_CPP p6
 echo "Done."

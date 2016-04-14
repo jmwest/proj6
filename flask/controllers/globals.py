@@ -1,6 +1,6 @@
 from flask import *
 
-route_prefix = '/b966cc054de14c43b479/pa4'
+route_prefix = '/b966cc054de14c43b479/pa6'
 
 # Returns a username if someone is logged in, but "offline"
 def check_active_session():

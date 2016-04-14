@@ -5,7 +5,7 @@ PORT2=3001
 
 # GROUP VARIABLES
 GROUP=group61											# TODO set you group number
-SECRET=group61										# TODO set your secret
+SECRET=rkrjjwkx1or										# TODO set your secret
 
 # STATIC RESOURCE PATH						# TODO make sure you have a backup folder
 IMAGES=static/images							# and that the paths are correct

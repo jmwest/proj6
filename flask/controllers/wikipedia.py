@@ -54,7 +54,7 @@ def wikipedia_route():
 
 				select_stmt = "SELECT title, summary "
 				select_stmt += "FROM Documents "
-				select_stmt += "WHERE sequencenum = %(hitId)s"
+				select_stmt += "WHERE docid = %(hitId)s"
 				cur.execute(select_stmt, { 'hitId': hit["id"] })
 
 				cur_result = cur.fetchall()[0]
@@ -88,7 +88,7 @@ def wikipedia_deep_summary_route(doc_id):
 			
 	select_stmt = "SELECT title, categories, image, summary "
 	select_stmt += "FROM Documents "
-	select_stmt += "WHERE sequencenum = %(hitId)s"
+	select_stmt += "WHERE docid = %(hitId)s"
 	cur.execute(select_stmt, { 'hitId': doc_id })
 	
 	cur_result = cur.fetchall()[0]
@@ -124,7 +124,7 @@ def wikipedia_deep_summary_route(doc_id):
 		
 		select_stmt = "SELECT title "
 		select_stmt += "FROM Documents "
-		select_stmt += "WHERE sequencenum = %(hitId)s "
+		select_stmt += "WHERE docid = %(hitId)s "
 		cur.execute(select_stmt, { 'hitId': hit["id"] })
 		
 		cur_result = cur.fetchall()[0]

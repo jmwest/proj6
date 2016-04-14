@@ -234,7 +234,7 @@ vector<unsigned int> buildDocList_server(const vector<string> & word_list) {
 
     unsigned int numDocs = invertedIndexFile.size();
 
-    vector<unsigned int> word_appearances_in_doc(numDocs);
+    std::unordered_map<unsigned, unsigned> word_appearances_in_doc;
     unsigned num_words = word_list.size();
 
     cout << endl << "Starting for loop in buildDocList_server. There are " << num_words << " words in word_list." << endl;
@@ -261,10 +261,15 @@ vector<unsigned int> buildDocList_server(const vector<string> & word_list) {
 
                 docId = captions_ptr->at(k).docId;
                 cout << "  Found in docId: " << docId << endl;
-                cout << "  captions.txt, Line " << docId + 1 << endl;
+
+                // If it's not in the hash table, initialize it to 0
+                if (word_appearances_in_doc.find(docId) == word_appearances_in_doc.end()) {
+                    cout << "  Initializing appearances for docId " << docId << " to 0" << endl;
+                    word_appearances_in_doc[docId] = 0;
+                }
                 
-                ++word_appearances_in_doc.at(docId);
-                cout << "  Incremented appearances for docId " << docId << " to " << word_appearances_in_doc.at(docId);
+                word_appearances_in_doc[docId] += 1;
+                cout << "  Incremented appearances for docId " << docId << " to " << word_appearances_in_doc[docId];
                 cout << endl << endl;
             } // for
         } // else
@@ -273,9 +278,8 @@ vector<unsigned int> buildDocList_server(const vector<string> & word_list) {
     vector<unsigned int> doc_list;
     
     for (unsigned j = 0; j < numDocs; ++j) {
-        if (word_appearances_in_doc.at(j) == num_words) {
+        if (word_appearances_in_doc[j] == num_words) {
             cout << "Found a hit for docID " << j << "." << endl;
-            cout << "  captions.txt, Line " << j + 1 << endl;
             doc_list.push_back(j);
         } // if
     } // for

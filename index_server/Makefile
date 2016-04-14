@@ -25,7 +25,7 @@ CAPTIONS_PATH = captions.txt
 INDEX_PATH = inverted_index.txt
 PAGERANK_PATH = pagerank.out
 
-PORT_NUMBER = 2002
+PORT_NUMBER = 3002
 
 default: $(SERVER) $(INDEXER)
 test: $(TFIDF_TEST) $(SERVER_TEST)

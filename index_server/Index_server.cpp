@@ -441,27 +441,48 @@ void Index_server::process_query(const string& query, const std::string& weight,
     //for each doc, calculate sim(doc, query)
     for (unsigned int doc : docVector ) {
         cout << endl << "Calculating score for docId " << doc << "." << endl;
-        double numerator = 0;
-        double leftDenominator = 0;
-        double rightDenominator = 0;
-        //go through each word in query
-        for (string word: vectorOfWords) {
-            double idf = getIDF_server(word);
-            double weightOfWordInQuery = getTF_server(word, vectorOfWords) * idf;
-            double weightOfWordInCaption = getTF_server(word, doc) * idf;
-            numerator += (weightOfWordInQuery * weightOfWordInCaption);
-
-            leftDenominator += (weightOfWordInCaption * weightOfWordInCaption);
-            rightDenominator += getNormalizationFactor_server(word, doc);
-        } 
-        double sqrtLeftDenominator = sqrt(leftDenominator);
-        double sqrtRightDenominator = sqrt(rightDenominator);
-        double finalDenominator = sqrtLeftDenominator + sqrtRightDenominator;
+		
+		double query_denominator = 0;
+		for (string word: vectorOfWords) {
+			double idf = getIDF_server(word);
+			double weightOfWordInQuery = getTF_server(word, vectorOfWords) * idf;
+			
+			query_denominator += weightOfWordInQuery * weightOfWordInQuery;
+		}
+		query_denominator = sqrt(query_denominator);
+		
+		double similarity_score = 0;
+		for (string word: vectorOfWords) {
+			double idf = getIDF_server(word);
+			double weightOfWordInQuery = getTF_server(word, vectorOfWords) * idf;
+			double weightOfWordInDoc = getTF_server(word, doc) * idf;
+			
+			double doc_denominator = getNormalizationFactor_server(word, doc);
+			
+			similarity_score += ( (weightOfWordInQuery / query_denominator) * (weightOfWordInDoc / sqrt(doc_denominator)) );
+		}
+		
+//        double numerator = 0;
+//        double leftDenominator = 0;
+//        double rightDenominator = 0;
+//        //go through each word in query
+//        for (string word: vectorOfWords) {
+//            double idf = getIDF_server(word);
+//            double weightOfWordInQuery = getTF_server(word, vectorOfWords) * idf;
+//            double weightOfWordInCaption = getTF_server(word, doc) * idf;
+//            numerator += (weightOfWordInQuery * weightOfWordInCaption);
+//
+//            leftDenominator += (weightOfWordInCaption * weightOfWordInCaption);
+//            rightDenominator += getNormalizationFactor_server(word, doc);
+//        } 
+//        double sqrtLeftDenominator = sqrt(leftDenominator);
+//        double sqrtRightDenominator = sqrt(rightDenominator);
+//        double finalDenominator = sqrtLeftDenominator + sqrtRightDenominator;
 
         double weightNum = stod(weight);
 
         double pagerankScore = weightNum * pageranks[doc];
-        double tfidfScore = (1.0 - weightNum) * numerator / finalDenominator;
+        double tfidfScore = (1.0 - weightNum) * similarity_score;
         double totalScore = pagerankScore + tfidfScore;
 
         //push into vector

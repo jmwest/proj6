@@ -26,6 +26,12 @@
 import os 
 import sys
 
+def removeNonAlphaNumeric(line):
+	for char in line:
+		if not char.isalnum() and char != ' ':
+			line = line.replace(char, '')
+	return line
+
 
 mapForAllWords = {}
 ticker = 0
@@ -33,27 +39,32 @@ docID = -1
 
 listOfStopWords = []
 for line in open('mapreduce/stopwords.txt', 'r'):
+	line = removeNonAlphaNumeric(line)
 	listOfStopWords.append(line)
 
 for line in sys.stdin:
+
+	# DocId
 	if ticker == 0:
 		try:
 			docID = int(line)
 			ticker += 1	
 		except:
-			pass			
+			pass
+
+	# Title
 	elif ticker == 1:
 		titleForThisDoc = line
 		ticker += 1
+
+	# Body
 	elif ticker == 2:
-		#we're in body
-		#remove non-alphanumeric chars
-		for char in line:
-			if not char.isalnum() and char != ' ':
-				line = line.replace(char, '')
+
+		line = removeNonAlphaNumeric(line)
 		
 		#lowercase everything
 		line = line.lower()
+
 		fullBody = line.split()
 		for word in fullBody:
 			#if not stop word, add to mapForAllWords
@@ -77,14 +88,3 @@ for word in mapForAllWords:
 		# print mapForAllWords[word]
 	for docID in mapForAllWords[word]:
 		print word + "\t" + str(docID) + "\t" + str(mapForAllWords[word][docID])
-
-
-
-
-
-
-#print final new line
-print
-
-
-#

@@ -38,7 +38,7 @@ rm -rf mapreduce/output
   -mapper ./mapreduce/ourMapper2.py \
   -reducer ./mapreduce/ourReducer2.py
 
-  # Job 2
+  # Job 3
 ./bin/hadoop \
   jar ./share/hadoop/tools/lib/hadoop-streaming-2.7.2.jar \
   -D mapreduce.job.maps=30 \

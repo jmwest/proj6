@@ -23,6 +23,7 @@ SERVER_TEST = server_test
 
 CAPTIONS_PATH = captions.txt
 INDEX_PATH = inverted_index.txt
+PAGERANK_PATH = ../pagerank/pagerank_code/pagerank.net
 
 PORT_NUMBER = 3002
 
@@ -98,8 +99,13 @@ stest: $(SERVER_TEST_FILES)
 	./indexer diego.txt diego_output.txt
 	./server_test diego.txt diego_output.txt
 
-p6:
+p6test:
 	make clean
 	make
 	./$(INDEXER) p6test/5_captions.txt p6test/6_inverted_index.txt
 	./$(SERVER)  $(PORT_NUMBER) p6test/6_inverted_index.txt p6test/4_scores.txt &
+
+p6:
+	make clean
+	make
+	./$(SERVER) $(PORT_NUMBER) $(INDEX_PATH) $(PAGERANK_PATH) &

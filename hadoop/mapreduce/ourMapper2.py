@@ -26,7 +26,7 @@ for line in sys.stdin:
 		
 	lineAsListOfCols = line.split()
 	word = lineAsListOfCols[0]
-	wordIDF = lineAsListOfCols[1]
+	wordIDF = float(lineAsListOfCols[1])
 	wordTotalAppearances = lineAsListOfCols[2]
 	i = 3
 	#go through each doc that word is in
@@ -52,7 +52,7 @@ for doc in dictionaryOfDocIDs:
 	#go through each word in that dict
 	for word in dictionaryOfDocIDs[doc]:
 		#write 'docID' tab 'word' tab '# total occurences' tab 'idf' tab '# occurences in this doc'
-		sys.stdout.write(doc + '\t' + word + '\t' + dictionaryOfDocIDs[doc][word][0] + '\t' + dictionaryOfDocIDs[doc][word][1] + '\t' + dictionaryOfDocIDs[doc][word][2] + '\n')
+		sys.stdout.write(doc + '\t' + word + '\t' + dictionaryOfDocIDs[doc][word][0] + '\t' + str(dictionaryOfDocIDs[doc][word][1]) + '\t' + dictionaryOfDocIDs[doc][word][2] + '\n')
 
 
 

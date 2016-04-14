@@ -12,16 +12,12 @@ file = open('splitArticles/articleFile'+str(ticker), 'w')
 
 for article in articles:
 	for articleAttribute in article:
-		if articleAttribute.tag == 'eecs485_article_id':
-			if articleAttribute.text:
-				file.write(articleAttribute.text + '\n')
-
-		if articleAttribute.tag == 'eecs485_article_title':
+		if articleAttribute.tag == 'eecs485_article_id' or articleAttribute.tag == 'eecs485_article_title':
 			if articleAttribute.text:
 				file.write(articleAttribute.text + '\n')
 			else:
 				file.write('\n')
-			
+				
 		elif articleAttribute.tag == 'eecs485_article_body':
 			bodyString = articleAttribute.text.replace('\n', ' ')
 			file.write(bodyString)

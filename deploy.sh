@@ -1,5 +1,5 @@
 # SERVER SPECIFIC VARIABLES
-SERVER=eecs485-22.eecs.umich.edu	# TODO set your server here!
+SERVER=class3.eecs.umich.edu	# TODO set your server here!
 PORT1=3000												# TODO set your ports here!
 PORT2=3001
 
@@ -13,10 +13,10 @@ IMAGES_BACKUP=static/images_backup
 
 # SQL SCRIPT PATH									# TODO make sure paths are correct
 SQL_CREATE=tbl_create.sql
-SQL_LOAD=load_data.sql
+SQL_LOAD=wikipedia.sql
 
 # PA4_CPP PATH
-PA4_CPP=pa4_CPP/
+PA4_CPP=index_server/
 
 # ASSIGNMENT VARIABLES
 PA=pa1														# TODO project number here (for sql)
@@ -40,22 +40,18 @@ else
 	echo "C++ process terminated."
 fi
 
-echo "Resetting static resources from backup..."
-rm -rf $IMAGES/*
-cp -r $IMAGES_BACKUP/* $IMAGES/
-echo "Done."
-
 echo "Resetting SQL database..."
-cd sql/
+cd flask/sql/
 SQL_QUERY="drop database $GROUP$PA; create database $GROUP$PA; use $GROUP$PA; source $SQL_CREATE; source $SQL_LOAD;"
-mysql --local-infile=1 -u $GROUP -p"$SECRET" -e "$SQL_QUERY"
+mysql -u $GROUP -p"$SECRET" -e "$SQL_QUERY"
 echo "Done."
 cd ..
 
 echo "Starting server on $SERVER at ports $PORT1 and $PORT2..."
-gunicorn -b  $SERVER:$PORT1 -b $SERVER:$PORT2 -D --debug --access-logfile access.log --error-logfile error.log app:app
+gunicorn -b  $SERVER:$PORT1 -b $SERVER:$PORT2 -D app:app
 echo "Done."
+cd ..
 
 echo "Starting index server."
-make -C $PA4_CPP background
+make -C $PA4_CPP pa6
 echo "Done."

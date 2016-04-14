@@ -264,12 +264,13 @@ vector<unsigned int> buildDocList_server(const vector<string> & word_list) {
 
                 // If it's not in the hash table, initialize it to 0
                 if (word_appearances_in_doc.find(docId) == word_appearances_in_doc.end()) {
-                    cout << "  Initializing appearances for docId " << docId << " to 0" << endl;
-                    word_appearances_in_doc[docId] = 0;
+                    cout << "  Initializing appearances for docId " << docId << " to 1";
+                    word_appearances_in_doc[docId] = 1;
                 }
-                
-                word_appearances_in_doc[docId] += 1;
-                cout << "  Incremented appearances for docId " << docId << " to " << word_appearances_in_doc[docId];
+                else {
+                    word_appearances_in_doc[docId] += 1;
+                    cout << "  Incremented appearances for docId " << docId << " to " << word_appearances_in_doc[docId];
+                }
                 cout << endl << endl;
             } // for
         } // else
@@ -277,10 +278,10 @@ vector<unsigned int> buildDocList_server(const vector<string> & word_list) {
 
     vector<unsigned int> doc_list;
     
-    for (unsigned j = 0; j < numDocs; ++j) {
-        if (word_appearances_in_doc[j] == num_words) {
-            cout << "Found a hit for docID " << j << "." << endl;
-            doc_list.push_back(j);
+    for (auto it : word_appearances_in_doc) {
+        if (it.second == num_words) {
+            cout << "Found a hit for docID " << it.first << "." << endl;
+            doc_list.push_back(it.first);
         } // if
     } // for
     

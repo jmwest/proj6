@@ -28,7 +28,7 @@
 			{% for hit in hits %}
 				<hr>
 				<br>
-				<a id="result_{{ hit["id"] }}_link" href="{{ url_for('wikipedia.wikipedia_deep_summary_route', doc_id=hit["id"]) }}">{{ hit["title"] }}</a>
+				<a class="queryHit" id="result_{{ hit["id"] }}_link" href="{{ url_for('wikipedia.wikipedia_deep_summary_route', doc_id=hit["id"]) }}">{{ hit["title"] }}</a>
 				<p>{{ hit["summary"] }}</p>
 			{% endfor %}
 
@@ -75,7 +75,7 @@
 		{% for hit in hits %}
 		
 			<br>
-			<a id="similar_{{ hit["id"] }}_link" href="{{ url_for('wikipedia.wikipedia_deep_summary_route', doc_id=hit["id"]) }}">{{ hit["title"] }}</a>
+			<a class="queryHit" id="similar_{{ hit["id"] }}_link" href="{{ url_for('wikipedia.wikipedia_deep_summary_route', doc_id=hit["id"]) }}">{{ hit["title"] }}</a>
 		
 		{% endfor %}
 	{% endif %}

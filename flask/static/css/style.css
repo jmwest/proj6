@@ -69,6 +69,10 @@ p.caption-info {
 	-webkit-margin-before: 0px;
 }
 
+.queryHit {
+	color: black;
+}
+
 #prev-pic, #next-pic {
 	position: absolute;
 	margin: 5px;

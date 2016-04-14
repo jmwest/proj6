@@ -46,7 +46,7 @@ def wikipedia_route():
 
 			options["searched"] = True
 			options["numHits"] = len(result_json["hits"])
-			options["hits"] = result_json["hits"]
+			options["hits"] = result_json["hits"][:10]
 
 			for hit in options["hits"]:
 				# hit["caption"] = captions[ int(hit["id"]) - 1 ].decode("utf8")
@@ -114,10 +114,17 @@ def wikipedia_deep_summary_route(doc_id):
 	result_json = json.loads(result_text)
 
 	options["numHits"] = len(result_json["hits"])
-	options["hits"] = result_json["hits"]
+	options["hits"] = result_json["hits"][:11]
 
-	# NEED TO MAKE SURE THAT THE CURRENT DOCUMENT DOESN'T
-	# GET INCLUDED IN THE 10 DOCS
+	# See if this doc_id is in hits. If it is, remove it. the hits json.
+	selfreference = -1
+	for x in range(0, len(options["hits"])):
+		if doc_id == options["hits"][x]["id"]:
+			selfreference = x
+
+	if selfreference >= 0:
+		options["hits"].pop(selfreference)
+
 	for hit in options["hits"]:
 		# hit["caption"] = captions[ int(hit["id"]) - 1 ].decode("utf8")
 		cur = mysql.connection.cursor()

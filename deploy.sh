@@ -47,7 +47,7 @@ fi
 # echo "Done."
 # cd ..
 
-cd index_server/
+cd flask/
 # gunicorn -b class6.eecs.umich.edu:2000 -b class6.eecs.umich.edu:2001 -D app:app
 echo "Starting server on $SERVER at ports $PORT1 and $PORT2..."
 gunicorn -b  $SERVER:$PORT1 -b $SERVER:$PORT2 -D app:app

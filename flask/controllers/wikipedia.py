@@ -125,6 +125,8 @@ def wikipedia_deep_summary_route(doc_id):
 
 	if selfreference >= 0:
 		options["hits"].pop(selfreference)
+	else:
+		options["hits"] = options["hits"][:10]
 
 	for hit in options["hits"]:
 		# hit["caption"] = captions[ int(hit["id"]) - 1 ].decode("utf8")

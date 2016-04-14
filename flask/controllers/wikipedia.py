@@ -6,7 +6,7 @@ from globals import *
 
 wikipedia = Blueprint('wikipedia', __name__, template_folder='templates')
 
-index_server_domain = 'http://localhost:3002'
+index_server_domain = 'http://localhost:2002'
 
 @wikipedia.route(route_prefix + '/wikipedia', methods=['GET'])
 def wikipedia_route():

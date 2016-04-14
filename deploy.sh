@@ -40,12 +40,12 @@ else
 	echo "C++ process terminated."
 fi
 
-echo "Resetting SQL database..."
-cd flask/sql/
-SQL_QUERY="drop database $GROUP$PA; create database $GROUP$PA; use $GROUP$PA; source $SQL_CREATE; source $SQL_LOAD;"
-mysql -u $GROUP -p"$SECRET" -e "$SQL_QUERY"
-echo "Done."
-cd ..
+# echo "Resetting SQL database..."
+# cd flask/sql/
+# SQL_QUERY="drop database $GROUP$PA; create database $GROUP$PA; use $GROUP$PA; source $SQL_CREATE; source $SQL_LOAD;"
+# mysql -u $GROUP -p"$SECRET" -e "$SQL_QUERY"
+# echo "Done."
+# cd ..
 
 # gunicorn -b class6.eecs.umich.edu:2000 -b class6.eecs.umich.edu:2001 -D app:app
 echo "Starting server on $SERVER at ports $PORT1 and $PORT2..."

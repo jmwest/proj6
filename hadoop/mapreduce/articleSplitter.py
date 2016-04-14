@@ -17,7 +17,7 @@ for article in articles:
 				file.write(articleAttribute.text + '\n')
 			else:
 				file.write('\n')
-				
+
 		elif articleAttribute.tag == 'eecs485_article_body':
 			bodyString = articleAttribute.text.replace('\n', ' ')
 			file.write(bodyString)

@@ -23,7 +23,7 @@ SERVER_TEST = server_test
 
 CAPTIONS_PATH = captions.txt
 INDEX_PATH = inverted_index.txt
-PAGERANK_PATH = ../pagerank/pagerank_code/pagerank.net
+PAGERANK_PATH = pagerank.out
 
 PORT_NUMBER = 3002
 

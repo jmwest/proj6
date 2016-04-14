@@ -37,5 +37,8 @@ else
 	echo "  Should be:                 $CORRECT_NUM_LINES"
 fi
 
+# Copy pagerank.net into index_server
+cp pagerank_code/p6_output.txt ../index_server/pagerank.out
+
 # Navigate back to root
 cd ..

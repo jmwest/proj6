@@ -34,7 +34,7 @@ def wikipedia_route():
 			print "  w: " + w
 			print ""
 
-			index_server_url = 'http://localhost:3002/search?q=' + q + '&w=' + w
+			index_server_url = 'http://localhost:2002/search?q=' + q + '&w=' + w
 			print "Making request to index_server..."
 			print "  url: " + index_server_url
 			result = requests.get(index_server_url)
@@ -103,7 +103,7 @@ def wikipedia_deep_summary_route(doc_id):
 	
 	options['document'] = document
 	
-	index_server_url = 'http://localhost:3002/search?q=' + document['title'] + '&w=0.15'
+	index_server_url = 'http://localhost:2002/search?q=' + document['title'] + '&w=0.15'
 	print "Making request to index_server..."
 	print "  url: " + index_server_url
 	result = requests.get(index_server_url)

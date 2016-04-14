@@ -1,7 +1,7 @@
 # SERVER SPECIFIC VARIABLES
-SERVER=class3.eecs.umich.edu	# TODO set your server here!
-PORT1=3000												# TODO set your ports here!
-PORT2=3001
+SERVER=class6.eecs.umich.edu	# TODO set your server here!
+PORT1=2000												# TODO set your ports here!
+PORT2=2001
 
 # GROUP VARIABLES
 GROUP=group61											# TODO set you group number
@@ -19,7 +19,7 @@ SQL_LOAD=wikipedia.sql
 PA4_CPP=index_server/
 
 # ASSIGNMENT VARIABLES
-PA=pa1														# TODO project number here (for sql)
+PA=db														# TODO project number here (for sql)
 
 # SCRIPT COMMANDS
 echo "Searching for gunicorn process on $(whoami)..."

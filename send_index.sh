@@ -1,0 +1,1 @@
+scp index_server/inverted_index.txt ncruz@class6.eecs.umich.edu:/var/www/html/group61/proj6/index_server
